@@ -18,6 +18,7 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from queue import Queue
 import random
+import torch  # 添加torch导入
 
 # 设置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -55,54 +56,61 @@ class LocalSkillExtractor:
             try:
                 from modelscope import AutoModelForCausalLM, AutoTokenizer
                 
-                # 模型选择优先级：从小到大
-                model_options = [
-                    "Qwen/Qwen3-8B-Instruct",  # 8B版本，更稳定
-                    "Qwen/Qwen3-14B-Instruct",  # 14B版本
-                    "Qwen/Qwen3-30B-A3B-MLX-4bit"  # 原始30B量化版本
-                ]
+                # 只使用30B版本
+                model_name = "Qwen/Qwen3-30B-A3B-MLX-4bit"
                 
-                for model_name in model_options:
-                    try:
-                        logger.info(f"尝试加载模型: {model_name}")
-                        
-                        self.tokenizer = AutoTokenizer.from_pretrained(
-                            model_name,
-                            trust_remote_code=True
-                        )
-                        
-                        # 根据模型类型调整加载参数
-                        if "MLX" in model_name:
-                            # 量化模型的特殊处理
-                            self.model = AutoModelForCausalLM.from_pretrained(
-                                model_name,
-                                trust_remote_code=True,
-                                device_map="auto",
-                                torch_dtype="auto",
-                                ignore_mismatched_sizes=True,
-                                low_cpu_mem_usage=True,
-                                # 跳过量化配置验证
-                                attn_implementation="eager"
-                            )
-                        else:
-                            # 标准模型加载
-                            self.model = AutoModelForCausalLM.from_pretrained(
-                                model_name,
-                                trust_remote_code=True,
-                                device_map="auto",
-                                torch_dtype="auto",
-                                low_cpu_mem_usage=True
-                            )
-                        
-                        logger.info(f"ModelScope模型加载成功: {model_name}")
-                        self.model_name = model_name
-                        return
-                        
-                    except Exception as e:
-                        logger.warning(f"模型 {model_name} 加载失败: {e}")
-                        continue
+                logger.info(f"正在加载模型: {model_name}")
                 
-                raise Exception("所有ModelScope模型都加载失败")
+                # 先加载tokenizer
+                self.tokenizer = AutoTokenizer.from_pretrained(
+                    model_name,
+                    trust_remote_code=True
+                )
+                
+                # 30B量化模型的特殊处理
+                try:
+                    # 方法1：标准加载
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        model_name,
+                        trust_remote_code=True,
+                        device_map="auto",
+                        torch_dtype="auto",
+                        ignore_mismatched_sizes=True,
+                        low_cpu_mem_usage=True,
+                        # 跳过量化配置验证
+                        attn_implementation="eager",
+                        # 额外的量化模型参数
+                        use_cache=False,
+                        revision="main"
+                    )
+                except Exception as e:
+                    logger.warning(f"标准加载失败: {e}")
+                    logger.info("尝试绕过量化配置验证...")
+                    
+                    # 方法2：绕过量化配置验证
+                    import os
+                    os.environ['TRANSFORMERS_VERBOSITY'] = 'error'  # 减少警告
+                    
+                    self.model = AutoModelForCausalLM.from_pretrained(
+                        model_name,
+                        trust_remote_code=True,
+                        device_map="auto",
+                        torch_dtype="auto",
+                        ignore_mismatched_sizes=True,
+                        low_cpu_mem_usage=True,
+                        # 强制设置量化配置
+                        quantization_config=None,
+                        # 使用CPU进行推理
+                        device_map="cpu" if torch.cuda.is_available() else "auto",
+                        # 其他容错参数
+                        use_safetensors=True,
+                        load_in_8bit=False,
+                        load_in_4bit=False
+                    )
+                
+                logger.info(f"ModelScope模型加载成功: {model_name}")
+                self.model_name = model_name
+                return
                 
             except ImportError:
                 logger.warning("ModelScope未安装，尝试使用transformers...")
