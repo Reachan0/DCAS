@@ -1,0 +1,14 @@
+{
+  "course_name": "A WikiTextBook for Introductory Mechanics",
+  "course_description": "This e-Book is a first step toward a shift in the role of the printed textbook from authoritative serial repository to modular, customizable, linkable, interactive hub. The ideal modern textbook should provide a clear overview of the domain, short summaries of key content, links to more detailed online source material, embedded self-assessment, and a vehicle for instant student feedback. This open-source e-Book for introductory mechanics uses ideas from modeling physics to encourage strategic, concept-based problem solving and employs a wiki format to enable multiple parallel organizations of the material, links to resources and student comments.\nOnline Publication",
+  "topics": [
+    "Science",
+    "Physics",
+    "Classical Mechanics",
+    "Science",
+    "Physics",
+    "Classical Mechanics"
+  ],
+  "syllabus_content": "",
+  "files": []
+}

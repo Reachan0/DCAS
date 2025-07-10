@@ -1,0 +1,22 @@
+{
+  "course_name": "Matrix Methods in Data Analysis, Signal Processing, and Machine Learning",
+  "course_description": "No description found.",
+  "topics": [
+    "Engineering",
+    "Electrical Engineering",
+    "Signal Processing",
+    "Mathematics",
+    "Applied Mathematics",
+    "Computation",
+    "Linear Algebra",
+    "Engineering",
+    "Electrical Engineering",
+    "Signal Processing",
+    "Mathematics",
+    "Applied Mathematics",
+    "Computation",
+    "Linear Algebra"
+  ],
+  "syllabus_content": "Video Introduction by Professor Strang\n\nView video page\n\nDownload video\n\nDownload transcript\n\nCourse Meeting Times\n\nLectures: 3 sessions / week, 1 hour / session\n\nPrerequisites\n\n18.06 Linear Algebra\n\nDescription\n\nLinear algebra concepts are key for understanding and creating machine learning algorithms, especially as applied to deep learning and neural networks. This course reviews linear algebra with applications to probability and statistics and optimization-and above all a full explanation of deep learning.\n\nTextbook\n\nStrang, Gilbert.\nLinear Algebra and Learning from Data\n.\nWellesley-Cambridge Press\n, 2019. ISBN: 9780692196380.\n\nProfessor Strang created\na website for the book\n, including a link to the\nTable of Contents (PDF)\n, sample chapters, and essays on\nDeep Learning (PDF)\nand\nNeural Nets (PDF)\n.\n\nRequirements and Grading\n\nThere are homework assignments, labs, and a final project. The grade is based on all three elements. NOTE to OCW USERS: The OCW site includes problems assigned for every lecture, aligned with readings in the course textbook. The on-campus students had weekly problem sets.",
+  "files": []
+}

@@ -1,0 +1,12 @@
+{
+  "course_name": "Multivariable Calculus Recitation Notes",
+  "course_description": "These lecture notes and exercises (with solutions) cover MIT’s multivariable calculus sequence as taught in Fall 2024.\nThe course 18.02 Multivariable Calculus is a General Institute Requirement (GIR); every MIT student must pass this class in order to graduate. The first third of the course is dedicated to briefly covering some basic linear algebra. The rest of the course covers the traditional multivariable calculus topics including vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2D and 3D space.\nThese notes were created by Evan Chen, a recitation instructor in the Fall 2024 instance of 18.02 Multivariable Calculus. They have not been checked for accuracy by the instructor of that class or by other MIT faculty members. The notes will be updated as needed. Comments, suggestions, and corrections are welcomed.",
+  "topics": [
+    "Mathematics",
+    "Calculus",
+    "Mathematics",
+    "Calculus"
+  ],
+  "syllabus_content": "",
+  "files": []
+}

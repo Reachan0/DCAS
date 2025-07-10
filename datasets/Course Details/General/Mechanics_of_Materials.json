@@ -1,0 +1,22 @@
+{
+  "course_name": "Mechanics of Materials",
+  "course_description": "Overview of mechanical properties of ceramics, metals, and polymers, emphasizing the role of processing and microstructure in controlling these properties. Basic topics in mechanics of materials including: continuum stress and strain, truss forces, torsion of a circular shaft and beam bending. Design of engineering structures from a materials point of view.",
+  "topics": [
+    "Engineering",
+    "Materials Science and Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics",
+    "Science",
+    "Physics",
+    "Classical Mechanics",
+    "Engineering",
+    "Materials Science and Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics",
+    "Science",
+    "Physics",
+    "Classical Mechanics"
+  ],
+  "syllabus_content": "This class deals with the stresses, strains and displacements of near-stationary structures subjected to applied loads. This is a traditional field in engineering education, and is taught in almost all mechanical and civil engineering curricula. 3.11 differs from most of these traditional subjects, however, because it is part of a Materials Science and Engineering curriculum.\n\nMaterials students need to learn the basics of solid mechanics just as the structural engineers do, but within the context of processing-structure-properties-performance that characterizes MSE. The curricular syllabus can be given simply as a listing of the modules making up this web package. They are arranged in an order that works well for teaching in a single term, though instructors will have to ration the time spent on each to avoid running out of time at the end of the term. It is certainly possible to omit certain topics altogether, depending on the individual subject goals and the preparation level of the students.\n\nList of Topics/Modules\n\nTensile Response of Materials\n\nIntroduction to Elastic Response\n\nAtomistics of Elasticity\n\nIntroduction to Composites\n\nStress-Strain Curves\n\nSimple Tensile and Shear Structures\n\nTrusses\n\nPressure Vessels\n\nShear and Torsion\n\nGeneral Concepts of Stress and Strain\n\nKinematics\n\nEquilibrium\n\nTensor Transformations\n\nConstitutive Relations\n\nBending\n\nShear and Bending Moment Diagrams\n\nStresses in Beams\n\nBeam Displacements\n\nLaminated Composite Plates\n\nGeneral Stress Analysis\n\nClosed-Form Solutions\n\nExperimental Solutions\n\nFinite Element Analysis\n\nLinear Viscoelasticity\n\nYield and Fracture\n\nYield and Plastic Flow\n\nDislocation Basis of Yield and Creep\n\nStatistics of Fracture\n\nIntroduction to Fracture Mechanics\n\nFatigue\n\nAppendices\n\nMaterial Properties\n\nList of Symbols\n\nUnit Conversion Factors\n\nSoftware\n\nMohr's circle (Java(r) applet)\n\nstrs3d - Stress Transformations\n\nplate - Laminated Plates\n\nJava(r) is a trademark or registered trademark of Sun Microsystems, Inc. in the United States and other countries.",
+  "files": []
+}

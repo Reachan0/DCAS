@@ -1,0 +1,163 @@
+{
+  "course_name": "Theory of Solids I",
+  "course_description": "No description found.",
+  "topics": [
+    "Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics",
+    "Science",
+    "Physics",
+    "Atomic, Molecular, Optical Physics",
+    "Condensed Matter Physics",
+    "Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics",
+    "Science",
+    "Physics",
+    "Atomic, Molecular, Optical Physics",
+    "Condensed Matter Physics"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 2 sessions / week, 1.5 hours / session\n\nDescription\n\nThis is the first term of a theoretical treatment of the physics of solids. Topics covered include:\n\nFree Electron: Fermi Sea\n\nCrystalline Lattices\n\nBloch's Theorem\n\nBand Structure: OPW, APW, Tight-binding\n\nSurvey of Periodic Table\n\nHow to Construct Lattice Potential?\n\nPseudo-potential\n\nElectron-electron Interaction\n\nDensity Functional Theory\n\nScreening, Lindhard Function\n\nLinear Response Theory\n\nMethods of Testing Band Structures\n\nSemiclassical Equation of Motion\n\nde Haas van Alphen\n\nQuantum Hall Effect\n\nBeyond Band Theory: Mott Insulator\n\nPhonons\n\nElectron-phonon Interaction\n\nSuperconductivity\n\nBCS Theory\n\nFlux Quantization\n\nVortices and Type II Superconductors\n\nJosephson Effect\n\nTextbook\n\nMarder, Michael P.\nCondensed Matter Physics.\nNew York: Wiley, 2000. ISBN: 9780471177791.\n\nGrading\n\nThe grade for the course is based upon weekly homework assignments (70%) and one quiz (30%).\n\nACTIVITIES\n\nPERCENTAGES\n\nHomework Assignments\n\n70%\n\nQuiz\n\n30%",
+  "files": [
+    {
+      "category": "Assignment",
+      "title": "pset_1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/9eb91e4062f14ad64ed06b73c33f1287_pset_1.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 1\nDue September 21, 2004\n1. Prove that the product of the volume of the first Brillouin zone and the volume of the unit\ncell of the Bravais lattice equals (2π)3 .\n2. Show that rotations about any axis that takes a Bravais lattice into itself must be either 1,\n2, 3, 4 or 6 fold.\n3. The common building blocks for most high temperature (high Tc) superconductors are copper\noxide layers, as depicted in Figure I.1.6. Assume the distance between copper atoms (filled\ncircles) is a. For simplicity let us also assume that in the third dimension these CuO2 layers\nare simply stacked with spacing c, and there are no other atoms in the crystal. In first\napproximation the layers have a four-fold symmetry; the crystal is tetragonal.\n(a) Sketch the Bravais lattice and indicate a possible set of primitive vectors for this crystal.\nWhat is the unit cell, and what is the basis?\n(b) In LaCuO4 one discovers, at closer inspection, that the CuO2 lattice is actually not flat,\nbut that the oxygen atoms are moved a small amount out of the plane (\"up\" or \"down\")\nin an alternating fashion (in Figure I.1.7, a + means up and a - means down).[1] What\nis the primitive cell and lattice spacing for this crystal? What is the reciprocal lattice?\nDescribe (qualitatively) what happens in the X-ray diffraction pattern as the distortion\nis decreased gradually to zero.\n[1] LaCuO4 is an antiferromagnetic insulator. High temperature superconductivity was discovered in a\nclosely related compound, La1-xBaxCuO4. See J.G. Bednorz and K.A. M uller, Z. Physik B 64, 189\n(1986)."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/cd2836babab68033ca03259c02546900_pset_2.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 2\nDue September 28, 2004\n1. Problem 2.5(b) from page 38 of Marder.\n(a) The hcp also has a glide plane, which is parallel to a plane containing both the a and c\naxes. Describe where this plane may be located, so that translation along c/2 followed\nby reflection about the plane leaves the lattice invariant.\n(b) Problem 5 from page 109 of Ashcroft & Mermin.\ni. The sodium chloride structure (Figure 4.24) can be regarded as an fcc Bravais\nlattice of cube side a, with a basis consisting of a positively charged ion at the\norigin and a negatively charged ion at (a/2)ˆx.\nThe reciprocal lattice is body-\ncentered cubic, and the general reciprocal lattice vector has the form (6.19)\n4π\nK =\n(ν1ˆ\ny + ν3ˆ\nx + ν2ˆ\nz),\n(1)\na\nwith all the coefficients νi either integers or integers + 1 . If the atomic form factors\nfor the two ions are f+ and f-, show that the structure factor is SK = f+ + f-, if\nthe νi are integers, and f+ - f-, if the νi are integers + 1 . (Why does S vanish in\nthe latter case when f+ = f-?)\nii. The zincblende structure (Figure 4.18) is also a face-centered cubic Bravais lattice\nof cube side a, with a basis consisting of a positively charged ion at the origin and\na negatively charged ion at (a/4)(ˆ\ny + ˆ\nx + ˆ\nz). Show that the structure factor SK is\nf+ ± if- if the νi are integers + 1\n2, f+ + f- if the νi are integers, and Σνi is even,\nand F+ - f- if νi are integers and Σνi is odd.\n\niii. Suppose that a cubic crystal is known to be composed of closed-shell (and hence\nspherically symmetric) ions, so that f±(K) depends only on the magnitude of K.\nThe positions of the Bragg peaks reveal that the Bravais lattice is face-centered\ncubic. Discuss how one might determine, from the structure factors associated\nwith the Bragg peaks, whether the crystal structure was likely to be of the sodium\nchloride or zincblende type.\n2. Problem 3 from page 171 of Ashcroft & Mermin.\nEffect of Weak Periodic Poten-\ntial at Places in k-Space where Bragg Planes Meet. Consider the point W(kw =\n(2π/a)(1, 2, 0)) in the Brillouin zone of the fcc structure shown (see Fig. 9.14). Here three\nBragg planes ( (200), (111), (11 1) ) meet, and accordingly the free electron energies\nε0\n1 =\n~2\n2m k2 ,\nε0\n2 =\n~2\n2m\n\nk - 2π\na (1, 1, 1)\n,\nε0\n3 =\n~2\n2m\n\nk - 2π\na (1, 1, 1)\n,\nε0\n4 =\n~2\n2m\n\nk - 2π\na (2, 0, 0)\n,\n(2)\nare degenerate when k = kw, and equal to εw = ~2k2\nw/2m.\n(a) Show that in a region of k space near W, the first-order energies are given by solutions\n\nto [1]\nε0 - ε U1\nU1\nU2\nε0 - ε U2\nU1\nU1\n= 0\nε0 - ε U1\nU1\nU2\nε0 - ε\nU2\nU1\nU1\nwhere U2 = U200, U1 = U111 = U11 1, and that at W the roots are\nε = εw - U2 (twice),\nε = εw + U2 ± 2U1.\n(3)\n(b) Using a similar method, show that the energies at the point U(kU = (2π/a)(1, 4, 4) )\nare\nε = εU - U2, ε = εU +\nU2 ± (U2 + 8U1\n2)1/2\n(4)\nwhere εU = ~2k2\nU/2m.\n[1] Assume that the periodic potential U has inversion symmetry so that the Uk are real."
+    },
+    {
+      "category": "Resource",
+      "title": "proble_set_3.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/cfad564e274326ca2c333f6a3f3d98e8_proble_set_3.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 3\nDue October 5, 2004\n1. Band Structure of Aluminum. Al is an f.c.c. crystal with a = 4.05 Awhere a is the dimension\nof the cube.\n(a) Construct the lowest two bands of the free electron band structure and plot it from Γ\nto X, from X to W, from W to L, and from L to Γ. W is defined in the last problem\nset and X and L are the points on the zone face in the (100) and (111) directions,\nrespectively. Indicate the degeneracies.\n(b) Use the pseudopotential V (r) = -Z for r > Rc and zero for r < Rc.\nIts Fourier\nr\ntransform is given by\n2Z\nV (q) = -\ncos(qRc)\n4πe\nq2Ω\nwhere Ω is the volume of the primitive cell in real space, Z = 3 and Rc = 0.6 A.\nCompute the splitting at X, W and L in eV.\n(c) With the Hamiltonian matrix written in the form given in Problem 2 of Set 2, show\nthat the following symmetry operators S1 and S2 commute with the Hamiltonian at\nW,\n⎛\n⎞\n⎛\n⎞\n⎜ 0\n0 ⎟\n⎜ 1\n0 ⎟\n⎜\n⎟\nS1 = ⎜\n⎟ ,\nS2 =\n⎝ 0\n0 ⎠\n⎝ 0\n1 ⎠\nS1 interchanges the first and the fourth components and simultaneously the second\nand third, while S2 interchanges the first and second and simultaneously the third and\nfourth. Show that the eigenvectors at W can be classified as eigenvectors of S1 and S2\nwith eigenvalues ±1.\n(d) Consider the band structure from X to W and from W to L. Does the S1 and/or S2\nsymmetry survive along these lines? Use this information to interpolate between X,\nW and L and show how the bands are connected.\n(Optional: Solve the band structure on a computer and compare with your interpola-\ntion.)\n(e) Estimate the location of the Fermi level. Compare your result with the KKR calculation\nshown on p.205 of Ashcroft and Mermin. (See also p.250 of Marder.)"
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_4.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/72f4fb8877f4feab6ce2aae3b9081336_pset_4.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 4\nDue October 12, 2004\n1. The electronic structure of La2CuO4 is believed to be well described by a two dimensional\nsquare planar model of copper with oxygen mid-way between the nearest neighbor copper\natoms. (See top and bottom layers in Fig. 1.)\nDue to the distortion of the oxygen octahedra, the highest energy d orbital on the copper\nsite is described by a single d 2 -y2 orbital with energy Ed. We use the approximation of\nx\nretaining the degenerate px, py with orbitals at energy Ep on the oxygen sites.\n(a) Retain the only tight binding matrix elements between the copper and nearest neighbor\noxygen orbitals (you may ignore the overlap matrix element due to non-orthogonality),\nand calculate the tight binding band structure.\n(b) Assume that La is in the 3+ ionic state and the oxygen off the plane is purely 2-. With\nthe further assumption that the 4s level on copper is unoccupied, show that there is\n\none hole per unit cell in the d, p, orbitals that we kept. Locate the Fermi level in your\nband structure. Determine the Fermi surface.\n(c) Locate the saddle points on the Fermi surface and show that the density of states is\nlogarithmically divergent at energy near the Fermi energy.\n(d) Sketch the Fermi surface when 15% of the La3+ is replaced by Sr2+ . This is called hole\ndoping. For a determination of the Fermi surface using angular resolved photoemission,\nsee Yoshida et al., Phys. Rev. B 63, 220501 (2001).\n(e) L. Mattheiss [Phys. Rev. Lett. 58, 1028 (1987)] has computed the band structure\nusing a modified APW method. He claims that the band structure is well fitted by a\ntight binding model with Ep = Ed and a matrix element of -1.85 eV. Check this claim.\nNote that Mattheiss takes into account interlayer coupling which leads to dispersion in\nthe c direction. Consequently we can identify his X and S with our\nπ\na, π\na\nand Γ and\nZ with our (0,0)."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_5a.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/9c8afdcab0297a8792554df7f654c135_pset_5a.pdf",
+      "content": "X\n\n8.511 Theory of Solids I\nProblem Set 5\nDue October 19, 2004\n1. Breakdown of Semiclassical Theory: Zener Tunneling\nConsider a semiconductor with a bandgap Δ (Fig. a) subject to a strong electric field E. We\ncan consider that the energy level is tilted in space as shown in Fig. (b). The states at points\nA and B now have the same energy and an electron can tunnel between the two points. This\nis called Zener tunneling. The goal of this problem is to calculate the tunneling probability.\n(a) We will need to understand the solution of the Schrodinger equation when the energy\nE is in the energy gap:\n~2\n-\nr2Ψ + (V (r) -E)Ψ = 0\n2m\nwhere V is a periodic potential. Consider a one-dimensional model for simplicity. Show\nthat the wave function can be expanded as\nΨk =\nak-Ge i(k-G)x\nG\nwhere k is in general complex.\nIn the vicinity of the zone boundary we can write\nk = 1/2G0 + κ and E = E0 + ε where G0 = 2π/a, a is the lattice constant and\nE0 = ~2(G0/2)2/2m. Show that κ satisfies\n2m\nε2 -|VG0|\nκ2 = ~2\n4E0\nNote that κ is imaginary if ε < VG0, so that the wavefunction is exponentially growing\nor decaying.\n(b) Assume that ε varies linearly with x\nε(x) = eEx\nwhere the origin is the mid-point between A and B. What is the distance between A\nand B?\n(c) Use the WKB approximation to evaluate the tunneling probability\n\nZ A\n\nP = exp\n-2\ndx|κ(x)|\n.\nB\nShow that it is given by P = exp - π2Δ2/8E0eEa\n\n. What is the condition for the\nbreakdown of the semiclassical theory, which states that an electron stays within the\nsame energy band?\n\n2. Landau Levels\nConsider an electron in a cubic box L×L×L in a uniform magnetic field B in the z direction.\nIt satisfies\n\n~r\ne\n+\nA\nΨ = EΨ\n2m\ni\nc\n(a) With the choice of gauge A = -Byˆx, show that\nE =\nn +\n~ωc + ~2kz\n2/2m\nwhere n are integers and ~ωc = eB/mc.\n(b) Show that the degeneracy of each level is given by eBL2/hc and compare this with the\nresult of Onsager's quantization rule."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_6_corrected.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/1e0777aa60edb5d0d9c9183737f3a551_pset_6_corrected.pdf",
+      "content": "!\n\n8.511 Theory of Solids I\nProblem Set 6\nDue October 26, 2004\nB\n1.\n(a) Calculate the period Δ\nof the ShubnikovdeHaas oscillation of potassium assuming\nthe free electron model.\n(b) What is the area in real space of the extremal orbit for B = 1 tesla?\n2. Consider an energy band parametrized by anisotropic masses as follows\nk\nmy\nmz\ny\n~2\nk\nmx\nx\nk\nE(k) =\nz\n+\n+\n.\nWithin the relaxation time approximation, we modify the semiclassical equation of motion\nby adding k/τ to the left hand side:\ndk\n~\n+\nk\n= -e\nE +\nv × B\ndt\nτ\nc\n(a) Assuming time independent E and B = Bzˆ, and using j = -env, calculate the DC\nconductivity tensor\nσ\nj = ↔E\nwhere σ\n↔ is a 3 × 3 matrix. Write your answer in terms of ωcx = eB/mxc and ωcy =\neB/myc.\n(b) Calculate the resistivity tensor\nρ\nE = ↔j .\n(c) Discuss the Hall conductivity and the Hall resistivity in the low B and high B limits.\n(d) Magnetoresistivity (or conductivity) is defined as the B dependence of the diagonal\ncomponents of the resistivity (or conductivity) tensor.\nSketch the behavior of the\nmagnetoconductivity and the magnetoresistivity in this model."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_7.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/0d6fb1d86d6afc4870f49b29d8128bc2_pset_7.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 7\nDue November 2, 2004\n1. Marder, Chapter 17, Problem 6\nTo do this problem, you may start with the following equation relating the heat current\ndensity jQ and the charge current density j.\n∂T\njQ = Πj - κ\n(1)\n∂x\nwhere Π is the Peltier coefficient and κ the thermal conductivity. We assume Πp > 0 and\nΠn < 0.\n2.\n(a) Write down an expression for the ground state energy EN of an N interacting electron\nsystem in the HartreeFock approximation. Note that it is not equal to the sum of one\nelectron eigenvalues.\n(b) Suppose the electron occupying the ith eigenvalue εi is removed, leaving an N - 1\nelectron system with energy EN-1(i). The energy difference EN - EN-1(i) is called\nthe ionization energy Ei. Assuming the rest of the eigenvectors are unchanged, show\nthe ionization energy equals εi. This is called Koopman's Theorem."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_8.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/cb9ab558d6529a3878f326f04dc9ccc9_pset_8.pdf",
+      "content": "Z\n\n8.511 Theory of Solids I\nProblem Set 8\nDue November 16, 2004\n1.\n(a) Solve the HartreeFock equations for an electron gas in a uniform positive background\ncharge with density n. Calculate the HartreeFock eigenvalues and the ground state\nenergy.\n(b) Show that within the local density functional approximation, the ground state energy\nof an electron gas in an external potential v(r) is given by\nN\nZ Z\nZ\nX\ne2\nn(r)n(r0)drdr0 +\nn(r)[εxc (n(r)) - μxc (n(r))]dr\nE =\nεi - 2\nr - r0\ni=1\n|\n|\nwhere εi are the solution of the equation\n~2\nr + v(r) +\nn(r0) dr0 + μxc (n(r)) φi = εiφi\n- 2m\nr - r0\n|\n|\nand\nd (nεxc(n))\nμxc =\n.\ndn\n(c) Now specialize to the case of an electron gas in a uniform background charge. Suppose\nεxc(n) is approximated by the exchange energy found in part (a). Solve for the eigen\nvalues εi. Are they the same as the HartreeFock eigenvalues? Compare the Fermi\nvelocity and the \"bandwidth\" (defined as the energy difference between εi at kF and\nk = 0) as predicted by the present approximation and the HartreeFock approxima\ntion.\nUse part (b) to compute the ground state energy within this approximation.\nDoes the result agree with the HartreeFock answer? [Note that in order to obtain a\nfinite answer, it is necessary to include the Coulomb interaction between the positive\nbackground charges.]\n2. Read Marder Appendix C and learn about second quantization."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_9.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/ec095c14eb541f4bb2cb01dd08b28d70_pset_9.pdf",
+      "content": "X\n\nX\n8.511 Theory of Solids I\nProblem Set 9\nDue November 23, 2004\nConsider the twosite Hubbard model\nH = t\nc+\n1σc2σ + h.c.\n+ U\nni ni\n↑\n↓\nσ\ni=1,2\nwhere c+\niσ ciσ is the number operator of\nelectrons with spin σ on site i.\niσ creates an electron with spin σ on site i and niσ = c+\n1. Write down the basis set (using creation operators) which spans the Hilbert space with 1,\n2, 3, and 4 electrons.\nIn this basis write down the Hamiltonian matrix.\nWhat are the\neigenvalues and eigenvectors in the case of 1, 3, and 4 electrons?\n2. Consider the case of two electrons. Calculate the eigenvalues and degeneracies exactly. In\nthe Case U t, show that the lowest two eigenvalues and degeneracies match those of the\n2 Heisenberg model JS1 S2, where S =\nσ and σ are the Pauli matrices. What is the\nspin 1\n·\nvalue of J?"
+    },
+    {
+      "category": "Assignment",
+      "title": "pset_10.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/3bd4fc640692aba2df85c8f876a06607_pset_10.pdf",
+      "content": "8.511 Theory of Solids I\nProblem Set 10\nDue November 30, 2004\n1. Electron Lifetime: For simplicity, we treat the problem at T = 0 and consider an added\nelectron at energy E above the Fermi energy. The more physical problem of electron lifetime\nat finite temperature T is given, up to numerical constant, by replacing E by T.\n(a) Show that the lifetime τ due to electron phonon scattering of an electron with energy\nE above the Fermi energy is given by ~/τ ≈ E3/(~ωD)2 for E ~ωD, where ~ωD is\nthe Deybe frequency.\n(b) For transport properties, we need the momentum relaxation time τt which weights the\nscattering probability from k to k0 by 1 - cos θ where θ is the angle between k and k0.\nShow that ~/τt ≈ E5/(~ωD)4 ."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/363d159d829817d245308c564c1bb088_lec1.pdf",
+      "content": "Lecture 1: Free Electron Model\nSommerfeld's free fermion model for metals. Specific heat is linear in T and spin suscep\ntibility is T independent. Conductivity is describ ed by the Drude model. The dimensionless\nnumber rs is introduced as the ratio between Coulomb energy and kinetic energy."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/1fe82d24cf797d107e69a03836b28a1a_lec2.pdf",
+      "content": "Lecture 2: Crystalline Lattice\nThe Bravais lattice is defined and several examples given. The basis vector is introduced\nfor a general lattice. The theory of diffraction is derived, showing that Bragg refraction\noccurs when the momentum transfer equals a reciprocal vector. The reciprocal lattice is\ndefined. The Ewald construction for Xray diffraction is explained. Emphasis is on the fact\nthat the position of the diffraction spots depends only on the Bravais lattice. The basis only\naffects their intensities.\nReading: Marder 1.2, 2.2, 3.2"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec3.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/461f7317f0f8199640533944f37e7b1d_lec3.pdf",
+      "content": "Lecture 3: Debye Waller factor and Incommensurate Structures\nThe Debye Waller factor is derived for the Einstein model. The main point is that lattice\nvibrations do not broaden the Bragg peaks, only reduce their magnitude.\nExamples of\nincommensurate lattices and the notion of sidebands in diffraction are discussed."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec4.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/1bce465f922881d725616545c59c309f_lec4.pdf",
+      "content": "Lecture 4: Point Group for Bravais Lattice\nThe concept of point group is introduced, first for the Bravais lattice. The classification\nof the 14 Bravais lattice is described. The notion of nonsymorphic structure for a general\nlattice is introduced, illustrated by the screw axis in hcp structures.\nReading: Marder 2.4, 2.5"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec5.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/5ce8a4970af1d127766c955bcc37f1be_lec5.pdf",
+      "content": "~\nLecture 5: Bloch Theorem\nThe Bloch theorem is stated and a formal proof is given. The notion of the Brillouin\nzone is introduced. It is shown that each zone contains N states, where N is the number of\nBravais lattice unit cells in the sample.\nA second proof of the Bloch theorem is given by casting the Schrodinger equations in\nFourier space. It is shown that a plane wave with momentum ~k is coupled only to plane\nwaves with momentum ~k + ~G where G is a reciprocal lattice vector. The problem is reduced\nto the diagonalization of a large matrix.\nThe notion of band gaps on the zone faces is\nintroduced.\nReading: Marder 7.2"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec6.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/560038cc9ed4f0f3f3e3169ea0de6085_lec6.pdf",
+      "content": "Lecture 6: Band Structure\nContinue to explore the consequences of the Bloch theorem. The concept of N th Brillouin\nzone is introduced. The Fermi surface is defined. The breakup of the free electron Fermi\nsurface is illustrated by a twodimensional divalent metal.\nThe use of group theory to\nsimplify band calculation is briefly discussed. Two theorems concerning the symmetry of\nthe band structure of nonsymorphic lattices are stated without proof and illustrated by the\nhcp example."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec7.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/f9c1c0b2cb01899e9ae7dee7f22e5b49_lec7.pdf",
+      "content": "Lecture 7: OPW\nThe need to truncate the size of the big matrix is discussed. The problem is traced to the\nneed to orthogonalize with the core state and Herring's solution using orthogonalized plane\nwave (OW) is explained. The OPW scheme is recast as a pseudopotential and the nearly\nfree electron model is justified.\nReading: Mardar 10.2.1"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec8.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/bb326a3d9b25d731f3eec1f1911b0cad_lec8.pdf",
+      "content": "Lecture 8: Pseudopotential and APW\nFurther discussion of the pseudopotential. The pseudopotential is nonlocal and also not\nunique. The idea of model potential is introduced. The relation to logarithmic derivative\nand phase shifts in the scattering from a spherical potential is discussed. The idea of an `\ndependent optimized pseudopotential is explained and it is shown how these pseudopoten\nG, ~\ntials are cast in the form of the big matrix, with off diagonal elements which depend on ~ G0\nseparately rather than G - ~\n~\nG0. This is the signature of a nonlocal potential. The concept\nof muffintin potential is explained and APW is briefly discussed.\nReading: Mardar 10.2.4"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec9.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/a54a0ff1ba439522e08144c4342f1333_lec9.pdf",
+      "content": "Lecture 9: Tight Binding and van Hove Singularity\nThe tight binding method is formulated and its relation to the chemist's notion of molec\nular orbital emphasized, hence the name LCAO, linear combination of atomic orbitals. An\nexample involving s and p orbitals is given. The density of states is defined and van Hove\nsingularity identified.\nReading: Mardar 10.2.2, 6.3.1, and 7.2.1"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lec10.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/8-511-theory-of-solids-i-fall-2004/e1282ed5cdf523a3ec2509928e5a138c_lec10.pdf",
+      "content": "Lecture 10: Experimental Tests of Band Structure and a Survey of the Periodic\nTable\nVarious tests of band calculations are described, starting from specific heat coefficient\nand spin susceptibility as measurements of the density of states at the Fermi level. Optical\nabsorption and van Hove singularities are discussed.\nPhotoemission and angle resolved\nphotoemission (ARPES) are discussed in some detail. A brief survey of the band structures\nof various parts of the periodic table is given, starting from simple and noble metals to\ndivalent and trivalent metals. Examples of transition metal bandstructures are shown, with\nemphasis on the role of the d bands. The rare earth is discussed with emphasis on the strong\ncorrelation nature of the 4f states.\nReading: Mardar 23.6.2, 10.4"
+    }
+  ]
+}

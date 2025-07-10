@@ -1,0 +1,163 @@
+{
+  "course_name": "Synthetic Organic Chemistry II",
+  "course_description": "No description found.",
+  "topics": [
+    "Engineering",
+    "Biological Engineering",
+    "Science",
+    "Biology",
+    "Molecular Biology",
+    "Chemistry",
+    "Organic Chemistry",
+    "Engineering",
+    "Biological Engineering",
+    "Science",
+    "Biology",
+    "Molecular Biology",
+    "Chemistry",
+    "Organic Chemistry"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 3 sessions / week, 1 hour / session\n\nCourse Texts\n\nGawley, Robert E., and Jeffrey Aube.\nPrinciples of Asymmetric Synthesis.\nOxford, UK: Pergamon, 1996. ISBN: 9780080418759.\n\nLecture Notes:\nMethods for the Asymmetric Synthesis of Complex Organic\nMolecules, Daniel J. O'Leary, Associate Professor of Chemistry, Pomona College (2001).\n\nGrading\n\nCourse grades will be based on two exams scheduled during the semester. There is no final exam.",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "prob_set1_2_28_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/ee38ec2af9661788a6e60c6ec8a81a18_prob_set1_2_28_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nFebruary 28, 2005\nProf. Rick L. Danheiser\nProblem Set 1\nReview of Stereochemical Principles\n1. Define \"stereogenic center\". What is the difference between a chiral center and a stereogenic\ncenter?\n2. Define the terms \"stereoselective reaction\" and \"stereospecific reaction\" and give an example of\neach.\n3. Define the terms \"diastereotopic face\" and \"enantiotopic face\" and give an example of each.\n4. Why is the following title nonsensical: \"A Chiral Total Synthesis of Strychnine\"?\n5. Define \"allylic strain\". Give an example of a molecule with A1,2 strain and a molecule with A1,3\nstrain.\n6. Why will we discuss the products of reactions in terms of \"enantiomeric purity\" rather than \"optical\npurity\" in 5.512?\n7. Define \"kinetic resolution\".\n8. Define \"antiperiplanar\" and \"synclinal\" and illustrate each using both Newman projections and\nsawhorse representations for n-butane.\n9. Define \"prochiral faces\" and illustrate with an example.\n10. What is the barrier to rotation (in kcal/mol) about the carbon-carbon bond in ethane?\n11. Draw the s-trans and s-cis conformations of acrolein. Which is lower in energy?\n12. Rank the following substituents in terms of conformational free energies on cyclohexane rings:\nCH3, OH, CN, OMe, ethynyl, i-Pr, CHO, Br, CO2Et, H.\n13. Define \"anomeric effect\" and provide an example.\n14. Draw an artistic and accurate three-dimensional representation of trans decalin and the two\nalternative conformers of the hydroxy cis-decalin shown below.\n15. Draw the cis and trans conformational isomers of methyl acetate. Which is lower in energy? By\nroughly how much?\nH\nH\nH\nH\nOH"
+    },
+    {
+      "category": "Assignment",
+      "title": "pset1ans.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/a228aa26439ac2924abf7aed47881d13_pset1ans.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "prob_set2_3_9_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/9c826a103549290e488035ae833bc3a6_prob_set2_3_9_05.pdf",
+      "content": "Please Refer to\nParanjpe, K. D., N. L. Phalnikar, B. V. Bhide, and K. S. Nargund. \"A Case of Total\nAsymmetric Synthesis.\" Nature, no. 3874 (January 29, 1944): 141."
+    },
+    {
+      "category": "Assignment",
+      "title": "pset2_so.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/6dfb4252658ada90583ade1a114c50a6_pset2_so.pdf",
+      "content": "Cornforth J. W., R. H. Cornforth, and M. J. S. Dewar. \"Reported Asymmetric Synthesis of Antonin.\"\nNature 153(1944): 317."
+    },
+    {
+      "category": "Resource",
+      "title": "prob_set3_3_28_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/1edb0f97c4f0a15407523d8fc31864d9_prob_set3_3_28_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 28, 2005\nProf. Rick L. Danheiser\nProblem Set 3\nStereocontrolled Alkylation and Related Strategies\nDesign a highly stereoselective synthesis of the following target molecules beginning with commercially\navailable materials.\nBe sure to explicitly identify all reagents necessary for each transformation.\nEnantiomerically enriched reagents may be used if they are commercially available; however, each\nstereogenic center in the target molecule must be generated in your synthetic route. In other words, the\nstereogenic carbons in the chiral reagents you employ cannot be directly incorporated in the final product.\n(1)\nMeO\nO\nPh\nOH\n(2)\nH2N\nNH2\nOH\n(3)\nPh\nBr\n2C\n(4)\nOH\nMeO\n2H\n(5)\nCO\n\n(6)\nEtO2C\nOSit-BuMe2\nO\n(7)\nOH\n(8)\nOH\nN\n2H\nH\nO\nO\n(9)\nCO\nH3C\n(10)\nNH2\nOH\nHO\n(11)\nOH\nO\n(12)\nCl\nOH\nOSiEt"
+    },
+    {
+      "category": "Resource",
+      "title": "ps3_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/b86ffdccba0417161f962b3c9260461b_ps3_soln.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "prob_set4_4_4_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/ee8502300091271bb872d474af930fb2_prob_set4_4_4_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nApril 4, 2005\nProf. Rick L. Danheiser\nProblem Set 4\nPractice Problems for First Exam\nDesign a highly stereoselective synthesis of the following target molecules beginning with commercially\navailable materials.\nBe sure to explicitly identify all reagents necessary for each transformation.\nEnantiomerically enriched reagents may be used if they are commercially available; however, each\nstereogenic center in the target molecule must be generated in your synthetic route. In other words, the\nstereogenic carbons in the chiral reagents you employ cannot be directly incorporated in the final product.\nO\n(1)\nCN\nO\n(2)\nBr\nOMe\n(3)\nO\n(4)\nOH\n\nO\n(5)\nH\n(6)\nN\nH\nH\n(7)\nOBn\n(8)\nO\nPh\nO\n(9)\nO\nOH\nOH\nH\nPh\nOH\n(10)\nO\nO\nH\n(\n)\nt-BuMe2SiO\n(\n)\nCO Me\n\nF\n(13)\n(14)\nO\nO\nO\nF\nO\nO\nOMe\n(\n)\nNH\nO\nO\nH\n(\n)\nCH\n(\n)\n(\n)\nO\nOCH OMe\nCO Me\n\nNEt\n(19)\nH\n(20)\nN\n(21)\nMeO2C\nOH"
+    },
+    {
+      "category": "Resource",
+      "title": "ps4_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/e7169eb254ea24b368573215b85cd3ae_ps4_soln.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "prob_set5_4_20_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/970c9eadba261ba313ad6e751c61e080_prob_set5_4_20_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nApril 20, 2005\nProf. Rick L. Danheiser\nProblem Set 5\nStereocontrolled Addition to Carbonyl Compounds\nDesign a highly stereoselective synthesis of the following target molecules beginning with commercially\navailable materials.\nBe sure to explicitly identify all reagents necessary for each transformation.\nEnantiomerically enriched reagents may be used if they are commercially available; however, with the\nexception of the two compounds shown below, each stereogenic center in the target molecule must be\ngenerated in your synthetic route. In other words, the stereogenic carbons in the chiral reagents you\nemploy cannot be directly incorporated in the final product. The exceptions are (S) and (R) methyl 3-\nhydroxy-2-methylpropionate, which are commercially available and have been widely employed in total\nsynthesis. A stereoselective synthesis of each of most of these target molecules has been reported in the\nliterature and a reference for each synthesis will be provided with the solutions posted on the MIT Server.\nHO\nHO\nCO2Me\nCO2Me\nOSit-BuPh2\n(1)\nHO\nOCH2An\nt-BuPh2SiO\nOH\n(2)\nH3C\nOCH2An\n(3)\nOSit-BuMe2\n\nOCH2An\n(4)\nOHC\nOSit-BuMe2\n(5)\n(6)\n(7)\n(8)\nHO\nHO\nO\nO\nt-BuMe2SiO\nt-BuMe2SiO\n(9)\nO\nO\nHO\nOH\nCO2H\nt-BuMe2SiO\nO\nO\nHO\nPh\nCO2Me\nPh\nOBn\ni-Pr3SiO\nOH\n(10)\nOSii-Pr3"
+    },
+    {
+      "category": "Resource",
+      "title": "ps5_soln_4_23.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/ca9f31fbc84d171baf65764aaee3838b_ps5_soln_4_23.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nProblem Set 5 Solutions\nStereocontrolled Addition to Carbonyl Compounds\nApril 22, 2005\nWesley Austin\n(1)\nMeO\nOH\nO\n1) t-BuMe2SiCl,\nEt3N\n2) DIBAL\nH\nOSiMe2t-Bu\nO\nSee also K. Buzek. J. Am. Chem. Soc. 1994, 116, 5511.\n(-)(Ipc)2B\nOSiMe2t-Bu\nOH\np-CH3OC6H4CH2Cl, NaH\nOSiMe2t-Bu\nO\nOMe\nOSiMe2t-Bu\nO\nHO\nOMe\n1) O3; Me2S\n2) NaBH4\n(2) See also D. A. Evans. J. Org. Chem. 1997, 62, 454.\n(+)(Ipc)2B\nMeCHO\nOH\n1) O3; H2O2\n2) CH2N2\nOH\nO\nOMe\n2 eq LDA;\nEtI\nOH\nO\nOMe\n1) t-BuMe2SiCl,\nEt3N\n2) DIBAL\nt-BuMe2SiO\nO\nH\nBu3Sn\nBF3-Et2O\nt-BuMe2SiO\nOH\n(3) See also K. C. Nicolaou. J. Am. Chem. Soc. 1993, 115, 4419.\nOHC\nOSiMe2t-Bu\nB(Ipc)2(-)\nOSiMe2t-Bu\nO\n2) p-CH3OC6H4CH2Cl,\nNaH\n1)\nOMe\nOSiMe2t-Bu\nO\nOHC\nOMe\nOSiMe2t-Bu\nO\nOMe\nOSiMe2t-Bu\nO\nOMe\nCBr4, PPh3;\n2 eq Zn\nn-BuLi, MeI\nO3;\nMe2S\n\n(4) See also Z. Jin. Org. Lett. 2001, 3, 1447.\np-MeOC6H4CH2Br\nNaH\nOHC\nOPMB\n1)\n2) O3; Me2S\nB(Ipc)2(+)\nOH\nOPMB\n1) t-BuMe2SiCl\n2,6 lutidine\n2) O3; Me2S\nOSit-BuMe2\nO\nOMe\nMeCHO\nZn\n(+)-DAIB\nOH\n(5) See also K. Krohn. Liebigs Ann. Chem. 1994, 167.\nOHC\nMeCHO\nZn\n(-)-DAIB\nOH\nO3; H2O2\nHO2C\nOH\nO\nO\nO\n1) t-BuCHO\ncat TsOH\n2) LDA;\nAllyl bromide\nLiAlH4\nHO\nHO\nO3; H2O2\nHO\nCO2H\nHO\nOHC\nCO2H\nHO\nEt3N, (COCl)2\nMe2SO\nCO2H\nHO\nPh3P=CH2\nBH3-THF;\nH2O2, NaOH\nCO2H\nHO\nHO\n3 eq LDA;\n1 eq t-BuMe2SiCl\nCO2H\nHO\nMe2t-BuSiO\n\n(6) See also P. V. Ramachandran J. Org. Chem. 2001, 66, 2512.\n(+)(Ipc)2B\nMeCHO\nOH\nt-BuMe2SiO\nt-BuMe2SiO\nCO2H\nDCC\nO\nO\nO\nO\ncat OsO4, NaIO4\nAr\nO\nO\nO\n(+)(Ipc)2B\nAr\nO\nO\nOH\nO\nCl\nEt3N\nAr\nO\nO\nO\nO\nO\nO\nO\nO\nHO\nHO\n(7)\nt-BuMe2SiO\nHO\nMeC(OEt)3, cat TsOH;\nheat\nt-BuMe2SiO\nEtO2C\n(-)-DAIB\nOHC\nBr\nt-BuMe2SiO\nCO2Me\nHO\n1) t-BuMe2SiCl\n2,6 lutidine\n2) LiAlH4\n3) CBr4, PPh3\n2 eq t-BuLi;\n0.5 eq ZnCl2\nZn\nt-BuMe2SiO\n\"A\"\n\"A\"\nHO\nHO\nCO2Me\n1) 2 eq t-BuMe2SiCl,\n2,6 lutidine\n2) LiOH\nN\nMes\nMes\nN\nRu\nPh\nCl Cl\nPCy3\n1) cat.\n2) 2 eq TBAF\n\n(10) See also Y. Kishi. Angew. Chem. Int. Ed. 1998, 37, 190.\nOHC\nOSi(i-Pr)3\nB(Ipc)2(-)\n1)\n2) PhCH2Cl, NaH\n3) O3; Me2S\nOSi(i-Pr)3\nOHC\nOBn\nB(Ipc)2(+)\nOSi(i-Pr)3\nOH\n(i-Pr)3SiO\n1)\n2) i-Pr3SiCl,\n3) Li, NH3\n(9) See also J. Cossy. Tetrahedron Lett. 2000, 41, 3363.\nOHC\nPh\nB(Ipc)2(+)\n2) O3; Me2S\n3) Et3SiCl, Et3N\n1)\nPh\nOSiEt3\nOHC\nB(Ipc)2(+)\n1)\n2) O3; H2O2\nPh\nOSiEt3\nHO\nHO2C\n1) TBAF\n2) cat TsOH\nPh\nO\nHO\nO\n(8)\nPh\nNHMe\nOH\nNEt3, THF\nPh\nO\nN\nPh\nOH\nPh\nO\nCl\n2 eq LDA, LiCl;\nBnOCH2Cl\nPh\nO\nR2N\nOBn\nLiAlH(OEt)3\nOHC\nPh\nOBn\nOSiMe2t-Bu\ncat (-) N-Methyl Ephedrine\ncat. Zn(OTf)2, cat Et3N\nPh\nOBn\nOH\nt-BuMe2SiO\nH2, Pd/C, BaSO4,\nquinoline\nPh\nOBn\nOH\nt-BuMe2SiO"
+    },
+    {
+      "category": "Resource",
+      "title": "2_28_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/c352ca1a8ad903abae37d31d6979aff7_2_28_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nFebruary 28, 2005\nProf. Rick L. Danheiser\nIntroduction:\nStrategies for Stereocontrolled Synthesis\nThermodynamic Control\nRelative energy of diastereomers determines outcome of reaction\nI. What determines the relative energy of stereoisomers?\nDe-stabilizing Non-bonded Repulsion\nStabilizing Non-covalent Interactions\nStereoelectronic Effects\nDeviation from optimal geometry for orbital overlap (angle strain)\nDestabilizing torsional interactions\nStabilizing secondary orbital interactions\nDipole-dipole interactions\nII. Tactics for establishing thermodynamic control\nReading on Stereochemical Principles\nCarey and Sundberg \"Advanced Organic Chemistry\" Part A (2000) Chapters 2 and 3\nE. L. Eliel and S. H. Wilen \"Stereochemistry of Organic Compounds\" (1994)\nReview of Key Reactions\nCarey and Sundberg \"Advanced Organic Chemistry\" Part B (2000)\nChapter 1\n(Alkylation reactions)\nChapter 2\n(Aldol, Michael, Mannich reactions)\nChapter 4\n(Hydroboration)\nChapter 9\n(Organoboron, silicon, tin chemistry)\nChapter 12 (Epoxidation)"
+    },
+    {
+      "category": "Resource",
+      "title": "3_02_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/a9d1be1aa631043285a80777b6ec848e_3_02_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 2, 2005\nProf. Rick L. Danheiser\nIntroduction:\nStrategies for Stereocontrolled Synthesis\nThermodynamic Control\nRelative energy of diastereomers determines outcome of reaction\nI. What determines the relative energy of stereoisomers?\nDe-stabilizing Non-bonded Repulsion\nStabilizing Non-covalent Interactions\nStereoelectronic Effects\nII. Tactics for establishing thermodynamic control\nKinetic Control\nRelative energy of diastereomeric transition states determines outcome\nSubstrate Control\nSteric Approach Control\nStereoelectronic Control\nInternal Stereodirection\nReagent Control\nAchiral Substrate: enantiotopic face selectivity\nAchiral Substrate: enantiotopic group selectivity\nChiral Substrate: double asymmetric synthesis\nDynamic Kinetic Resolution"
+    },
+    {
+      "category": "Resource",
+      "title": "3_04_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/af29a6639febe8b4ba4955fcded4ca8a_3_04_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 4, 2005\nProf. Rick L. Danheiser\nStrategies for Stereocontrolled Synthesis\nThermodynamic Control\nKinetic Control\nSubstrate Control\nSteric Approach Control\nStereoelectronic Control\nInternal Stereodirection\nReagent Control\nAchiral Substrate: enantiotopic face selectivity\nAchiral Substrate: enantiotopic group selectivity\nChiral Substrate: Double Asymmetric Synthesis\nDynamic Kinetic Resolution\nReagent Control Strategies: Examples of Enantiotopic Group Selectivity\nLipase-Based Desymmetrization Reactions\nOAc\nOAc\nPPL\nMeO2C\nCO2Me\nPLE\nHO2C\nCO2Me\n60%\n93%\nNHCO2Bn\n96%ee\nNHCO2Bn\n100%ee\nOAc\nOH\nM. Ohno\nJ. Nokami\nJ. Am. Chem. Soc. 1981, 103, 2405\nTetrahedron Let . 32, 2409, 1991\nCO2Me\nCO2Me\nCO2H\nCO2Me\nO\nO\nBaker's yeast\nsucrose\nH2O\n47-52%\n96-98.8% ee\nPLE\n98%\n96%ee\nO\nOH\nM. Ohno\nTetrahedron Let . 1984, 25, 2557\nK. Mori and H. Mori\nOrg. Synth. Col . Vol. 8, 312, 1993\nAnother example of biotransformations in asymmetric synthesis\n\nReagent Control Strategies: Enantiotopic Group Selectivity Coupled to\nKinetic Resolution\nOH\n1) HCO2Me\nOH\nAE\nBnO\n2) RedAl\n(-)-DIPT\nLi\nOBn\nOBn\nOBn\nOBn\nO\nS. L. Schreiber\n70-80%\n1 h\n93% ee\nJ. Am. Chem. Soc. 1987, 109, 1525\n44 h >97% ee\n>97% de\n( [A + ent-A]/[B + ent-B] )\nO\nO\nB\nO\nA\nO\nOBn\nOBn\nOH\nent-B\nOBn\nOBn\nOH\nOBn\nOBn\nOH\nent-A\nOBn\nOBn\nOH\nOH\nO\nOBn\nOBn\nOH\nOH\nO\nOBn\nOBn\nO\nOBn\nOBn\nA\nOH\nO\nOBn\nOBn\nOH\nO\nOBn\nOBn\nOH\nOH\nO\nOBn\nOBn\nOBn\nO\nOBn\nent-A\nOH\nO\nOBn\nOBn"
+    },
+    {
+      "category": "Resource",
+      "title": "3_07_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/783c7340f9882e88f2c48f1e43dac7ff_3_07_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 7, 2005\nProf. Rick L. Danheiser\nStrategies for Stereocontrolled Synthesis\nReagent Control Strategies and Double Asymmetric Synthesis\n\"What changes may organic synthesis undergo? . . . . With appropriate chiral reagents and\ncatalysts at hand, the synthetic design of many natural (and unnatural) products will become\nstraightforward, and as a result some of the aesthetic elements of traditional organic synthesis, as\nexemplified by the synthesis of erythronolide A in Section 7, may well be lost. . . . . However, the\npower of the new strategy has already made possible what appeared to be almost impossible even\na few years ago. In this sense a new era which is characterized by the evolution from substrate-\ncontrolled to reagent-controlled organic synthesis is definitely emerging.\"\nS. Masamune et al., \"Double Asymmetric Synthesis and a New Strategy for Stereochemical\nControl in Organic Synthesis\", Angew. Chem. Int. Ed. 1985, 24, 1.\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nTi(Oi\n)4\n+\nTi(Oi\n)4\n(+)\n+\nTi(Oi\n)4\n(+)\n+\nTi(Oi\n)4\n(-)\n+\n(\n)\nl\n(\n)\nPh\nOH\nOH\nOH\nOH\nOH\nOH\nOH\nPh\nOH\nOH\nOH\nOH\nPh\nOH\nPr\nTBHP\n2.3 : 1\nPr\nTBHP\n-DET\n99 : 1\nPr\nTBHP\n-DET\n1 : 22\nPr\nTBHP\n-DET\n90 : 1\n227 : 1\nca cd\n1 : 43\n\nComparison of Substrate and Reagent Control Strategies\nAdvantages\nDisadvantages\nSubstrate\nExploits resident chirality\nRequires strong bias in substrate\nControl\nDifferent strategy needed for each\nepimer\nReagent\nSame strategy sometimes applicable\nNot applicable if substrate has strong\nControl\nto synthesis of both epimers\nbias\nApplicable to substrates with low bias\nRequires reagents with very strong\nbias"
+    },
+    {
+      "category": "Resource",
+      "title": "3_09_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/210ac5d179e1e0e710dec87717f2d16b_3_09_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 9, 2005\nProf. Rick L. Danheiser\nStrategies for Stereocontrolled Synthesis\nCase Study #1\nIntermediate for the synthesis of\nCO2H\nGlycinoeclepin A\nR. L. Danheiser et al., unpublished\n2H\nO\nO\nHO\nCO\n2C\nMeO\nCHO\nCN\nGlycinoeclepin A\nCase Study #2\nTotal Synthesis of Prostaglandins\nA Sweet Approach\nG. Stork and S. Raucher J. Am. Chem. Soc. 1976, 98, 1583\nG. Stork, T. Takahashi, I. Kawamoto, and T. Suzuki J. Am. Chem. Soc. 1978, 100, 8272\nOH\nOH\nO\n2H\n2H\nCO\nOH\nCO\nHO\nProstaglandin A2\nProstaglandin F2α"
+    },
+    {
+      "category": "Resource",
+      "title": "3_11_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/b38dc1d846caba78924988cdc7bccfcd_3_11_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 11, 2005\nProf. Rick L. Danheiser\nStrategies for Stereocontrolled Synthesis\nO\nCO2H\nOH\nOH\nCO2H\nOH\nHO\nProstaglandin A2\nG. Stork and S. Raucher J. Am. Chem. Soc. 1976, 98, 1583\nG. Stork, T. Takahashi, I. Kawamoto, and T. Suzuki J. Am. Chem. Soc. 1978, 100, 8272\nCase Study #2\nProstaglandin F2α\nTotal Synthesis of Prostaglandins\nA Sweet Approach\nReferences\nFor discussions of the use of chiral natural products as starting materials for the synthesis of\ncomplex molecules, see\n(1) S. Hanessian \"Total Synthesis of Natural Products: The 'Chiron Approach' \", Pergamon\nPress: Oxford, 1983.\n(2) T.-L. Ho \"Enantioselective Synthesis: Natural Products from Chiral Terpenes\", Wiley\nInterscience: New York, 1992.\n\nO\nO\nO\nHO\nOH\nMeO2C\nO\nO\nO\n(MeO)3C\nCO2Me\nAm\nCO2H\nO\nOEt\nO\nC\nCO2Me\nN\nHCl-MeOH-Et2O\n-20° 14 d;\nMeOH-pent\n25° 4 d\nOCO2Me\nOH\nOH\nMeO2C\nOH\nOH\nO\nO\nHO\nMeO2C\nOH\nH\nMeO2C\nCO2Me\nH\nOH\nOCO2Me\nOH\nO\nO\nOCO2Me\nO\nO\nMeO2C\nMeO2C\nOTs\nMeO2C\nCO2Me\nH\nO\nOEt\nAm\nMeO2C\nMeO2C\nCO2Me\nH\nO\nOEt\nH2C=CHMgCl\nTHF-CH2Cl2\n0° 4 h\nStork Total Synthesis of Prostaglandins from Sugars\n96%\nClCO2Me\npyr, -30→0°\n10 eq CH3C(OMe)3\ncat EtCO2H\n140° 72 h\n83%\n25% aq AcOH\n120° 1 h\n1 eq Et3N\nCH2Cl2 rt 1 h\n1:1\nxyl 160° 1 h\n0.1 eq K2CO3\nMeOH\nrt 30 min\n59% overall\n2 eq\n1) H2, Pd-BaSO4\nMeOH\n2) TsCl, pyr\n-20° 7 d\n3) EVE\n5 eq Bu2CuLi\nEt2O\n-40° 2 h\n79%\n67%\n10 eq KOt-Bu\nTHF\nrt 45 min\n0.5 N NaOH\n∆ 10 min\n77%\n7 steps\nI. Total Synthesis of Prostaglandin A2\n\nOAc\nOH\nO\nO\nOH\nO\nO\nO\nO\nO\nO\nO\nOH\nOH\nOAc\nO\nO\nO\nO\nOH\nO\nO\nO\nHO\nOH\nOH\nO\nO\nO\nO\nO\nO\nO\nO\nO\nO\nCO2Me\nO\nO\nCO2Me\nOTs\nO\nOEt\nAm\nOH\nO\nHO\nO\nAm\nO\nO\nO\nO\nOEt\nOEt\nOSit-BuPh2\nAm\nCO2H\nOH\nO\nH3O+\nLiHMDS\nRBr\nTHF-HMPA\nO\nOH\nOH\nOH\nO\nOH\nHO\nHCN\nAm\nCO2H\nO\nOEt\nO\nO\nOH\nHO\nHO\nHO\nOH\nSynthesis of PGA2 (continued)\n2.2 eq LDA\nTHF\n3 eq PhSeCl\n4 eq NaIO4\nMeOH\nrt\nProstaglandin A2\nD-glucose\nNaBH4\naq 10% H2SO4\nacetone\nH+\n90%\n75%\nNaBH4\nMeOH\n10° 1.5 h\nAc2O, pyr\nCH2Cl2\n-7° 18 h\n1) Me2NCH(OMe)2\n2) Ac2O, ∆\n1) K2CO3, MeOH\n2) ClCO2Me, pyr\n3) CuSO4, aq MeOH\n4) PhH, ∆\nacetone\ncat H2SO4\n54% overall\nCH3(OMe)3\ncat EtCO2H\n∆\n80%\n1) K2CO3, MeOH\n2) TsCl, pyr\n3) EVE\n10 eq Bu2CuLi\nEt2O\n-40° 2 h\naq H2SO4\nTHF\nrt 15 h\n35% overall\nEVE\nII. Total Synthesis of Prostaglandin F2α\n40% overall\n71%\ncommercially available\nD-Glycero-D-guloheptono-1,4-lactone\n11 12\n\nAm\nO\nO\nO\nO\nOEt\nOEt\nOSit-BuPh2\nAm\nOH\nHO\nHO\nOH\nOSiR3\nNC\nAm\nOH\nHO\nTsO\nOH\nOSiR3\nNC\nAm\nO\nO\nO\nOSit-BuPh2\nNC\nOEt\nEtO\nOEt\nAm\nO\nO\nO\nCO2H\nNC\nOEt\nEtO\nOEt\nOH\nHO\nCO2H\nOH\nDIBAL\nHCN\nEtOH\n-10°\n50% aq AcOH\nTHF, 35°\n1.5 eq TsCl\npyr, -15°\nEVE\n6 eq KHMDS\nbenzene\n∆ 5 h\n1) TBAF, THF\n2) Collins Ox\n3) AgNO3, KOH\naq EtOH\nAcOH\nH2O-THF\n40° 5 h\nLis-Bu3BH\nTHF, -78° 1.5 h\nProstaglandin F2α\nSynthesis of PGF2α (continued)\n37% overall\n72%\n73%"
+    },
+    {
+      "category": "Resource",
+      "title": "3_16_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/c537f620db1879f08053d8e9b355a46f_3_16_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 16, 2005\nProf. Rick L. Danheiser\nUnit 2\nStereocontrolled Alkylation\nand Related Electrophilic Substitution Strategies\nKey Retrons\nR\nZ\nR1\nO\n*\nR\nZ\nX\nO\n*\nO\nR, X\n*\nR\nZ\nR1\nO\n*\nR2\nR\nZ\nR1\nO\n*\nX\nI. Intrinsic Stereochemistry\nII. Substrate Control: Asymmetric Induction by Molecular\nFramework\nI . Substrate Control: Asymmetric Induction by Chiral Auxiliaries\nIV. Reagent Control Strategies: Chiral Electrophiles\nV. Catalytic Methods\nBackground Topics for Review: Conditions for generating enolates, \"azaenolates\", and related\nspecies; pKA of relevant substrates and bases, kinetic vs. thermodynamic conditions for enolate\ngeneration, enolate stereochemistry, relative reactivity of alkylating agents, conditions for imine and\nhydrazone formation and cleavage, synthetically useful transformations of carbonyl compounds."
+    },
+    {
+      "category": "Resource",
+      "title": "3_18_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/91b83bc60e8a2d14cc5205b101ab4914_3_18_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 18, 2005\nProf. Rick L. Danheiser\nUnit 2\nStereocontrolled Alkylation\nand Related Electrophilic Substitution Strategies\nR\nZ\nR1\nO\n*\nR\nZ\nX\nO\n*\nO\n*\nR\nZ\nR1\nO\n*\nR2\nR\nZ\nR1\nO\n*\nX\nKey Retrons\nR, X\nPhotograph removed due to copyright reasons.\nPhotograph removed due to copyright reasons.\nSeebach \"Self-Regeneration of Stereocenters\"\nEnders RAMP & SAMP Hydrazones\nAngew. Chem. Int. Ed. 1996, 35, 2708\nTetrahedron 2002, 58, 2253"
+    },
+    {
+      "category": "Resource",
+      "title": "3_28_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/56a8661a2141445978df788e7ffcd572_3_28_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 28, 2005\nProf. Rick L. Danheiser\nUnit 2\nStereocontrolled Alkylation\nand Related Electrophilic Substitution Strategies\nMeO\nPhotograph removed\nN\ndue to copyright reasons.\nPh\nR\nO\nA. I. Meyers Chiral Oxazolines\nO\nO\nR\nPhotograph removed due to copyright reasons. O\nN\nS\nN\nO\nO\nD. A. Evans Oxazolidinones\nPhotograph removed\nR\ndue to copyright reasons.\nO\nW. Oppolzer Camphor Sultams\nMe\nO\nPhotograph removed due Ph\nR\nN\nto copyright reasons.\nOH\nMe\nA. G. Myers Pseudoephedrine Amides"
+    },
+    {
+      "category": "Resource",
+      "title": "3_30_05.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/5-512-synthetic-organic-chemistry-ii-spring-2005/4a6a6e0d0ba525230d1e3f69ac9f7239_3_30_05.pdf",
+      "content": "Massachusetts Institute of Technology\nOrganic Chemistry 5.512\nMarch 30, 2005\nProf. Rick L. Danheiser\nUnit 2\nStereocontrolled Alkylation\nand Related Electrophilic Substitution Strategies\nV. Catalytic Methods\nα-Oxidation of Aldehydes and Ketones (H. Yamamoto, MacMillan, Zhong, Y. Hayashi)\nAlkylation of Imine Derivatives of α-Amino Esters (O'Donnell, Corey, Maruoka)\nTsuji Allylation of Ketones (Stoltz, Trost)\nEnantioselective Protonation Strategies (Fu)\nPhotograph removed due to copyright reasons\nPhotograph removed due to copyright reasons\nSpecial Issue on\nAsymmetric Organocatalysis\nAccts. Chem. Res. 2004, 37, 487-631\n\"Asymmetric Organocatalysis\"\nA. Berkessel and H. Groger\nWiley-VCH, 2005\nEnantioselective\nOrganocatalytic\nOxidation of Aldehydes with\nNitrosobenzene\n\nPhotograph removed due to copyright reasons\nAlkylation of Imine Derivatives of α-Amino Esters\nMartin J. O'Donnell\nIUIPUI\nEnantioselective Tsuji Allylation\nD. C. Behenna; B. M. Stoltz J. Am. Chem. Soc. 2004, 126, 15,044\nB. M. Trost; J. Xu J. Am. Chem. Soc. 2005, 127, 2846\nO\n6.25 mol% ligand\nO\nO\nO\n2.5 mol% Pd2(dba)3\nTHF, rt\n85%, 88% ee\n2 N\nO\nPPh\nPHOX\n(S)-t-Bu-\n\nEnantioselective Addition of Amines to Ketenes Catalyzed by a Planar-Chiral Derivative\nB. L. Hodous; G. C. Fu J. Am. Chem. Soc. 2002, 124, 10,006\nO\nN\nNC\nO\n2% (-)-1\nNC\nR\nN\nC\nR\nN\nNH\nMe\nFe\nMe\ntoluene, r.t.\nAr\nAr\nMe\nMe\nMe\nup to 98% ee\n(-)-1\nNC\nO\nNC\nN\nH\ncatalyst*\nR1\nC\nNH\nR\nNC\nO\ncatalyst*\nR1\nH\ncatalyst*\nN\nR\n*\nst\nO\nR1\nH\nR\nN\nNC\nprotonation of an achiral enolate\nby a chiral Brønsted acid catalyst:\nthe turnover-limiting and\nereochemistry-determining step?\nO\nLiOH\nO\nH2O2\nNC\nNaBH4\nMe\nHO\nR\nHO\nN\n88%\n84%\nPh\nAr\nNH\nBn\nMeN\n95%\nBnOH,\ncat. [Et4N]CN\n98%\n72%\nLiAlH(Ot-Bu)3\nO\nO\nO\ni-Pr\nMe\nEt\nN\nH\nPh\nBnO\nOMe\nPh"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "course_name": "Introduction to Computational Thinking",
+  "course_description": "This class uses revolutionary programmable interactivity to combine material from three fields – Computer Science + Mathematics + Applications – creating an engaging, efficient learning solution to prepare students to be sophisticated and intuitive thinkers, programmers, and solution providers for the modern interconnected online world.\nUpon completion, students are well trained to be scientific “trilinguals,” seeing and experimenting with mathematics interactively as math is meant to be seen, and ready to participate and contribute to open source development of large projects and ecosystems.",
+  "topics": [
+    "Energy",
+    "Climate",
+    "Engineering",
+    "Computer Science",
+    "Algorithms and Data Structures",
+    "Computer Design and Engineering",
+    "Computer Networks",
+    "Mathematics",
+    "Applied Mathematics",
+    "Computation",
+    "Energy",
+    "Climate",
+    "Engineering",
+    "Computer Science",
+    "Algorithms and Data Structures",
+    "Computer Design and Engineering",
+    "Computer Networks",
+    "Mathematics",
+    "Applied Mathematics",
+    "Computation"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 2 sessions / week, 1 hour / session\n\nPrerequisites\n\nThere are no prerequisites.\n\nCourse Description\n\nThree fields, one course: Computer Science + Mathematics + Applications\n\nThis class uses revolutionary programmable interactivity to combine material from three fields creating an engaging, efficient learning solution to prepare students to be sophisticated and intuitive thinkers, programmers, and solution providers for the modern interconnected online world.\n\nUpon completion, students are well trained to be scientific \"trilinguals,\" seeing and experimenting with mathematics interactively as math is meant to be seen, and ready to participate and contribute to open source development of large projects and ecosystems\n\nTopics include:\n\nImages, Transformations, Abstractions\n\nSocial Science and Data Science\n\nClimate Science\n\nPrevious versions of this course, with various applications, were taught in\nFall 2019\n,\nSpring 2020\n,\nFall 2020\n, and\nSpring 2021\n.\n\nFormat\n\nTuesday sessions consist of prerecorded video lectures, released on YouTube and played live on the course website. Thursday sessions consist of a half-hour prerecorded video lecture followed by a half-hour online discussion.\n\nTechnical Requirements\n\nStudents need to install the Julia programming language, as well as other tools and packages.\n\nGrading Policy\n\nThe final grade is 80% problem sets and 20% interactive quick questions.\n\nProblem sets are released on Friday and due the following Friday by 11:59pm EST. They have equal weight; your lowest score will be dropped.\n\nInteractive quick questions are due before Wednesday at 11:59pm, but are best done on Monday, during or right after the lectures. [Note: Not available to OCW users]\n\nNon-registered Students\n\nStudents from outside MIT are welcome to use the course materials and work their way through the lecture videos and homework assignments, though they do not have access to the MIT-only discussion forum on Piazza and may not submit homework for grading. Non-MIT students are encouraged to join the open discussion forum on\nDiscord\nand find a cross-grading partner there.",
+  "files": []
+}

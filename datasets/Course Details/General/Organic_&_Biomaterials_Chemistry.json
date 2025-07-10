@@ -1,0 +1,192 @@
+{
+  "course_name": "Organic & Biomaterials Chemistry",
+  "course_description": "This course covers principles of materials chemistry common to organic materials ranging from biological polypeptides to engineered block copolymers. Topics include molecular structure, polymer synthesis reactions, protein-protein interactions, multifunctional organic materials including polymeric nanoreactors, conducting polymers and virus-mediated biomineralization.\nWARNING NOTICE\nThe experiments described in these materials are potentially hazardous and require a high level of safety training, special facilities and equipment, and supervision by appropriate individuals. You bear the sole responsibility, liability, and risk for the implementation of such safety procedures and measures. MIT shall have no responsibility, liability, or risk for the content or implementation of any of the material presented.\nLegal Notice",
+  "topics": [
+    "Engineering",
+    "Biological Engineering",
+    "Biomaterials",
+    "Chemical Engineering",
+    "Polymers",
+    "Materials Science and Engineering",
+    "Polymeric Materials",
+    "Nanotechnology",
+    "Science",
+    "Chemistry",
+    "Organic Chemistry",
+    "Engineering",
+    "Biological Engineering",
+    "Biomaterials",
+    "Chemical Engineering",
+    "Polymers",
+    "Materials Science and Engineering",
+    "Polymeric Materials",
+    "Nanotechnology",
+    "Science",
+    "Chemistry",
+    "Organic Chemistry"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 3 sessions / week, 1 hour / session\n\nRecitations: 1 session / week, 1 hour / session\n\nLabs: 1 session / week, 4 hours / session\n\nGrading Policy\n\nStudents are encouraged to work together on problem sets and laboratory experiment analysis, but must prepare write-ups for these assignments individually. Students must work independently on exams. Grades will be distributed as follows:\n\nACTIVITIES\n\nPERCENTAGES\n\nSix Problem Sets\n\n10%\n\nLaboratory Experiments\n\n30%\n\nThree Exams (including Final)\n\n60% (20% each)\n\nLaboratory Grading\n\nAs will be discussed at the first recitation, each laboratory includes a short quiz at the start of the session, and an independent written assignment. Prof. Van Vliet grades all quizzes and laboratory assignments, and will handle excused / unexcused absences related to the laboratory experiments. Late arrivals and unexcused absences receive a zero for that laboratory experiment.",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "practicea_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/777ba3c8c1786601bf98772ef2ca761c_practicea_sol.pdf",
+      "content": "3.034 Practice Set A Solutions\n\nWe know that the polymer was made in the following way:\nHOC\nCH2\nCOH\nO\nO\nHOCH2CH2OH\nH\nH2O\nC\nCH2\nCOCH2CH2O\nO\nO\n+\nx\nSU #1\nSU #2\n\n__\nMn ≈ 8300 g/mol\n__ _\nWe know that Mn = Dpn · Mo , Mo= (MSU#1 + MSU#2)/2 = 86 g/mol\n\nNote Mo is not the repeat unit molecular weight and Mo is based on the molecular weight of\nthe structural units not the original monomers.\n\nWe are asked to distinguish between 4 possibilities.\nHO\nOH\nHOOC\nCOOH\nCase 1\nxs diol (1%)\n(a) All H2O\nremoved\n(b) H2O left\nCase 2\nxs diacid (2%)\n(c) All H2O\nremoved\n(d) H2O left\nLet us first consider Case 1.\n\n(a) 1% xs diol, all H2O removed\n_\nDpn =(1+ r)/(1+ r -2pr) where r = [COOH]o/[OH]o , remember r is always less than\none, and p is the extent of rxn of COOH groups and varies from 0 → 1.\n__\nIf no H2O, p → 1 and Dpn max = (1+r)/(1-r)\n\nCalculate r (on a 100 mol basis)\nr=100/101 → r ≈ 0.99 (watch significant figures!)\n_\nCalculate Dpn = (1+r)/(1-r) = (1+0.99)/(1-0.99) = 199\n__ _\nMn = 86 × Dpn = 17,114 g/mol\n\n(b) 1% xs diol, [H2O]/[OH]=0.05\n_\nAgain Dpn =(1+ r)/(1+ r -2 pr) where r = [COOH]o/[OH]o\nBut here p = 1 → need to use equilibrium considerations to find p.\n\nkeq =1.0=\n]\nCOOH\n][\nOH\n[\n]\nCOO\n][\nO\nH\n[\n-\n-\nagain p is the extent of rxn of COOH groups not OH groups\n[-COO-] = p[COOH]o\n[COOH] = (1-p)[COOH]o\n[OH] = (1-pB) [OH]o= (1-pr)*[COOH]o/r pB → the extent of rxn of OH groups, p = pB,\npB = pr\nNow we can go back to the keq expression.\nkeq = 1.0 =\no\no\n]\nCOOH\n)[\nP\n(\nx\n]\nCOOH\n[\nP\n]\nCOOH\n][\nOH\n[\n]\nCOO\n][\nO\nH\n[\n-\n=\n-\n-\nwhere\n]\nOH\n[\n]\nO\nH\n[\nx\n=\n\nSolve for p: p = 1/(1+x)\nWhen x = 0.05, p = 0.95\n_\nCalculate Dpn = (1+r)/(1+r-2pr) = 19 with p=0.95 and r=0.99\n__\nMn = 86 × 19 = 1,640 g/mol\n\nNow let us consider Case 2\n\n(c) 2% xs diacid, all H2O removed\n_ _\nDpn =(1+ r)/(1+ r -2pr) again, p → 1 and Dpn = (1+r)/(1-r)\nHowever, here r = [OH]o/[COOH]o , because the acid is in xs and r ≤ 1.0 !\nWe also need to redefine p,\np = the extent of rxn of OH groups and p varies from 0 → 1\n\nhere r = 100/102 → r = 0.98\n_\nCalculate Dpn = (1+r)/(1-r) = (1+0.98)/(1-0.98) = 99\n__\nMn = 86 × 99 = 8,500 g/mol\n\n(d) 2% xs diacid, [H2O]/[OH]=0.05\n_\nAgain Dpn =(1+ r)/(1+ r -2 pr) where r = [OH]o/[COOH]o\np = 1 → need to use equilibrium considerations to find p.\n\nkeq = 1.0 =\n]\nCOOH\n][\nOH\n[\n]\nCOO\n][\nO\nH\n[\n-\n-\nremember: p is the extent of rxn of OH groups\n[-COO-] = p[OH]o\n[OH] = (1-p)[OH]o\n[COOH] = (1-pB) [COOH]o= (1-pr)*[OH]o/r pB → the extent of rxn of COOH groups\n\nSubstitute into the keq expression.\n\nkeq = 1.0 =\nr\n/\n]\nOH\n)[\npr\n(\nx\n]\nOH\n[\np\no\no\n-\nwhere\n]\nOH\n[\n]\nO\nH\n[\nx\n=\n\nSolve for p: p = (1/r)/(1+x) → p =0.97\n_\nSolve for Dpn = (1+r)/(1+r-2pr) ≈ 26\n__\nMn = 86 × 26 = 2,260 g/mol\n\nThe closest Mn is 2% diacid, all water removed.\n\nSummary\n\nr=0.99, P=1\nr=0.98, P=1\nr=0.99, P=0.95\nr=0.98, P=0.97\nDpn\nMn (g/mol)\n17,144\n8,500\n1,640\n2,260"
+    },
+    {
+      "category": "Resource",
+      "title": "practicea.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/2e7983992b3d46fe864b9133a404b718_practicea.pdf",
+      "content": "3.034- practice set A\n\n1) A polymer scientist has received a sample of poly(ethylene adipate) that was\nsynthesized via an acid catalyzed polyesterification of ethylene glycol and adipic acid.\nThe molecular weight of the sample was determined to be:\n\nsample: Mn approximately 8300 g/mole\n\nThe suppliers of the sample are not sure if it is from a reaction they carried out with a 1%\nexcess of diol or a reaction they carried out using a 2% excess of diacid.\n\nIn addition, in one of the reactions, the polymerization took place with complete removal\nof water, but in the other, a mole ratio (H2O/OH) of 0.05 was found in the reaction pot\nafter the reaction was complete. They are also not sure which reaction had the\nunremoved water.\n\nMake an educated guess as to whether the above sample was synthesized with the excess\ndiol or with the excess diacid. Support your guess with suitable calculations."
+    },
+    {
+      "category": "Resource",
+      "title": "practiceb_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/f2fe677f26392e70c7df61a526de0bb6_practiceb_sol.pdf",
+      "content": "Figure 1. Structural hierarchy of aggrecan in cartilage: (a) electron microscopy of aggrecan\nand t he aggregates it forms with hyaluronan and link protein[Rosenberg, 1982 #627]; (b)\naggrecan core protein contains 3 g lobular domains (G1, G2, G3); the CS-GAG attachment\nregion is composed of a variable keratan sulfate region and 2 chondroitin sulfate regions (CS-\n1 and CS-2) distinguished by their sequence patterns[Hardingham, 1992 #51]."
+    },
+    {
+      "category": "Resource",
+      "title": "practiceb.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/040d93910e3d77f8d7a2e29fd90f55a7_practiceb.pdf",
+      "content": "3.034- practice homework part-B\n\n1) The stress bearing, movable joints of the human body are made of dense connective\ntissue called cartilage. Cartilage is made of a proteoglycan aggregate comprised of\naggrecan molecules. The aggrecan molecules contain a protein core with regions that are\nsubstituted with side chains made of the polymer chondroitin sulfate. It is currently of\ninterest to study the mechanical properties of aggrecan molecules. This can be\naccomplished by covalently binding the aggrecan molecules to a gold surface and\nprobing the mechanical properties with an AFM (atomic force microscope) tip.\n\nShow the coupling chemistry that could be used to covalently bind aggrecan molecules to\nthe gold surface. Please note that amine terminated aggrecan (aggrecan-NH2) is available\nfor such chemistry."
+    },
+    {
+      "category": "Resource",
+      "title": "practicec_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/2a0b0c37b99c975e779371a1f7f56db1_practicec_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "practicec.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/37d53241631e4e058eeced03dc15b111_practicec.pdf",
+      "content": "Practice Set C\n\n1. Suppose you want to capture a specific DNA sequence out a collection of 25 sequences\nin a test tube.\na) What approach would you take to isolate the sequence?\n\nb) What simple test would you do to know that you have bound and isolated the\nsequence?\n\nc) What variables could you use to test for less than perfect matches?\n\nd) What would be the consequence of having AT rich versus GC rich sequences?\n\n2. You have the idea to enhance bone material Ca3(PO4)2 at the site of a bone injury.\nYou know that natural proteins in the bone act to template the crystal structure of these\nmaterials. You decide to make some synthetic peptides to increase bone deposition at a\nparticular location.\na) What types of amino acid sequences would you expect to see for these proteins?\nd) Design a self-assembled monolayer system to practice templating bone.\nc) Consider ways to deliver your synthetic peptide to a bone location that requires\nhealing.\n\n3. Propose a mechanism for aligning a carbon nanotube between two gold electrodes\nusing any biological molecules. You don't have to synthesize the electrodes and you can\norder them in any size and spacing you need.\n\n4. You are working for NASA and a Mars rock is brought in that under inspection with a\nscanning electron microscope contains 2 micrometer spherical objects that are thought to\nbe a life form. Using typical bacterial growth media you are able to get the spheres to\nreproduce. Devise a set of experiments to see what biological materials are responsible\nfor carrying the genetic information. Think about the \"transforming principle\"\nexperiments.\n\n5. Design a system that would allow you to self-assemble and template an inorganic\nmaterial above and below an organic layer. Yellow is inorganic, red is organic\n\n6. Design an experiment to self-assemble in inorganic sphere with an organic interior.\n\n7. Design an experiment to assemble an organic outer layer with an interior inorganic\nmaterial.\n\n8.Design an experiment to assemble a sphere with an inorganic exterior an organic\nmiddle and an inorganic interior.\n\n8. Design a material that could encapsulate a DNA molecule of interest and target it to be\ndelivered to a tumor cell.\n\n9. Give an example of a 5 amino acid peptide that could only bind one gold particle.\nGive an example of a 5 amino acid peptide that could bind two gold particles.\n\n10.\nHow would you design the follow\nstructures out of DNA, label the\nends"
+    },
+    {
+      "category": "Assignment",
+      "title": "pset1_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/066237e65cdf6272ce3dee58dc7388a6_pset1_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Assignment",
+      "title": "pset1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/71c4812189105533fad03dca517a40a8_pset1.pdf",
+      "content": ""
+    },
+    {
+      "category": "Assignment",
+      "title": "pset2_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/90019c965efb8d6e6a6e3cb19cc8b7fc_pset2_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Assignment",
+      "title": "pset2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/7ffdf1d4ff04fe5a4307dee1c0898c5a_pset2.pdf",
+      "content": "3.034 Problem set 2\n1) Calculate the end-to-end length of a fully extended, zig-zag chain (all trans\nconformations) of polyethylene (-CH2-CH2-)x with a molecular weight of 80,000\ng/mole.\n2) You have a hydrophobic surface you want to deposit Ca3(PO4)2, on, draw a\nhexapeptide sequence that might service this purpose.\n3) You have a gold surface you want to capture a small ringed based organic drug on,\ndesign a sequence that will bind the drug. Design a built in way to test that the peptide is\non the gold service.\n4) Design a tripeptide that can bind or unbind Zn+2 based on its environment.\n5) Draw the amino acid that is not optically active, draw any amino acid that has more\nthan one chiral center\n6)\n- What are the covalent interactions in proteins?\n- Draw an example of 2 amino acids that will interact with hydrophobic interactions\n- 2 amino acids that will form hydrogen bonds with each other\n- 2 amino acids that form ionic interactions with each other\n7) a: Design a tetrapeptide that will not move in an electric field at pH~6.0.\nb: What would limit you from using the Henderson-Hasselbach equation to predict the\nexact isoelectric point of 1000 amino acid proteins?\nc: Would the pI change if you changed the solvent conditions?"
+    },
+    {
+      "category": "Exam",
+      "title": "2004_quiz1_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/ab104deba28f5d9ce185c509ddc27418_2004_quiz1_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2004_quiz1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/7178545c3b458075c4509d15f920e0e0_2004_quiz1.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2004_quiz2_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/d35601656b0a99c710c186d8642cea6a_2004_quiz2_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2004_quiz2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/b132d6fa75809d87df950566f858ba34_2004_quiz2.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "2005_final.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/916d7c1bc67d916e6709d23ccac36b7e_2005_final.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2005_quiz1_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/6106fa20a90fbbc6b7aa41745f7c9b8c_2005_quiz1_sol.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2005_quiz1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/fdf829d1c85775db2b8d5bee9f9d21c7_2005_quiz1.pdf",
+      "content": ""
+    },
+    {
+      "category": "Exam",
+      "title": "2005_quiz2_sol.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/ca171e69e021bf81aea7b7b150a5ab63_2005_quiz2_sol.pdf",
+      "content": "3.034 - solution to quiz #2 (problems 1 and 2 and 3a)\n\nThe reaction to make poly(ethylene adipate) is as follows:\nHOC\nCH2\nCOH\nO\nO\nHOCH2CH2OH\nH\nH2O\nC\nCH2\nCOCH2CH2O\nO\nO\nHO\n+\nx\nH\n\nMn = DpnMo where Mo = 86 g/mol (average molecular weight of 2 structural units in\nchain).\n\nIn this case, an excess of diol (ethylene glycol) was used and all water byproduct was not\nremoved from the reaction. Since all water byproduct was not removed, the maximum\nextent of reaction (p) possible will be determined by equilibrium.\n\nFor a non-stoichiometric reaction (excess diol in this case),\n\na) Dpn= (1+r)/(1+r-2pr) with r = [COOH]0/[OH]0 = 0.99 (1 % excess)\n\nNote, the extent of reaction (p) is always defined in terms of the limiting functional\ngroup, in this case, the COOH group.\n\np = fraction of COOH groups reacted\n1-p = fraction of COOH groups remaining\npB = fraction of OH groups reacted\n1-pB = fraction of OH groups remaining\n\n[COOH] = [COOH]0(1-p)\n[ester linkages] = p[COOH]0\n[OH] =[OH]0(1-pB ) = ([COOH]0/r ).(1-pr)\n\nfrom the equilibrium equation: 1.0 = ([ester linkages][water])/([COOH] [OH])\n\nlet [water]/[COOH] = x\nsetting [OH] = ([COOH]0/r)(1-pr) and [ester linkages] = p[COOH]0 and solving for p\n\ngives ... p= 1/(r(1+x))\nwith x=0.05 (given) and r=0.99 we get p=0.962\n\nthus, using the above equation for a non-stoichiometric reaction, we get the following\n\nDpn= (1+r)/(1+r-2pr) = 22 and Mn = DpnMo= 1892 g/mol\n\n2) Let\nHO\nOH\n=\nHO\nCH2\nO\nH\nStep 1 - endcapping step\n\nHO\nOH\nOCN\nCH2\nNCO\nOCN\nCH2\nNCO\nHO\nOCN\nCH2\nNCO\nOH\n+\n\nStep 2 - chain extension step\nOCN\nCH2\nNCO\nHO\nOCN\nCH2\nNCO\nOH\nHO\nC\nCH3\nH\nCH2\nOH\nOCN\nCH2\nNCOC\nOH\nHO CH3\nH\nCH2\nOCN\nCH2\nNCO\nOH\nHO\n+\ny\nSoft Segment\nhard Segment\n\nNote: due to the asymmetry of the diol used in the chain extension step, the polymer\nwill be comprised of a random arrangement of head-to-head and head-to-tail linkages\nin the hard segments.\n\n3) poly(lactic acid) is\nC\nC\nCH3\nH\nO\nHO\nO\nH\nx\n\nnote: in a typical direct esterification reaction, each polymer chain with have on\naverage a -OH and -COOH group for chain ends. Both of these functional groups\nwill react with the active benzyl chloromethyl functional group found on the\npolystryene beads typically used in a solid phase peptide synthesis.\n\nLet\nHOC\nOH\nO\nC\nC\nCH3\nH\nO\nHO\nO\nH =\nx\n\nHOC\nOH\nO\nCH2Cl\nCH2Cl\nPS\nCH2Cl\nCH2Cl\nPS\nCH2\nO\nCOH\nO\nCH2\nO\nCH2\nCOCH2\nO\nO\nCH2OC\nO\nOH\nCOH\nO\n+\nnot to scale\nsome closed loops may be formed depending on the molecular weight of the\npoly(lactic acid)"
+    },
+    {
+      "category": "Exam",
+      "title": "2005_quiz2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/f6fb9ea6756fb8b7de6c1b3c4e1697dc_2005_quiz2.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "lab1_nanoreactor.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/f3b1df14c028ffcca47b074700d78e59_lab1_nanoreactor.pdf",
+      "content": "3.034 FALL 2005\nORGANIC AND BIOMATERIALS CHEMISTRY\nLABORATORY EXPERIMENT 1\nNanoreactors and Bacteria\nPreLab Questions:\n1. Why is the reaction in this lab within the polyelectrolyte multilayer\ntermed a \"nanoreactor\" process?\n2. Describe the role of silver acetate and BDMA in this reaction.\n3.034 FALL 2004\nLABORATORY 1\nWARNING NOTICE: The experiments described in these materials are potentially hazardous and require a high level\nof safety training, special facilities and equipment, and supervision by appropriate individuals. You bear the sole\nresponsibility, liability, and risk for the implementation of such safety procedures and measures. MIT shall have no\nresponsibility, liability, or risk for the content or implementation of any material presented. Legal Notice\n\nI. Introduction\nIt has been known since ancient times that silver provides an antibacterial surface. This\nis why, for example, silverware actually used to be made from Ag and religious\nceremonies in which many people drink wine from the same chalice still use silver\nvessels. A modern example of this antibacterial property of silver is demonstrated by a\nfabric marketed for sports clothing, called X-Static, which contains 15 vol% silver fibers\n(Fig. 1).\nFigure 1. Polartec(r) PowerDry(r) feature XStatic(r), advertised\nto \"eliminate 99% of bacteria to give garments permanent\nnatural odor protection.\"\nX-Static website: http://www.cloverbrook.com/xstaticpage.htm.\nIn this laboratory experiment, you will synthesize\nAg nanoparticles within an ultra-thin polymer film\nknown as a polymer multilayer (PEM) through a\nreduction reaction. Because the reaction volume is\ndetermined by the molecular organization within\nthe multilayers, the thin film itself acts as a\nnanoreactor to define the final size of the Ag\nparticles. This is because the metal ions in a silver-\ncontaining solution (Ag+) attach to the polymer by\nexchanging with hydrogen in, for example,\ncarboxylic groups of the polymer, and then reduce to metal particles (Ago) by\nexchanging with hydrogens in, for example, the amine groups of a second chemical\nsuch as a diamine. Thus, the polymer multilayer is a nanoreactor that is capable of\ncreating uniformly dispersed, nanometer sized particles of Ag metal (~2 - 4 nm\ndiameter). You will characterize the Ag content of the samples through UV-Vis\nspectroscopic analysis of energy absorption, and correlate this Ag content with the\nability of these Ag-loaded multilayers to kill bacteria that are seeded and cultured on the\nsurface.\nII. Objectives\nThe goals of this laboratory experiment are to:\n-\nSynthesize silver nanoparticles through a reduction reaction within the\npolyelectrolyte multilayers (PEMs)\n-\nEstimate the extent of Ag-loading through energy absorbance spectroscopy\nand comparison to literature data\n-\nSeed bacteria onto PEMs and quantify the number of bacterial colonies\nproduced as a function of Ag-loading.\n3.034 FALL 2005\nLABORATORY 1\nImage removed due to copyright reasons."
+    },
+    {
+      "category": "Resource",
+      "title": "lab2_interfacial.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/5e963947780de11c9e8dcea930c92209_lab2_interfacial.pdf",
+      "content": "3.034 FALL 2005\nORGANIC AND BIOMATERIALS CHEMISTRY\nLABORATORY EXPERIMENT 2\nInterfacial Polymerization\nPreLab Questions:\n1. In Nylon 8,6, what do the numbers 8 and 6 specifically refer to?\n2. Describe step growth. How many ways can a 7 unit polymer form by\nstep growth using only two monomers in only one step?\n3.034 FALL 2005\nLABORATORY 2\nWARNING NOTICE: The experiments described in these materials are potentially hazardous and require a high level\nof safety training, special facilities and equipment, and supervision by appropriate individuals. You bear the sole\nresponsibility, liability, and risk for the implementation of such safety procedures and measures. MIT shall have no\nresponsibility, liability, or risk for the content or implementation of any material presented. Legal Notice\n\nI. Introduction\nStep growth polymerization is one of the main types of polymerization reactions in\nsynthetic polymer chemistry. Initially, monomers combine to form oligomers and\npolymer chains are formed by the stepwise combination of monomers, oligomers or\nother polymer chains. During this reaction, a byproduct may be formed. If the\nbyproduct of the step growth reaction is a small molecule such as water or HCl, the step\ngrowth reaction is termed polycondensation.\nAn illustration of stepwise growth is given here for a four-unit polymer, where each * is a\nmonomer and A and B are the functional groups at the end of the monomer *. This\npolymer **** could be formed in one of two ways:\nAddition of a monomer to a chain of three-monomers (a trimer), or 1 + 3;\nA*A + B***B ‚ A****B + AB\n(1a)\n\nAddition of two chains of two-monomers (dimers) to each other, or 2 + 2.\nA**A\n+\nB**B\n‚\nA****B +\nAB\n(1b)\nSimilarly, there are two ways to directly form a five-unit polymer from only two\nmonomers and three ways to form a six-unit polymer...\nNylon is an example of a polyamide, which is a polymer where monomers are\nconnected by amide groups ( -C(=O)-NH- ). At high concentrations of the monomer, the\nreaction will proceed via polycondensation of diacid or diamine monomers. Diacid (or\ndiamine) condensation creates (n - 1) moles of H2O as a byproduct for every n moles of\nmonomer incorporated into a chain. Such a reaction is near equilibrium at moderate\ntemperatures (Keq ~ 1 - 10), which means there is little driving force to form the polymer\nat these temperatures. Thus, high temperatures and efficient removal of water\nbyproduct are required to drive the reaction to generate the amide product.\nDiacid chloride condensation is an alternative synthesis route, and is also an\nexample of nucleophilic acyl substitution. Here, the (-COOH) acid group is replaced with\na more reactive acyl derivative (-C(=O)-Cl) to combine with the amine group\n(nucleophile). In this case, the equilibrium constant Keq is ~100 - 1000 and results in\ncreation of (n - 1) moles of HCl as a byproduct for every n moles of reacted monomer.\nThe HCl byproduct can be neutralized in the presence of a weak base in the reaction\nsolvent. This is a rapid reaction (fast, irreversible and exothermic) that is consequently\ndifficult to control. To achieve polymerization with high molecular weight, the\nconcentration of reactants must be low, the temperature must be controlled typically\nbelow room temperature, and the solvent must be a good solvent for both the\nmonomers and the polymer product.\nSince both of these polycondensation reactions have disadvantages in terms of\nefficient polymerization, an important alternative is interfacial polymerization. Here, the\nrapid kinetics of the reaction between diamines and diacid chlorides occurs at the\ninterface of two immiscible phases. In unstirred interfacial polymerization, one monomer\nA is dissolved in an organic phase and the other monomer B is dissolved in an inorganic\nphase. An interface forms between the two immiscible (non-mixing) phases. The\n3.034 FALL 2005\nLABORATORY 2\n\npolymer is formed as a membrane at the interface, and pulled through the topmost\nphase by continuous mechanical removal to produce a rope. (In stirred interfacial\npolymerization, A-rich phase is dispersed as tiny droplets in B-rich phase through high-\nspeed mechanical mixing. This approach is used to create hollow microcapsules and\nfully dense microspheres for applications such as drug delivery.)\nIn this laboratory experiment, you will conduct unstirred interfacial polymerization\nreactions to produce nylon, and will analyze the thermal properties of your nylon\nproducts. You will form three types of nylon: Nylon 8,6 8,8 and 8,10. The first number\nrefers to the number of carbons in the amine group-containing monomer of the nylon\nand the second refers to the number of carbons in the diacid chloride or acyl derivative\ngroup-containing monomer of the nylon. The nylons 8,6 8,8,and 8,10 are formed by\nthe reaction of 1,8 diamino octane (DAO) with diacid chlorides (adipoyl chloride(C=6),\nsuberoyl chloride(C=8), and sebacoyl dichloride(C=10)), respectively.\nThe polymer forms at the interface between a layer of DAO dissolved in water -\nthe aqueous phase - and a layer of diacid chloride dissolved in dichloromethane (DCM)\n- the organic phase. The aqueous phase contains a weak base, sodium carbonate, to\nneutralize the HCl and maintain the efficiency of the reaction:\n2HCl + Na2CO3 ‚ 2NaCl + H2O + CO2\n(2)\nThe organic phase is denser than water, and thus forms the lower phase. After pouring\nthe aqueous phase on top, the interfacial polymerization immediately forms a thin film of\nnylon at the interface. This film prevents or at least slows further reaction by acting as a\nphysical barrier to monomer mixing. By pulling the film up out of the interface, new\ninterface is exposed and the new film forms continuously at the fresh interface. The\nstoichiometry of the interface is controlled by the mass transfer-controlled rate of\ndiffusion (in the organic phase) and consumption of the monomer species. That is, the\nratio of A to B is 1:1 in this diffusion-controlled reaction.\nII. Objectives\nThe goals of this laboratory experiment are to:\n- Synthesize \"ropes\" of Nylon 8,6 8,8 and 8,10 through unstirred interfacial\npolymerization\n- Measure thermal properties of the synthesized polymers through differential\nscanning calorimetry (DSC)\n- Synthesize supported membranes of nylon 8,6, 8,8 and 8,10\n- Test wettability and permeability of synthesized polymer on supported membranes\n3.034 FALL 2005\nLABORATORY 2"
+    },
+    {
+      "category": "Resource",
+      "title": "lab3_enzymes.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/26e443848ae6427389139ff50df430a3_lab3_enzymes.pdf",
+      "content": "3.034 FALL 2005\nORGANIC AND BIOMATERIALS CHEMISTRY\nLABORATORY EXPERIMENT 3\nEngineering DNA via\nRestriction Enzymes\nPreLab Questions:\n1. What is the definition of an enzyme? Describe the function of\nrestriction enzymes?\n2. What is a plasmid?\nWARNING NOTICE: The experiments described in these materials are potentially hazardous and require a high level\nof safety training, special facilities and equipment, and supervision by appropriate individuals. You bear the sole\nresponsibility, liability, and risk for the implementation of such safety procedures and measures. MIT shall have no\nresponsibility, liability, or risk for the content or implementation of any material presented. Legal Notice\n\nI. Introduction\nEnzymes are proteins that serve a specific function: They catalyze chemical\nreactions, meaning that they initiate / facilitate reactions without being consumed\nor altered significantly in the process. Enzymes are typically named by the\nfollowing convention: Substrate + ase. For example, an enzyme that catalyzes\ndegradation of another protein is called a proteinase or protease. An enzyme\nthat digests milk sugar (lactose) is called lactase.\nIn this laboratory, you will learn how to visualize the effects of an enzyme\nthat ligates (cuts) DNA into small fragments through gel electrophoresis.\nRestriction enzymes are DNA-cutting enzymes found in bacteria (and harvested\nfrom them for use). Because they cut within the molecule, they are often called\nrestriction endonucleases. A restriction enzyme recognizes and cuts DNA only at\na particular sequence of nucleotides, or DNA bases A, T, G and C. For example,\nE. coli bacteria that carry the HindIII gene from the bacterium Haemophilus\ninfluenzae Rd can be used to produce an enzyme named HindIII (\"HIND\nTHREE\") that cuts double-stranded DNA into double-stranded DNA fragments\nwherever it encounters the sequence:\nThe cut is made between the adjacent A and T, as shown by the arrows. This\nsequence is found in many DNA, including linear, double-stranded DNA isolated\nfrom the bacteriophage lambda (Lambda DNA) which has 48,502 base pairs.\nTreatment of Lambda DNA with this enzyme produces exactly 7 fragments, each\nwith a precise length and nucleotide sequence.\nThis fragmentation of the DNA via the restriction enzymes is called\nrestriction enzyme digestion, and occurs during incubation of the enzyme with\nthe double-stranded DNA molecules in a NaCl buffer of concentration and\ntemperature optimized for the enzyme activity. These fragments can be\nseparated from one another through gel electrophoresis, a technique that\nseparates charged molecules under the influence of an electric field. The\nsequence of each fragment is determined by the molecular weight of each\nfragment and a priori knowledge of the cutting site of the particular restriction\nenzyme used.\nYou will demonstrate the effect of this restriction enzyme digestion for a\nplasmid (circular rings of double-stranded DNA) called pBPZ, analyzed via gel\nelectrophoresis. Since the lengths of the Lambda/HindIII digest are well known,\nyou will use the fragment lengths (\"bands\") from the Lambda digest as a marker\nlane or \"ladder\" , to determine the segment lengths of the pBPZ digest. In gel\nelectrophoresis , the gel is made from agarose dissolved in a gel stain solution\n[SYBR safe DNA gel stain]. The gel stain binds to nucleic acids and fluoresces\nunder UV illumination, facilitating the visualization of the DNA fragments.\n3.034 FALL 2005\nLABORATORY 3\n\nII. Objectives\nThe goal of this laboratory experiment is to:\n- Analyze through agarose gel electrophoresis the effects of a DNA\nrestriction enzyme on the size of two types of virus DNA (λ-phage\nand pBPZ).\n- Construct a new plasmid to produce the protein Green Fluorescent\nProtein (GFP).\n3.034 FALL 2005\nLABORATORY 3"
+    },
+    {
+      "category": "Resource",
+      "title": "lab4_virus_mtrls.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-034-organic-biomaterials-chemistry-fall-2005/17b820a0353479a2337c941f09c06029_lab4_virus_mtrls.pdf",
+      "content": "3.034 FALL 2005\nORGANIC AND BIOMATERIALS CHEMISTRY\nLABORATORY EXPERIMENT 4*\nViruses as Materials\nPreLab Questions:\n1. What is a phage library, and why are bacteria used to replicate viral\nDNA sequences?\n2. What are the approximate physical dimensions of a virus, and how\ndoes this contribute to the use of a virus as a material?\n*Special thanks to Chung-Yi Chiang of the Biomolecular Materials Group for assistance with\nphage amplification in the development of these experiments.\nWARNING NOTICE: The experiments described in these materials are potentially hazardous and require a high level\nof safety training, special facilities and equipment, and supervision by appropriate individuals. You bear the sole\nresponsibility, liability, and risk for the implementation of such safety procedures and measures. MIT shall have no\nresponsibility, liability, or risk for the content or implementation of any material presented. Legal Notice\n\nI. Introduction\nA virus is a particle contains nucleic acids within a protective coat of proteins and lipids\ncalled the capsid, but does not possess the cellular machinery (nucleus and organelles)\nto replicate that RNA/DNA and thus to replicate itself. Instead, viruses are parasites that\nreproduce by infecting cells and hijacking the machinery of the cells to make copies of\nviral DNA and thus viral gene products. Strictly speaking, a virus infects eukaryotes\n(which contain a nucleus), whereas a bacteriophage or phage infects prokaryotes\nincluding bacteria (which do not\ncontain a true nucleus).\nFigure 1. (a) TEM micrograph of\nbacteriophage called SP105.\nBefore we understood how\nPhage are typically 20 - 800 nm\nviruses and phages worked,\nin length, with a capsid diameter\nthese particles were not much\non the order of 8 - 80 nm. (b)\nhelp to humans. As you know,\nSchematic of virus components.\nviral infections cause human\nillness ranging from the\nhttp://pathmicro.med.sc.edu/mayer/phage.htm\ncommon cold to HIV, and are\ndifficult to target with\nvaccination because of rapid\ngenetic mutation within the\nbody. However, we increasingly\ntake advantage of the dramatic\nreplication potential of viral\nnucleic acids and gene\nproducts by manipulating the\ngenome and environment of the\nvirus itself. This approach\nenables genetic engineering (by\nusing viruses to introduce new DNA into cells that can express these gene products, as\nyou explored via plasmids in Laboratory Experiment 3), engineering of new crystals with\nthe potential for added function (by patterning viruses on inorganic surfaces), and new\ninorganic material structures (by selecting viruses to recognize and/or sequester\ninorganic particles such as metals and semiconductors). Material-binding functions are\nengineered by using phage libraries, which are collections of cloned fragments of\nbacteriophage DNA. Each unique DNA sequence is one member of this library, and\nsuch libraries are commercially available for specific bacteriophages. The high aspect\nratio (length/diameter) of viruses contributes to the capacity to form dense, anisotropic\nmaterial phases.\nIn this laboratory experiment, you will learn how phage are selected and\nengineered as materials that exhibit specific functions, including binding to inorganic\nmaterials, formation of liquid crystals, and formation of virus-based fibers. To use\nviruses at the high concentrations required for use as materials, it is necessary to\namplify (increase the number of) the phage significantly, via replication in bacteria. We\ncompleted this large-scale amplification with the help of graduate student Chung-Yi\nChiang; the protocol is described on page 9, for your interest.\n3.034 FALL 2005\nLABORATORY 4\nImage removed due to copyright reasons.\nImage removed due\nto copyright reasons.\nSee:\n\nII. Objectives\nThe goals of this laboratory experiment are to:\n-\nModule 1: Biopanning. From a phage library, select phage that bind specifically\nto a single-crystal silicon wafer of specific crystallographic orientation, and\namplify these Si-binding phage.\n-\nModule 2: Gold binding. Identify the population of M13 phage that has been\ntargeted to specifically bind Au nanoparticles.\n-\nModule 3: Liquid crystals. Determine the concentration of phage required to form\nliquid crystals.\n-\nModule 4: Viral fibers. Synthesize fibers comprised solely of viruses, and\ndetermine the conditions required for strong, tough viral fibers.\n3.034 FALL 2005\nLABORATORY 4"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "course_name": "Fracture and Fatigue",
+  "course_description": "Investigation of linear elastic and elastic-plastic fracture mechanics. Topics include microstructural effects on fracture in metals, ceramics, polymers, thin films, biological materials and composites, toughening mechanisms, crack growth resistance and creep fracture. Also covered: interface fracture mechanics, fatigue damage and dislocation substructures in single crystals, stress- and strain-life approach to fatigue, fatigue crack growth models and mechanisms, variable amplitude fatigue, corrosion fatigue and case studies of fracture and fatigue in structural, bioimplant, and microelectronic components.",
+  "topics": [
+    "Engineering",
+    "Materials Science and Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics",
+    "Engineering",
+    "Materials Science and Engineering",
+    "Mechanical Engineering",
+    "Solid Mechanics"
+  ],
+  "syllabus_content": "Course Meeting Times\n\n2 sessions / week, 1.5 hours / session\n\nExams\n\nExam 1 - October 23 - in class\n\nExam 2 - December 9 - in class\n\nProblem Sets\n\nProblem sets are due in class one week after assigned.\n\nLate submissions not accepted.\n\nGrading\n\nExam 1: 30%\n\nExam 2: 40%\n\nProblem Sets: 30%\n\nTexts\n\nRequired\n\nSuresh, S.\nFatigue of Materials\n. 2nd ed. Cambridge University Press, 1998.\n\nReferences\n\nAnderson, T. L.\nFracture Mechanics.\n2nd ed. CRC Press, 1995.\n\nHertzberg, R. W.\nDeformation and Fracture Mechanics of Engineering Materials\n. 4th ed. John Wiley & Sons, Inc., 1996.\n\nLawn, B. R.\nFracture of Brittle Solids.\nCambridge University Press, 1993.",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "ps1_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/0d82c887ebe90c0567b461b77eb1d37b_ps1_soln.pdf",
+      "content": "3.35 - Fracture and Fatigue\nProblem Set 1 - Solutions\nSeptember 25, 2003\n\n4.\n\n5."
+    },
+    {
+      "category": "Resource",
+      "title": "ps1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/095a2da14a7be9c07e155ccfe3898627_ps1.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps2_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/308d771dcfc727dc11307cc1717e8d8a_ps2_soln.pdf",
+      "content": "Problem 1.1\n\nProblem 3.3\n\nProblem 10.7\n\n12.3\n\n5a.\nIncrease in the ductile-brittle transition temperature (DBTT) of a low strength\nplain carbon steel:\n1) Chemical environment: Increasing amounts of embrittling agents,\nsuch as hydrogen, increases the DBTT.\n2) Strain Rate: Increasing strain rate will lead to an increase in DBTT\nbecause dislocation motion (required for ductile transition) is not given\nsufficient time to occur in response to the applied load.\n3) Alloy Composition: Increasing the concentration of carbon increases\nthe DBTT. Carbon can inhibit the dislocation motion required for\nductile deformation.\n4) Geometry: Plane stress vs. Plane strain. Thicker plates (plane strain)\nhave a higher DBTT. For thin plates (plane stress) the deformation\nzone size is roughly equal to the thickness. Fracture can occur by\nductile tearing, etc.\n5) Work Hardening\n5b.\nChalk is an ionic solid with no significant dislocation mobility. Therefore, it is\nvery brittle and the principal crack-driving stresses are those that are normal to the\ncrack face (i.e. those which are oriented 45° to the axis of the specimen).\n\nIn contrast, Plasticene is a polymer capable of significant plastic deformation.\nFailure is ductile and occurs via shear. Shear stresses are maximum normal to the\naxis of the specimen\n\n5c.\nTempering of glass is a thermomechanical processing step that induces a residual\ncompressive stress in the surface of the glass. The residual compressive stress\nsuppresses the growth of cracks on the surface of the glass. When glass is loaded\nin tension, failure almost always initiates from surface flaws. For the case of\ntempered glass, before the applied tensile stress can exert any tensile load on the\ncracks, it must first overcome the residual compressive stress that exists due to the\ntempering process, and thus tempered glass is more resistant to tensile fracture\nthan ordinary glass, and can sustain larger tensile loads.\n\nThe process of tempering occurs by cooling the glass surface (using jets of cool\nair or water) while it is still hot and able to flow. The cooling causes the outer\nsurface to contract, while the inner core is still hot and flows along with the\ncontracting outer surfaces. When the core finally cools, it contracts and puts the\nouter surface into residual compression, while the core is put into residual tension.\nTempering of glass is somewhat analogous to shot-peening of metals as it\nrepresents a processing step which induces a beneficial compressive residual\nstress in the surface layer. Tempered glass has been used for many applications\n(e.g. automobile windshields).\n\nProblem 6."
+    },
+    {
+      "category": "Resource",
+      "title": "ps2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/6e6f120814c5bcc157742bc0d11e065b_ps2.pdf",
+      "content": "3.35 Problem Set #2\nAssigned: 9/30/03\nDue: 10/7/03 in class\n\nFrom S. Suresh, Fatigue of Materials\n\n1: Problem 1.1\n2: Problem 3.3\n3: Problem 10.7\n4: Problem 12.3\n\nProblem 5:\nThis problem is intended to encourage you to think about some material issues related to\nfracture:\n(a) List at least four factors which lead to an increase in the ductile-brittle transition\ntemperature of a low strength plain carbon steel\n(b) Explain briefly and in general terms why a piece of chalk breaks in torsion with a\nhelical fracture surface whereas a similar piece of Plasticene (otherwise known as\n\"silly putty\") shears normal to the axis of the specimen.\n(c) Why is tempered glass more resistant to tensile fracture than ordinary glass?\n\nProblem 6:\nAs we did in class for the Mises yield criterion, determine the expressions for the radius\nof the plastic zone, rp(θ), for both plane stress and plane strain using the Tresca yield\ncriterion. As we did in class, evaluate the ratio of the plane strain radius to the plane\nstress radius for θ = 0° and for θ = 45°. Recall that the Tresca yield criterion states that\nyielding occurs when the maximum shear stress reaches a critical value, i.e. when τmax =\nσy/2."
+    },
+    {
+      "category": "Resource",
+      "title": "ps3_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/1395fad17bd4845ff1975f37fcf8fe2e_ps3_soln.pdf",
+      "content": "3.35 - Fracture and Fatigue\nProblem Set 3 - Solutions\nOctober 21, 2003"
+    },
+    {
+      "category": "Resource",
+      "title": "ps3.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/9b7704c879f67e6430ba6c99ded219c6_ps3.pdf",
+      "content": "3.35 Problem Set #3\nAssigned: 10/14/03\nDue: 10/21/03 in class\n\nFrom S. Suresh, Fatigue of Materials\n\n1: Problem 9.7\n2: Problem 9.8\n3: Problem 9.9\n4: Problem 11.5\n\n5. The critical crack-tip opening displacement of a particular cracked configuration was\nfound to be 0.2 mm. The yield strength of the material is 450 MPa. The critical value for\nthe J-integral was computed to be 85000 J/m2. The elastic modulus of the material is\n70GPa and its Poisson ratio is 0.3. What are the minimum specimen size requirements\nfor a valid plane strain fracture toughness test for KIC and for JIC?"
+    },
+    {
+      "category": "Resource",
+      "title": "ps4_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/c2629e74a27afd6bb4c63048f64f0dec_ps4_soln.pdf",
+      "content": "3.35 - Fracture and Fatigue\nProblem Set 4 - Solutions\nNovember 4, 2003"
+    },
+    {
+      "category": "Resource",
+      "title": "ps4.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/c53e66df3db5b1f7d42606caeabe7615_ps4.pdf",
+      "content": "3.35 Problem Set #4\nAssigned: 10/28/03\nDue: 11/4/03 in class"
+    },
+    {
+      "category": "Resource",
+      "title": "ps5_soln.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/d7cdbc16d643202cc2613b60edc6c36c_ps5_soln.pdf",
+      "content": "3.35 - Fracture and Fatigue\nProblem Set 5 - Solutions\nNovember 13, 2003"
+    },
+    {
+      "category": "Resource",
+      "title": "ps5.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/ea84cb416c069382701df318e31137e7_ps5.pdf",
+      "content": "3.35 Problem Set #5\nAssigned: 11/6/03\nDue: 11/13/03 in class\n\nFrom S. Suresh, Fatigue of Materials\n\n1: Problem 2.1\n2: Problem 2.2\n\n3: Performing a fatigue threshold test using manual load controls in a servo-hydraulic\ntesting machine can be an extremely time consuming task. Calculate the minimum\nnumber of days required to determine the threshold stress intensity factor range, ∆Kth, of\na material at a cyclic frequency of 2 Hz, if ∆Kth is defined as the threshold corresponding\nto a growth rate of no more than 10-11 m/cycle and if the resolution of the crack detection\ntechnique is 0.03 mm.\n\n4: In Problem Set 2, you computed the magnitude of the bursting pressure for a\npiston/cylinder fabricated from a peak-aged aluminum alloy (problem 10.7 in Fatigue of\nMaterials). Consider an identical piston-cylinder arrangement, where the cylinder\ncontains a semi-circular flaw 1.0 mm in radius, instead of an elliptical flaw. If the fatigue\ncrack growth behavior of the aluminum alloy is characterized by the relationship da/dN =\n3 x 10-10 (∆K)2.5, where da/dN is in m/cycle, and ∆K is in MPa m1/2, how many pressure\ncycles could the cylinder withstand before bursting?\n\n5. The design stress of the tail section of a prototype military aircraft is such that it\nnever exceeds a stress corresponding to one-third of the yield strength, and the cyclic\nservice loading is expected to vary from a minimum stress (σmin) of one-twelfth of the\nyield strength to a maximum stress (σmax) of one-third of the yield strength (i.e. R =\n0.25). The tail section is inspected with an ultrasonic non-destructive testing method,\nwith a resolution limit of 0.01 in.\nAssuming that (1) the stress intensity factor for any defects present in the tail section\nis given by:\n\nI\nK\na\nσ\nπ\ninf\n=\n\n(1)\nwhere σ infis the far-field applied stress and a is the crack length, and (2) the growth of\nfatigue cracks is governed by the Paris law\n\nm\nda\nC( K)\ndN =\n∆\n\n(2)\nwhere da/dN is the fatigue crack growth rate per cycle, ∆K is the stress intensity factor\nrange, and C and m are material constants, derive expressions for\n(i)\nthe critical crack length in the tail section\n(ii)\nthe lifetime of the tail section in terms of the material properties (i.e. the\nyield strength, C, m, plane strain fracture toughness, etc.)"
+    },
+    {
+      "category": "Resource",
+      "title": "fatigue_crack_growth.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/a58de19780c05876356bf3ce30252f90_fatigue_crack_growth.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "nlefm.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/5bdf4ebe1b3e4547e02836463511fa74_nlefm.pdf",
+      "content": "Elastic-Plastic Fracture Mechanics\nProfessor S. Suresh\n\nFracture\nElastic Plastic\nPreviously, we have analyzed problems in which the plastic zone\nwas small compared to the specimen dimensions (small scale\nyielding). In today's lecture we present techniques for analyzing\nsituations in which there can be large scale yielding, and\ndetermine expressions for the stress components inside the\nplastic zone. We will begin with a discussion of the J integral.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nThe J integral is a line integral (path-independent) around the\ncrack tip. It has enormous significance in elastic-plastic fracture\nmechanics. Key Reference: J. R. Rice, Journal of Applied\nMechanics, 1968.\n(Related works: Eshelby, Progress in Solid State Physics 1956;\nSanders, Journal of Applied Mechanics, 1960; Cherepanov,\nInternational Journal of Solids and Structures, 1969)\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nContinued\nConsider the path around the crack tip shown below:\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nContinued\nWe will use the following variables:\na = crack length.\nS = a curve linking the lower and upper crack surfaces.\nds = an element of arc on this curve.\nT = traction vector on this curve defined in relation to an outward\nnormal unit vector, i.e.\nT\n=\nn\n\n.\nu = corresponding displacement vector.\nWe consider a small strain analysis; we neglect any\ndeformation-induced blunting of crack tip.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nContinued\nWe use the J\n2 deformation theory of plasticity (equivalent to\nnon-linear elasticity). The (reversible) stress-strain response is\ndepicted schematically below:\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nContinued\nFor proportional loading\nJ\n2 deformation theory and\nJ\n2 flow\ntheory (incremental theory of plasticity) give results that are\ncomparable (i.e. for monotonic loading, stationary cracks).\nNot appropriate for situations where significant unloading occurs.\nThe total mechanical potential energy of the cracked body is\nu\nM\n=\nu\ne\n+\nu\napp\nThis represents the sum of the stored strain potential energy and\nthe potential energy of the applied loading.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nDerivation\nJ Integral\nContinued\nZ\nZ\nu\nM\n=\nw\ndA\n,\nT\n\nuds\nA\nS\nIn the previous integral:\nw\n= strain energy density (per unit volume); recall that\n@\nw\n\nij\n=\n:\n@\n\nij\ndA an element of cross section\nA within S.\nWe now evaluate the derivative of the mechanical potential\nenergy, u\nM, with respect to crack length.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nDerivation\nJ Integral\nContinued\n\nZ\ndu\nM\n@\nu\nd\n,\n=\nw\ndy\n,\nT\n\ns\nda\nS\n@\nx\n\nJ\nJ represents the rate of change of net potential energy with\nrespect to crack advance (per unit thickness of crack front) for a\nnon-linear elastic solid.\nJ also can be thought of as the energy\nflow into the crack tip. Thus,\nJ is a measure of the singularity\nstrength at the crack tip for the case of elastic-plastic material\nresponse.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nDerivation\nJ Integral\nContinued\nFor the special case of a linear elastic solid,\nd\n(PE )\ndU\nM\nJ\n=\nG\n=\n,\n=\n,\nda\nda\nK\n,\n\n=\n,\n\nE\nThis relationship can be used to infer an equivalent\nK\nI\nc value\nfrom J\nI\nc measurements in high toughness, ductile solids in which\nvalid K\nI\nc testing will require unreasonably large test specimens.\nSMA\n2000 MIT\nFatigue and Fracture\nc\n\nJ Integral\nDerivation\nContinued\nConsider two different paths around the crack tip:\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nDerivation\nJ Integral\nContinued\nJalong\nS\n=\nJalong\nS\nThe J Integral is independent of the path around the crack tip.\nIf S\n2 is in elastic material,\nK\n,\n\nJ\nS\n=\n,\n\nE\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nHRR field\nWe now consider the Hutchinson, Rice, Rosengren (HRR)\nsingular crack tip fields for elastoplastic material response.\n(Recall Williams solution assumes linear elastic material\nbehavior).\nAssume: Pure power law material response:\n\nn\n\n=\n\n= material constant,\n0 = reference yield strength,\nn = strain\nhardening exponent,\n\n= reference yield strain\n=\n\n=E.\nFor linear elastic material\nn\n=\n1, for perfectly plastic response\nn\n=\n1.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nContinued\nHRR field\nWith these assumptions, the crack tip fields (HRR field) can be\nderived. (Ref: J.W. Hutchinson, JMPS, 1968 and J.R. Rice and\nG.F. Rosengren, JMPS, 1968.)\nJ\nn+1\n\n~\n\nij\n=\n\nij\n(\n;\nn )\n\nI\nn\nr\nn\nJ\nn+1\n\n~\n\nij\n=\n\nij\n(\n;\nn )\n\nI\nn\nr\nn\nJ\nn+1\n\nn+1\n~\nu\ni\n=\n\nr\nu\ni\n(\n;\nn )\n\nI\nn\nr\nThe function I\nn has a weak dependence on\nn.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nCTOD\nThe variation in crack tip opening displacement\n\nt or (CTOD) for\ndifferent material response is depicted below:\nThe crack tip opening displacement depends on distance from\nthe crack tip. We need an operational definition for CTOD.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nCTOD\nThe definition of\nt is somewhat arbitrary since the opening\ndisplacement varies as the crack tip is approached. A commonly\nused operational definition is based on the\nconstruction\ndepicted below (see C.F. Shih, JMPS, 1982).\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nCTOD\nJ\n\nt\n=\nd\nn\n\nd\nn is a strong function of n, and a weak function of\n\n=E.\nPlane Strain:\nd\nn\n\n0:3\n,\n0:65\n(0:65 for n\n!\n1)\nPlane Stress:\nd\nn\n\n0:5\n,\n1:07\n(1:07 for n\n!\n1)\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nCTOD\nPresuming dominance of HRR fields\nJ\nJ\n\nt\n=\nd\nn\n\nFor Small Scale Yielding (SSY)\nK\n,\n\nJ\n=\nI\n,\n\nE\n,\n\nK\n,\n\nt\n=\nd\nn\nI\nE\n\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nCTOD\nImportance/Applications of CTOD:\nCritical CTOD as a measure of toughness.\nExp. measure of driving force.\nMultiaxial fracture characterization.\nSpecimen size requirements for\nK\nI\nc and J\nI\nc testing.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nJust as for the K field, there is a domain of validity for the HRR\n( J -based) fields.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nUnder plane strain and small scale yielding conditions, it has\nbeen found that:\nr\n\np\nFor\nJ dominance the uncracked ligament size\nb must be greater\nthan 25 times the CTOD or\n\nJ\n=\n0 . The variation in stress\nahead of the crack is depicted on the following page:\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nK and\nJ-Dominance\nConsider a low strength steel with\n\n=\n350 MPa,\nK\nI\nc\n=\n250 MPa\npm and E\n=\n210 GPa. What are the Minimum\nspecimen size requirements for valid\nK\nI\nc and J\nI\nc\nmeasurements?\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nK-Dominance\nASTM standard E399 (1974) for\nK\nI\nc testing:\n\nK\nI\nc\na;\nb;\nt\n>\n2:5\n\nSubstitute the known values for\nand K\nI\nc . Find that\na;\nb;\nt\n>\n1:28 m!\n( 50 inches\n)\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nFor\nJ\nI\nc testing, the condition requires that for a deeply cracked\ncompact tension or bend specimen:\nJ\nI\nc\nK\nI\nc\n,\n,\n\nb\n>\n=\n\nE\n\nb\n>\n0 :02 m\nSpecimen size requirements for\nJ testing are much less severe\nthan for K testing.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nThe measured\nJ\nI\nc value may be converted to equivalent\nK\nI\nc\nvalue. The validity of this approach has been verified by extensive\ntesting.\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nExample: notched bar loaded axially (induces bending and\nstretching)\nc\nSMA\n2000 MIT\nFatigue and Fracture\n\nJ-Dominance\nc\nSMA\n2000 MIT\nFatigue and Fracture"
+    },
+    {
+      "category": "Resource",
+      "title": "plastic_zone.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/a559e31a5504d16655ec15176459e259_plastic_zone.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "prof_parks.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/8c91e9e27a5952f1115cb317aee328e3_prof_parks.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "total_life.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/3-35-fracture-and-fatigue-fall-2003/bae84ab67ea7a85054bf75eb341cfce5_total_life.pdf",
+      "content": ""
+    }
+  ]
+}

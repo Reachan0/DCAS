@@ -1,0 +1,89 @@
+{
+  "course_name": "Neural Plasticity in Learning and Development",
+  "course_description": "No description found.",
+  "topics": [
+    "Science",
+    "Biology",
+    "Neurobiology",
+    "Neuroscience",
+    "Cognitive Science",
+    "Science",
+    "Biology",
+    "Neurobiology",
+    "Neuroscience",
+    "Cognitive Science"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 1 session / week, 3 hours / session\n\nTextbook\n\nBear, Connors and Paradiso.\nNeuroscience, Exploring the Brain.\nWilliams & Wilkins, 2000.\n\nThis course covers the molecular and cellular basis of synaptic plasticity, hippocampal function and the role of plasticity in both vertebrate and invertebrate memory. The course is taught by members of MIT's\nPicower Center for Learning and Memory\n.\n\nRequirements\n\nPresentations\n\nReadings\n\nStudent-generated questions based on readings\n\nTake-home quizzes\n\nClass discussion\n\nStudent-generated Questions Based on Readings\n\nStudents are required to read all of the papers to be covered in each class and write 8-10 questions based on the readings, to be submitted before the in-class presentations.\n\nCourse Requirements\n\nUndergraduate and graduate students will be graded as follows:\n\n50% Quizzes:\n\n5 quizzes each contributing 10%.\n\n25% Presentation:\n\nEach student will lead the class in the discussion of at least one paper, and be graded on the presentation.\n\n25% Participation:\n\nBoth attendance and participation in discussion will be graded.\n\nIn addition, graduate students must make an additional presentation.",
+  "files": [
+    {
+      "category": "Exam",
+      "title": "Quiz #1: Synaptic Plasticity",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/6a1cfaa046e7b56f253d43d19be4e2d1_quiz1.pdf",
+      "content": "Quiz #1\nPage 1 of 1\n7.98J/9.301J QUIZ #1\nSYNAPTIC PLASTICITY\nMechanisms for modifying the strength of synaptic connections play a fundamental role\nin the process of synaptic plasticity (LTP, LTD, etc.). However, it is often difficult to pinpoint the\nlocus (pre- vs. post-synaptic) of these modifications in the CNS. This complication arises from\nthe fact that it may be possible to change several different parameters for either the pre- or\npost-synaptic terminal, and induce the same overall effect of increased/decreased strength at\nany given synapse. For both the pre- and post-synaptic side:\n1) List all of the parameters that could undergo modifications.\n2) For each of these possibilities, outline an experimental approach that could\npotentially determine if that particular parameter indeed plays a role in\nmodifying the strength of synaptic connections. Clearly state any underlying\nassumptions you may need to make for a given experimental approach.\nhttp://tonegawa23.mit.edu/quizzes/798quiz1.htm\n3/11/2003"
+    },
+    {
+      "category": "Exam",
+      "title": "Quiz #2: Invertebrate Learning",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/3f2d0195d36933f68ed9c7d1803e4cad_quiz2.pdf",
+      "content": "Quiz #2\nPage 1 of 1\nQuiz #2\nInvertebrate Learning\nWe have covered the mechanisms of invertebrate associative plasticity in Aplysia and Drosophila; in the\nlectures on synaptic plasticity, hippocampal LTP and L-LTP were discussed. Describe the similarity and\ndifferences between the mechanisms proposed for vertebrate and invertebrate synaptic plasticity with\nrespect to:\na) cellular locus\nb) stimuli to be associated\nc) affected kinases / phosphatases\nd) postulated effector molecules\nhttp://tonegawa23.mit.edu/quizzes/798quiz2.htm\n3/11/2003"
+    },
+    {
+      "category": "Exam",
+      "title": "Quiz #4: Learning and Memory in Rodents",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/c275a1432ac93b746a164e4ff1f1788e_quiz4.pdf",
+      "content": "7.98J / 9.30J\nQuiz 4\n\n1) 2 marks\nDraw a diagram of the main excitatory circuitry in the rodent hippocampus.\n\n2) 1 mark\nWhat is the key feature of NMDA receptors that make them important for\nsynaptic plasticity?\n\n3) 2 marks\nWhich excitatory hippocampal synapses show NMDA receptor dependent synaptic plasticity?\n\n4) 5 marks\nDiscuss the differential roles of NMDA receptors in area CA1 and CA3 in the distinct phases of\nhippocampus dependent memory (i.e. acquisition, consolidation, recall). Include in your\ndiscussion a description of the type of genetically engineered mice and behavioral paradigms\nthat have been used in the literature, or that you believe should be made and used in order to\nelucidate these distinct roles of the NMDA receptor in the hippocampus.\nPage 1 of 1\n7.98 2002 Quiz 4\n3/11/2003\nhttp://tonegawa23.mit.edu/quizzes/7.98quiz4.htm"
+    },
+    {
+      "category": "Exam",
+      "title": "Quiz #5: Primate Learning & Memory",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/dcf0195aaef19e8ed51ee9b64e81c7d8_quiz3.pdf",
+      "content": "7.98J/9.301J Spring 2002\nQuiz #3\nHippocampal Function\n\nQuestion 1: What characteristics of hippocampal structure and/or function\nsuggest that it might be involved in the formation of spatial memory?\n\nQuestion 2: What characteristics of hippocampal structure and/or function\nsuggest that it might be involved in the consolidation of memory in\nextrahippocampal sites?\nPage 1 of 1\n3/11/2003\nhttp://tonegawa23.mit.edu/quizzes/798quiz3.html"
+    },
+    {
+      "category": "Exam",
+      "title": "Quiz #5: Primate Learning & Memory",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/b7e16c7aeefa9b0075f43086a94de9e9_quiz5.pdf",
+      "content": "7.98J Quiz 5\nPage 1 of 1\n7.98/9.301J Quiz #5\nPrimate Learning & Memory\n1. Discuss behavioral and/or neurophysiological evidence that the working\nmemory is under volitional control.\n2. Discuss behavioral and/or neurophysiological evidence that the prefrontal\ncortex represents behavior-guiding rules.\nhttp://tonegawa23.mit.edu/quizzes/798quiz5.htm\n3/11/2003"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Lecture 1: Introduction",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/4a6f648d090dc390eff456de76cdac6d_lecture_1_Notes.pdf",
+      "content": "Neural Plasticity and Learning and Memory\n7.97J/9.301J\nSpring 2003\n\nSynopsis of Lecture #1, INTRODUCTION\n\n1.\nBasic Issues in Learning and Memory Research\n\n2.\nMemory Classification\n- Associative/Nonassociative\n- Declarative (Explicit)/Nondeclarative (Implicit)\n\nEpisodic (Event)\n\"Remembering\"\n\nSemantic (Fact)\n\"Knowing\"\n\n3.\nLearning and Memory Phases\n- Acquisition (Encoding)\n- Consolidation\n- Recall\n- Reconsolidation\n- Extinction and forgetting\n\n4.\nBrain Systems for Learning and Memory and Associated Cognitive Functions\n\nPFC (Prefrontal cortex)\n\nSensory\nAssociation\nMotor\nCortex\nCortex\nCortex\n\nBasal Ganglai\nMTL\n\n(Medial temporal lobe)\n\n5.\nMemory Traces\n- Hebbian synapses\n- Encoding, NMDA receptors (coincidence detector, Ca2+ channels)\n- Synaptic plasticity (LTP and LTD)\n- Place cells (memory traces at the network level)\n- Consolidation:\n\nTranscription and translation dependency\n\nSynaptic tagging\n\nStructural plasticity (size and number of synapses)\n\nHP Æ CX \"transfer\" (system level consolidation)\n\nRhythmic oscillation in sleep\n\n- Recall, reactivation of memory traces:\n\n\"Pattern completion\"\n\nReconsolidation\n\n6.\nMultilayer Organization of Brain and Multilevel Analysis\n- Molecular and cellular\n- Synaptic physiology\n- In vivo physiology and imaging\n- Behavioral studies and noninvasive imaging\n- Computational and modeling"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Lecture 2: Behavior and Plasticity",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/2bc4f6bbbb7c0795e427a6600db65685_lecture_2_notes.pdf",
+      "content": ""
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Lecture 3: Synaptic Transmission",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/216f8462191da97d5cb5c55685be12a7_lecture_3_Notes.pdf",
+      "content": "Synaptic Transmission\nLecture #3\nSynaptic transmission - the elementary step of neural communication\n- Factors that determine the strength of synaptic connection\n- The strength of synaptic connection at individual synapses\n- Presynaptic\n- Vesicle hypothesis\n- Dynamics of synaptic vesicle turnover\n- Postsynaptic site\n- Co-localization of AMPA and NMDA receptors\n- The biological properties of NMDA receptor\n- AMPA receptor trafficking\n\nBackground Reading:\n(Albright et al., 2000; Malinow and Malenka, 2002; Sheng and Kim,\n2002; Stevens, 1993)"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Lecture 4: Potentiation of Synaptic Transmission",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/74519c6ef77bf8b0b9360e3fecd0ee26_lecture_4_Notes.pdf",
+      "content": "Synaptic Plasticity I\nLecture #4\n\n- Experimental approaches to determine the strength of synaptic connections\n- Potentiation of synaptic transmission (PTP, STP, LTP, L-LTP)\n- Induction of LTD\n- Spike timing dependent plasticity (Bi and Poo, 1998)\n- Properties of LTP\n- Cooperativity\n- Associativity\n- Input Specificity\nMechanisms of LTP induction\n- The role of NMDA receptor activation\n- NMDA receptor act as molecular coincident detector\n- The role of Ca++ influx\n- The correlation between the conditions for NMDA receptor activation and the properties\nof LTP\nPossible Locus of Synaptic Plasticity\n- Number of Synapses\n- Strength of Synaptic Transmission at Individual Synapse\n- Efficacy of Charge Transfer from Synaptic Sites to Soma\n\nBackground Reading:\n\n(Bear, 1996; Bi and Poo, 2001; Bliss and Collingridge, 1993; Liao et al., 1995; Malenka and\nNicoll, 1999; Sanes and Lichtman, 1999; Zucker, 1999)"
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Lecture 5: Expression of Plasticity",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/9-301j-neural-plasticity-in-learning-and-development-spring-2002/4fe6bdf8093a69676d6c920ffacf3b8b_lecture_5_Notes.pdf",
+      "content": "Synaptic Plasticity II\nLecture #5\n\nExpression of Long Term Plasticity\n(\n)\n(\n[\n]\n(\n)\ns\nr\nch\nr\no\no\nS\nN\np q\nq\nN\nV\nV\np\nNT\nCa\np\nNMDAR\nγ\n∝\n∝\n-\n∝\n)\n- Presynaptic Mechanisms - The concentration of transmitters in synaptic cleft\no probability of release\no filling of vesicle\no diffusion of transmitters in synaptic cleft\no Retrograde Messages\n1. NO, CO, Neurotropins\n- Postsynaptic Mechanisms - The number and properties of postsynaptic receptors\n-\ninsertion of new receptor\n-\ngating of existing receptor\n- Number of Synapses\n-\nSynapse formation or elimination\nSignas Transducation Pathways that Transfer Local Ca++ Influx into Long-Term Synaptic\nModification\n- Protein Kinases and Phosphatases\n- Regulation of gene expression\nMechanisms of Protein Synthesis-Dependent Long Term Synaptic Plasticity\n- Long-term expression of synaptic plasticity requires protein synthesis\n- How to achieve input specificity?\n\nBackground Reading\n(Engert et al., 2002; Lichtman and Colman, 2000; Malinow and Malenka, 2002; Martin et al.,\n2000; Poo, 2001; Renger et al., 2001; Trachtenberg et al., 2002)\n\nPaper for discussion 1:\n(Lee et al., 2002)\n(Renger et al., 2001)\n\nPaper for discussion 2:\n(Markram et al., 1997)\n(Liao et al., 1995)\n\nPaper for discussion 3:\n(Trachtenberg et al., 2002)\n(Engert et al., 2002)\n\nReference:\n\nAlbright, T. D., Jessell, T. M., Kandel, E. R., and Posner, M. I.\n(2000). Neural science: a century of progress and the mysteries\nthat remain. Neuron 25 Suppl, S1-55.\nBear, M. F. (1996). A synaptic basis for memory storage in the\ncerebral cortex. Proc Natl Acad Sci U S A 93, 13453-13459.\nBi, G., and Poo, M. (2001). Synaptic modification by correlated\nactivity: Hebb's postulate revisited. Annu Rev Neurosci 24, 139-\n166.\nBi, G. Q., and Poo, M. M. (1998). Synaptic modifications in\ncultured hippocampal neurons: dependence on spike timing,\nsynaptic strength, and postsynaptic cell type. J Neurosci 18,\n10464-10472.\nBliss, T. V., and Collingridge, G. L. (1993). A synaptic model of\nmemory: long-term potentiation in the hippocampus. Nature 361,\n31-39.\nEngert, F., Tao, H. W., Zhang, L. I., and Poo, M. M. (2002).\nMoving visual stimuli rapidly induce direction sensitivity of\ndeveloping tectal neurons. Nature 419, 470-475.\nLee, S. H., Liu, L., Wang, Y. T., and Sheng, M. (2002). Clathrin\nadaptor AP2 and NSF interact with overlapping sites of GluR2 and\n\nplay distinct roles in AMPA receptor trafficking and hippocampal\nLTD. Neuron 36, 661-674.\nLiao, D., Hessler, N. A., and Malinow, R. (1995). Activation of\npostsynaptically silent synapses during pairing-induced LTP in\nCA1 region of hippocampal slice. Nature 375, 400-404.\nLichtman, J. W., and Colman, H. (2000). Synapse elimination and\nindelible memory. Neuron 25, 269-278.\nMalenka, R. C., and Nicoll, R. A. (1999). Long-term potentiation-\n-a decade of progress? Science 285, 1870-1874.\nMalinow, R., and Malenka, R. C. (2002). AMPA receptor trafficking\nand synaptic plasticity. Annu Rev Neurosci 25, 103-126.\nMarkram, H., Lubke, J., Frotscher, M., and Sakmann, B. (1997).\nRegulation of synaptic efficacy by coincidence of postsynaptic\nAPs and EPSPs. Science 275, 213-215.\nMartin, K. C., Barad, M., and Kandel, E. R. (2000). Local protein\nsynthesis and its role in synapse-specific plasticity. Curr Opin\nNeurobiol 10, 587-592.\nPoo, M. M. (2001). Neurotrophins as synaptic modulators. Nat Rev\nNeurosci 2, 24-32.\nRenger, J. J., Egles, C., and Liu, G. (2001). A developmental\nswitch in neurotransmitter flux enhances synaptic efficacy by\naffecting AMPA receptor activation. Neuron 29, 469-484.\nSanes, J. R., and Lichtman, J. W. (1999). Can molecules explain\nlong-term potentiation? Nat Neurosci 2, 597-604.\nSheng, M., and Kim, M. J. (2002). Postsynaptic signaling and\nplasticity mechanisms. Science 298, 776-780.\nStevens, C. F. (1993). Quantal release of neurotransmitter and\nlong-term potentiation. Cell 72 Suppl, 55-63.\nTrachtenberg, J. T., Chen, B. E., Knott, G. W., Feng, G., Sanes,\nJ. R., Welker, E., and Svoboda, K. (2002). Long-term in vivo\nimaging of experience-dependent synaptic plasticity in adult\ncortex. Nature 420, 788-794.\nZucker, R. S. (1999). Calcium- and activity-dependent synaptic\nplasticity. Curr Opin Neurobiol 9, 305-313."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "course_name": "Algebra I",
+  "course_description": "No description found.",
+  "topics": [
+    "Mathematics",
+    "Algebra and Number Theory",
+    "Linear Algebra",
+    "Mathematics",
+    "Algebra and Number Theory",
+    "Linear Algebra"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 2 sessions / week, 1.5 hours / session\n\nPrerequisites\n\nLinear Algebra (18.700)\n,\nAnalysis I (18.100)\n, or permission of instructor.\n\nStudents should have some familiarity with proofs. And though students need to be comfortable with matrix operations, the course won't go over the first chapter on matrices systematically. Students should plan to study this chapter on their own.\n\nTextbook\n\nArtin, M.\nAlgebra (2nd Edition)\n. Addison Wesley, 2010. ISBN: 9780132413770.\n\nDescription\n\nThis undergraduate level Algebra I course covers groups, vector spaces, linear transformations, symmetry groups, bilinear forms, and linear groups.\n\nFormat and Grading\n\nStudents are expected to prepare for each class meeting by completing the assigned readings and exercises for each topic prior to class. However, the exercises will not be turned in or graded.\n\nGrading for the course will be based on the following:\n\nACTIVITIES\n\nPERCENTAGES\n\nHomework problems\n\n25%\n\nThree quizzes (25% each)\n\n75%\n\n*Please note: the quizzes are not available for this version of the course.\n\nHomework Problems\n\nThe homework problems are the most important part of the course. Many of the problems are extensive and difficult, and require hard work. They are not meant to be completed in one sitting. Students are encouraged to get together with other students to work on these assignments. However, in the solutions, please list your collaborators at the top of your assignment.",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "MIT18_701F10_diagnost.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/9e3e9b39082f99a9e45ab846218905d2_MIT18_701F10_diagnost.pdf",
+      "content": "September 9, 2009\n18.701 Diagnostic Problem\ndue Monday, September 13.\nChapter 2, Exercise 4.3.\nThis problem is required. It is designed to help gauge your ability to write a proof. Work\nit carefully, and entirely by yourself. Try to write as perfect a solution as you can.\nI will read your solution, but it will not affect your grade.\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/318daf0446ed3151c72a9c12c29830c6_MIT18_701F10_pset1.pdf",
+      "content": "September 8, 2009\n18.701 Problem Set 1\nThis assignment is due Wednesday, September 15.\nAs a rule, you are expected to prove your assertions in the problem sets.\n1. Chapter 1, Exercise 6.2. (invertible integer matrices)\n2. Chapter 1, Exercise M.8. (an exercise in logic)\n3. Chapter 1, Exercise M.11. (the discrete dirichlet problem)\n4. Chapter 1, Exercise 4.8b. (generating SLn(R))\n5. Chapter 2, Exercise 4.11b. (generating An)\n6. (optional) Chapter 2, Exercise M.16. (the homophonic group)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset10.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/1fe17bba67b9cc5c29ae84892c4ba37e_MIT18_701F10_pset10.pdf",
+      "content": "November 15, 2009\n18.701 Problem Set 10\ndue Monday, November 22\nThere will be one more assignment.\n1. Chapter 8, Exercise 6.8 (a Hermitian operator)\n2. Chapter 8, Exercise M.5 (the cross product)\n3. Chapter 8, Exercise M.10a,b (the Fourier matrix)\n(Extra credit for part (c).)\n4. Chapter 8, Exercise M.15 (about harmonic polynomials)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset11.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/b9423f7bc2b697facf4a96550f4ee21d_MIT18_701F10_pset11.pdf",
+      "content": "November 22, 2010\n18.701 Problem Set 11\ndue Wednesday, December 8 (the last day of class)\n1. Chapter 9, Exercise 2.3. (subspaces of C2)\n2. Chapter 9, Exercise 4.6. (conjugacy classes in SO3)\n3. Chapter 9, Exercise 5.1. (self-crossings of a one-parameter group)\n4. Chapter 9, Exercise 5.7. (1-parameter groups in triangular matrices)\n5. Chapter 9, Exercise 6.9. (vector cross product)\n6. Chapter 9, Exercise M.1. (conjugacy classes in SL2)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/ad2f56cea62bd4fcf0fded97488bfe93_MIT18_701F10_pset2.pdf",
+      "content": "September 15, 2010\n18.701 Problem Set 2\nThis assignment is due Wednesday, September 22.\n1. Chapter 2, Exercise 4.5. (a subgroup of a cyclic group is cyclic)\n2. Chapter 2, Exercise 6.6. (matrices conjugate in GL and SL)\n3. Chapter 2, Exercise 7.6. (equivalence relations on a set of 5)\n4. Chapter 2, Exercise 8.12. (if cosets of S partition G, S is a subgroup)\n5. Chapter 2, Exercise M.9. (double cosets)\n6. Chapter 2, Exercise M.14. (generators for SL2(Z))\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset3.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/727368273b757c732845d594f295bdce_MIT18_701F10_pset3.pdf",
+      "content": "September 22, 2010\n18.701 Problem Set 3\ndue Wednesday, September 29\n1. Chapter 2, Exercise M.6a,b (paths in Rk)\n2. Chapter 2, Exercise M.7 (paths in GLn)\n3. Chapter 2, Exercise M.8 (SLn is connected)\n4. Chapter 3, Exercise 1.11 (a field with nine elements)\n5. Chapter 3, Exercise 4.4 (order of GL2(Fp))\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset4.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/83946f679abd76be1bfeef85b244c222_MIT18_701F10_pset4.pdf",
+      "content": "September 29, 2010\n18.701 Problem Set 4\nBecause a quiz is scheduled for next Wednesday October 6, this assignment will be due Friday, October 8.\nI've included some easy problems to help you study for the quiz.\n1. Chapter 3, Exercise 5.1 (a direct sum)\n2. Chapter 3, Exercise 6.1. (an infinite-dimensional space)\n3. Chapter 3, Exercise M.3. (polynomial paths)\n4. Chapter 4, Exercise 1.5. (about the dimension formula)\n5. Chapter 4, Exercise 2.5. (independent rows and columns of a matrix)\n6. Chapter 4, Exercise 6.11. (eigenvector of a 2 × 2 matrix)\n7. Chapter 4, Exercise M.9. (projections)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset5.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/88118d3ad589fd3876957c652962636f_MIT18_701F10_pset5.pdf",
+      "content": "October 8, 2010\n18.701 Problem Set 5\nThis assignment is due Friday, October 16\nPlease don't forget that an eigenvector is not allowed to be zero.\n1. Chapter 4, Exercise 1.4 (rank one matrices)\n2. Chapter 4, Exercise M.1 (permuting entries of a vector)\n3. Chapter 4, Exercise M.4 (infinite matrices)\n4. Chapter 4, Exercise M.7 (powers of an operator)\n5. Chapter 4, Exercise M.10 (eigenvectors of AB and BA)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset6.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/db5d873e3f1807426472c5d705d34d8d_MIT18_701F10_pset6.pdf",
+      "content": "October 15, 2010\n18.701 Problem Set 6\nThis assignment is due Friday, October 22.\n1. Chapter 4, Exercise 7.6. (invariant subspaces of a Jordan block)\n2. Chapter 4, Exercise M.2a. (convergence to an eigenvector)\n3. Chapter 5, Exercise 1.5. (fixed vector of a rotation matrix)\n4. Chapter 5, Exercise 2.2. (the operator M AMB.)\n5. Chapter 5, Exercise M.6. (an integral operator)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Assignment",
+      "title": "MIT18_701F10_pset7.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010/94b42e7bef02b10abe6f13220f44c7b0_MIT18_701F10_pset7.pdf",
+      "content": "October 22, 2010\n18.701 Problem Set 7\nThis assignment is due Friday, October 29\n1. Chapter 6, Exercise 5.1. (two reflections)\n2. Chapter 6, Exercise 5.4. (lattice bases)\n3. Chapter 6, Exercise 5.10. (groups containing two rotations)\n4. Chapter 6, Exercise 5.8. (frieze patterns)\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n18.701 Algebra I\nFall 2010\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    }
+  ]
+}

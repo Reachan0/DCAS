@@ -1,0 +1,148 @@
+{
+  "course_name": "Numerical Marine Hydrodynamics (13.024)",
+  "course_description": "This course is an introduction to numerical methods: interpolation, differentiation, integration, and systems of linear equations. It covers the solution of differential equations by numerical integration, as well as partial differential equations of inviscid hydrodynamics: finite difference methods, boundary integral equation panel methods. Also addressed are introductory numerical lifting surface computations, fast Fourier transforms, the numerical representation of deterministic and random sea waves, as well as integral boundary layer equations and numerical solutions.\nThis course was originally offered in Course 13 (Department of Ocean Engineering) as 13.024. In 2005, ocean engineering subjects became part of Course 2 (Department of Mechanical Engineering), and this course was renumbered 2.29.",
+  "topics": [
+    "Engineering",
+    "Mechanical Engineering",
+    "Fluid Mechanics",
+    "Ocean Engineering",
+    "Hydrodynamics",
+    "Systems Engineering",
+    "Numerical Simulation",
+    "Mathematics",
+    "Differential Equations",
+    "Mathematical Analysis",
+    "Engineering",
+    "Mechanical Engineering",
+    "Fluid Mechanics",
+    "Ocean Engineering",
+    "Hydrodynamics",
+    "Systems Engineering",
+    "Numerical Simulation",
+    "Mathematics",
+    "Differential Equations",
+    "Mathematical Analysis"
+  ],
+  "syllabus_content": "This course was originally offered in Course 13 (Department of Ocean Engineering) as 13.024. In 2005, ocean engineering subjects became part of Course 2 (Department of Mechanical Engineering), and this course was renumbered 2.29.\n\nCourse Meeting Times\n\nLectures: 2 sessions / week, 1.5 hours / session\n\nIntroduction\n\nCourse Introduction by Prof. Jerome Milgram\n\nView video page\n\nDownload video\n\nThis subject introduces the student those problems in marine hydrodynamics that would be difficult to solve by \"hand calculation\", but which can be solved relatively quickly and accurately with short computer programs. It requires that the student know or learn programming in a \"computer language\". MATLAB(r) was chosen for this purpose because it is comparatively easy to learn, while still being powerful and providing a strong graphics capability so that graphs of many problem solutions can be made as part of the programs written by the student to solve many problems.\n\nBecause the students that study 13.024 have diverse programming backgrounds, it is necessary to teach MATLAB(r) as the first part of the subject. The principal textbook is:\n\nRecktenwald, Gerald W.\nNumerical Methods with MATLAB(r), Implementations and Applications\n. Upper Saddle River, NJ: Prentice Hall, 2000. ISBN: 02010398606.\n\nThe first four chapters of this book are devoted to programming in MATLAB(r). These should be studied and a selection of the Exercises in the text should be done by each student. About 15 lecture hours are used at the start of the course for teaching MATLAB(r). Students do associated Problem Sets to better learn how to use the material taught and to do initial programming in MATLAB(r). Students should also get and use the book: \"MATLAB(r) PRIMER, Sixth Edition\", by K. Sigmon and T. A. Davis, (ISBN: 1584882948), published by Chapman and Hall/CRC.\n\nThe accompanying Lecture Notes cover introductory, as well as some advanced, material for the principal part of this course. In the M.I.T. classes, these lecture notes are used by the instructor in presenting material and each student obtains a printed copy of the notes. Reading from the Recktenwald text, chapters 5 through 12, presents more detailed information on the material covered and students do Problem Sets. An exception is the lack of information in the text about solving Boundary Integral Equation Problems (Panel Methods) based on Green's Theorem. A great deal of the theory and practice of Marine Hydrodynamics involves this subject. The fundamental information about it is covered in the Lecture Notes and Problem Sets 6 and 8 require the students to write and use programs to solve two-dimensional panel method problems. Several hours of class time are used to explain some of the details of the underlying theory and how to write computer programs to solve these problems. Although many of the Panel Method problems and programs in marine hydrodynamics are three dimensional, the task of writing programs for these three dimensional problems is too difficult and time-consuming for students in a 1-term course. By teaching the theory for the three dimensional problems in the lectures and by giving students the experience of writing and using programs for two-dimensional problems, the students are well equipped to deal with three dimensional boundary integral equation problems if they subsequently encounter them in their professional careers.\n\nNormally, student interaction with the instructor is recommended for doing Problem Sets 6 and 8. They require more MATLAB(r) code to be written by students than do the other Problem Sets.",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "ps1.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/11542d97e3779454bc901df3cf8c14ce_ps1.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps2.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/4c72a0f84ec3703f4ea366bf8a89f378_ps2.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps3.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/3dbd995a3efaec4235e0bfdf570211f1_ps3.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps4.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/c7df6c57aeae3acd764ebf9c0dd4e3fb_ps4.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps5.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/63b7908c80d0e40c27a0e17795ea977c_ps5.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps6.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/2a0d7c643e1b76a46aa6870c45cb9ede_ps6.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "ps7.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/67e3905f141f466855a92904bf65a7d1_ps7.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "appendix.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/5a2ace85afbf4385a20bdb8f03edc50c_appendix.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "bondry_layers.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/a73da87c61a36d4fe29e080672f8e47a_bondry_layers.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "calculus_results.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/713c54f18e77b69defb58a698fadef83_calculus_results.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "complex_num_appn.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/9ff2c3c0c565c6f84df3c7da519a7299_complex_num_appn.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "curve_fitting.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/247afda004ac97d04c9810db87c5d529_curve_fitting.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "differential_eqs.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/0e87c8c5b9d3f2b1cd7c5a7ba72505dd_differential_eqs.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "fluid_mech.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/03f0a6e68f7ff83bb95579f26859f545_fluid_mech.pdf",
+      "content": ""
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "lecture_notes.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/01e395bcab50dc4cd8f82ebaa045aca3_lecture_notes.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "num_difrntiation.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/36348dc346249f69db25c0bf58374ce3_num_difrntiation.pdf",
+      "content": ""
+    },
+    {
+      "category": "Resource",
+      "title": "num_errors.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-29-numerical-marine-hydrodynamics-13-024-spring-2003/80a752ce0ec04aeaa560131e2a5440f8_num_errors.pdf",
+      "content": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "course_name": "Biomolecular Feedback Systems",
+  "course_description": "This course focuses on feedback control mechanisms that living organisms implement at the molecular level to execute their functions, with emphasis on techniques to design novel systems with prescribed behaviors. Students will learn how biological functions can be understood and designed using notions from feedback control.",
+  "topics": [
+    "Engineering",
+    "Biological Engineering",
+    "Computational Biology",
+    "Synthetic Biology",
+    "Mechanical Engineering",
+    "Dynamics and Control",
+    "Systems Engineering",
+    "Systems Design",
+    "Science",
+    "Biology",
+    "Computation and Systems Biology",
+    "Molecular Biology",
+    "Engineering",
+    "Biological Engineering",
+    "Computational Biology",
+    "Synthetic Biology",
+    "Mechanical Engineering",
+    "Dynamics and Control",
+    "Systems Engineering",
+    "Systems Design",
+    "Science",
+    "Biology",
+    "Computation and Systems Biology",
+    "Molecular Biology"
+  ],
+  "syllabus_content": "Course Meeting Times\n\nLectures: 2 sessions / week, 1.5 hours / session\n\nPrerequisites\n\n18.03 Differential Equations\n\nBiology (GIR)\nOne of the following courses:\n\n7.01SC Fundamentals of Biology\n\n7.012 Introductory Biology\n\n7.013 Introductory Biology\n\n7.014 Introductory Biology\n\nDescription\n\nThis course focuses on feedback control mechanisms that living organisms implement at the molecular level to execute their functions, with emphasis on techniques to design novel systems with prescribed behaviors. Students will learn how biological functions can be understood and designed using notions from feedback control.\n\nObjectives\n\nBy the end of the course, students will know these things:\n\nHow to construct mathematical models of a large range of molecular mechanisms.\n\nHow to use these models along with analysis and design tools from controls and dynamical systems to predict and engineer the dynamics of molecular networks.\n\nTextbook\n\nDel Vecchio, Domitilla, and Richard M. Murray.\nBiomolecular Feedback Systems\n. Princeton University Press, 2014. ISBN: 9780691161532. [Preview with\nGoogle Books\n]\n\nThe\nelectronic edition of the textbook\nis available for free on the book's website.\n\nOther Recommended Textbooks\n\nAlon, Uri.\nAn Introduction to Systems Biology: Design Principles of Biological Circuits\n. Chapman and Hall / CRC Press, 2006. ISBN: 9781584886426. [Preview with\nGoogle Books\n]\n\nKlipp, Edda, Ralf Herwig, et al.\nSystems Biology in Practice: Concepts, Implementation and Application\n. Wiley Blackwell, 2005. ISBN: 9783527310784. [Preview with\nGoogle Books\n]\n\nAlberts, Bruce, Alexander Johnson, et al.\nMolecular Biology of the Cell\n. 4th ed. Garland Science, 2002. ISBN: 9780849371615.\n\nGrading\n\nACTIVITIES\n\nPERCENTAGES\n\nPercentages\n\n70%\n\nFinal Project\n\n30%\n\nStudents are allowed one extension on a homework assignment during the semester. The lowest score on a homework assignment will be dropped i.e. will not count toward the final grade.",
+  "files": [
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 1",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/6771abb490d72914c1289d15068db8ae_MIT2_18S15_Homework_1.pdf",
+      "content": "Homework 1\n2.18/2.180\nThis problem set\nDu\nis\ne Wedn\non reduced\nesday\norder\nFebruary\nmodels.\n18 at begin\nhow\n\nto construct models of\nIt\nnin\nsimple processes. Problems\nshould help\ng of class\nyou\ngr\n\naduate students only.\nwith a star\nfamiliarize\n(*) are\nwith\nfor\nP\n\nroblem 1: (4 points) Con\nA +\nsider\nthe fol\n\nWrite down the reaction rate equations (RRE). Then, write them in the form using\n\nk\nB\n)\nlow\n--*\ning react\n--C + 2\nion\nD\ns:\n+ E\nthe reaction vector. Determine the left kernel of the\nk2\nwhat all the conserved quantities are. Use\nthe stoichiometry matrix and\nstoichiometry matrix and use that to find\n\nth\nPr\ni\no\ns kno\nblem\nwle\n2:\ndge to reduce the set of ODEs to the minimum possible number.\n\nProblem 3:\n(3 points) Exer\n\ncise 2.2\n\nProblem 4*\n(3 points) Exercise 2.3\n\n: (3 points) Exercise 2.4\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 2",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/6360b8200d4ee28822f99ee31b16a911_MIT2_18S15_Homework_2.pdf",
+      "content": "Homework 2\n2.18/2.180\nThis problem\nDu\nset\ne Wedn\nis a\nesday\nvery\nFe\nshort\nbruary\npractice\n25 at beginning of class\n\nonl\n\ntranscription/translation\ny. For Problem 2 and 3, the M\nmodels\no\n.\nnday\nProblems\nlectur\nwith\ne will be\na star\nfor becoming familiar with\nPro\n:\nus\n(*)\nef\nare\nblem 1\nul.\nfor graduate students\n\nProblem 2:\n(3 points) Exercise 2.6\n\nProblem 3*:\n(3 points) Exercise 2.8\n(3 points)\n\nExercise 2.10\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 3",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/201e2995f56e209a1b9c1283e9bd9e44_MIT2_18S15_Homework_3.pdf",
+      "content": "Homework 3\n2.18/2.180\nProblems with a star (*) are for graduate students only.\nDue Wednesday March 4 at beginnin\n\nProblem 1:\n\ng of class\n\nProblem 2:\n(3 points) Exercise 2.9\n\nProblem 3:\n(3 points)\n\nExercise 2.11\n\nProblem 4*:\n(3 points) Exercise 2.12\n\n(3 points)\n\nExercise 2.15\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 4",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/b36cd8ccb51337cedf5fdbef2c2e4379_MIT2_18S15_Homework_4.pdf",
+      "content": "Homework 4\n2.18/2.180\nProblems with a star (*) are for graduate students only.\nDue Wednesday March 11 at beginning of class\n\nProblem 1:\n\nleakiness. For this system, answer the followin\nConsider the positive autoregulation\ng questions:\ncircuit of\n\nFigure 2.17(a) with no\n\n(i)\n(3 points) Determine the number of equilibria as the key parameters α,\n(ii)\nK,\nγ, δ, n\n\nare changed.\n(iii)\n(3 point\nequilibria\ns)\n.\nUsing nullcline analysis, determine the stability of the\n(3 point\nlinearization, determine the stability of this equilibrium and how this\ns) This system always has an equilibrium point at zero. Using\n(iv)\nstability changes when key par\nRepeat (i)\n(3 points) (*)\n-‐(ii)\nNow assume that the mRNA is at the quasi steady state.\nameters are changed.\nProblem 2\n\n(*):\n-‐(iii) for this case and compare with the above results.\nsystem neglecting the mRNA dynamics (QSSA).\n\nConsider the gene circuit topology (a) in Figure 3.24. M\n\nodel the\n(i)\n\n(\nthe parameters control them.\n1 point) Determine the number and stability of steady sta\n\ntes and how\n(ii)\n(3 point\nanswers to the above questions change? Specifically: determine whether\ns) Include the mRNA dynamics back in the model. How do your\n\nProblem 3\nthis changes the number and sta\n:\nbility of the steady states.\n\n(3 points) Exercise 3.1.\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 5",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/7714f598ca45bdc5c2ff87d21699e299_MIT2_18S15_Homework_5.pdf",
+      "content": "Homework 5\n2.18/2.180\nProblems with a star (*) are for graduate students only.\nDue Wednesday March 18 at beginning of class\n\nPr\n\noblem 1: (5 points)\n(5 points)\n\nPro lem 2:\n\nExercise 3.3\nloops\nb\ngiven in Section 3.2. Propose one implementation for each of the two motifs,\nConsider the two abstract \"motifs\" of incoherent feedforward\nusing the core processes seen in C\nand demonstrate that the implementations work. That is, show that the output\nhapter 2 to derive the corresponding ODE models,\nasymptotically reache\ninput u. Make sure you clarify the assumptions that are important for the\ns a constant value y0 that is independent of the disturbanc\ny\ne\n\nimplementation to work.\n3.15a\n\nPr\n\noblem\n\n):\n3(*): Consider the following model of a nonlinear harmonic oscillator\n\nx 1 = x2 + x1(1 -x2\nAnswer the following questions:\n-x2\n2)\n(Fig\n\n(i)\ndemonstrate that the system admits a limit cycle;\nx 2 = -x1 + x2(1 -x1 -x2\n2)\n\n(Hint: using radial coordinates may be useful) .\n(ii)\ndemonstrate that this limit cycle is asymptotically stable\nC\n\nonsider now the following modification to the above model:\n\nx 1 = x3\n\n(iv)\n(iii)\n\nDemonstrate that this system also admits a limit cycle\nDetermine whether the limit cycle is stable, unstable, or asymptotically\nx 2 = -x3\n\nstable.\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 6",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/6ddb0b2bc3f5f9ef7e8a4caf95cce13d_MIT2_18S15_Homework_6.pdf",
+      "content": "Homework 6\n2.18/2.180\nDue Wednesday April 8 at beginning of class\nProblems with a star (*) are for graduate students only.\n\n(3\n\nProblem 1:\nProblem 2:\npoints)\n\nExercise 3.6\n\nProblem 3(*\n(\n)\n:\npoints) Exercise 3.7\n\nProblem 4\n(5 points) Exercise 3.9\n: (5 points) Exercise 4.3\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 7",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/19c7123c6454d119d92ef0551df01307_MIT2_18S15_Homework_7.pdf",
+      "content": "Homework 7\n2.18/2.180\nProblems\nDue Wedn\n\nProblem 1\n:\nand 2 have two different\nesday Apr\nvaria\nil 22\nnts for G a\nat begin\nnd UG st\nning of class\nudents\n\n.\nsimulation of\n(3\nthe 2D system only. Graduate st\npoints) Exercise 6.3: UG student\nud\ns\nent\nansw\ns shoul\ner the\nd perform\nquestion\nper\nsingu\nthrou\nturbation and draw conclus ons from the reduced order model of the X dynamics\nla\ngh\nr\n(w\n\nPro\nhen C is a\ni\nblem 2:\n\nt the quasi-‐steady state).\nProb\n(3 points) Exercise 6.4\nsimulation. Graduate students should apply singular\n(3 points) Exer\n\ncise 6.5: UG students answer the questions through\nst\nbehavior of the system on the slow time scale when the complex C\nlem 3:\nperturbation and find the\n\neady state. Draw your conclusions based on the expression you o\nis set to its quasi\nbtain.\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    },
+    {
+      "category": "Lecture Notes",
+      "title": "Biomolecular Feedback Systems Homework 8",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/2-18-biomolecular-feedback-systems-spring-2015/36da4a36fc70c46c952064591b9f71db_MIT2_18S15_Homework_8.pdf",
+      "content": "Homework 8\n\n2.18/2.180\nDue Wednesday April 29 at beginning of class\nand\n\nPr\n\no\n(\nb\ni\nlem 1\nii). G shou\n: (2 p\nl\noint\nd so\ns\n(i),(ii),(iii)\nfor UG and\n\n3 points for G) Exercise 6.12: UG should do only (i)\n\nProblem 2:\n\nProblem 3:\n(3 points)\nOnly G\n\n(3 points) Exer\nExercise 6.8:\ncise 6.9\n\nMIT OpenCourseWare\nhttp://ocw.mit.edu\n2.18 / 2.180 Biomolecular Feedback Systems\nSpring 2015\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    }
+  ]
+}

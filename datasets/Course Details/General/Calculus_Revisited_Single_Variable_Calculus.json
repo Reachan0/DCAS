@@ -1,0 +1,22 @@
+{
+  "course_name": "Calculus Revisited: Single Variable Calculus",
+  "course_description": "Calculus Revisited is a series of videos and related resources that covers the materials normally found in a freshman-level introductory calculus course. The series was first released in 1970 as a way for people to review the essentials of calculus. It is equally valuable for students who are learning calculus for the first time.\nAbout the Instructor\nHerb Gross has taught math as senior lecturer at MIT and was the founding math department chair at Bunker Hill Community College. He is the developer of the Mathematics As A Second Language website, providing arithmetic and algebra materials to elementary and middle school teachers.\nAcknowledgements\nFunding for this resource was provided by the Gabriella and Paul Rosenbaum Foundation.\nOther Resources by Herb Gross\nCalculus Revisited: Multivariable Calculus\nCalculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+  "topics": [
+    "Mathematics",
+    "Calculus",
+    "Differential Equations",
+    "Mathematics",
+    "Calculus",
+    "Differential Equations"
+  ],
+  "syllabus_content": "",
+  "files": [
+    {
+      "category": "Resource",
+      "title": "MITRES_18_006_supp_notes.pdf",
+      "type": "PDF",
+      "source_url": "https://ocw.mit.edu/courses/res-18-006-calculus-revisited-single-variable-calculus-fall-2010/28c0a2faa9b3f5f4156b58ca0dcb4155_MITRES_18_006_supp_notes.pdf",
+      "content": "MIT OpenCourseWare\nhttp://ocw.mit.edu\n\nResource: Calculus Revisited\nHerbert Gross\n\nThe following may not correspond to a particular course on MIT OpenCourseWare, but has been\nprovided by the author as an individual learning resource.\n\nFor information about citing these materials or our Terms of Use, visit: http://ocw.mit.edu/terms."
+    }
+  ]
+}
