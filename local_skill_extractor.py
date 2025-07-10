@@ -94,14 +94,12 @@ class LocalSkillExtractor:
                     self.model = AutoModelForCausalLM.from_pretrained(
                         model_name,
                         trust_remote_code=True,
-                        device_map="auto",
+                        device_map="cpu" if torch.cuda.is_available() else "auto",
                         torch_dtype="auto",
                         ignore_mismatched_sizes=True,
                         low_cpu_mem_usage=True,
                         # 强制设置量化配置
                         quantization_config=None,
-                        # 使用CPU进行推理
-                        device_map="cpu" if torch.cuda.is_available() else "auto",
                         # 其他容错参数
                         use_safetensors=True,
                         load_in_8bit=False,
