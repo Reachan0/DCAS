@@ -329,7 +329,7 @@ def main():
     print("=== DCAS 本地MLX技能提取器 ===")
     
     # 检查输入文件
-    input_file = "datasets/Job Descriptions/postings.csv"
+    input_file = "datasets/Job Descptions/postings.csv"  # 修正拼写错误
     if not os.path.exists(input_file):
         logger.error(f"输入文件不存在: {input_file}")
         return
