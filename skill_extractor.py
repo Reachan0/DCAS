@@ -14,6 +14,7 @@ import time
 import os
 import logging
 from datetime import datetime
+import json
 
 # 设置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -29,7 +30,96 @@ class SimpleSkillExtractor:
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json"
         }
+        self.progress_file = "datasets/progress.json"
+        self.temp_output_file = "datasets/temp_results.csv"
     
+    def save_progress(self, current_index: int, total_records: int, results: list):
+        """
+        保存进度信息
+        
+        Args:
+            current_index: 当前处理的索引
+            total_records: 总记录数
+            results: 当前结果列表
+        """
+        progress_data = {
+            "current_index": current_index,
+            "total_records": total_records,
+            "processed_count": len(results),
+            "last_update": datetime.now().isoformat(),
+            "temp_file": self.temp_output_file
+        }
+        
+        try:
+            with open(self.progress_file, 'w', encoding='utf-8') as f:
+                json.dump(progress_data, f, ensure_ascii=False, indent=2)
+            
+            # 保存临时结果
+            if results:
+                temp_df = pd.DataFrame(results)
+                temp_df.to_csv(self.temp_output_file, index=False, encoding='utf-8')
+                
+        except Exception as e:
+            logger.error(f"保存进度失败: {e}")
+    
+    def load_progress(self):
+        """
+        加载进度信息
+        
+        Returns:
+            tuple: (起始索引, 已有结果列表)
+        """
+        try:
+            if os.path.exists(self.progress_file):
+                with open(self.progress_file, 'r', encoding='utf-8') as f:
+                    progress_data = json.load(f)
+                
+                start_index = progress_data.get('current_index', 0)
+                
+                # 加载已有结果
+                results = []
+                if os.path.exists(self.temp_output_file):
+                    temp_df = pd.read_csv(self.temp_output_file)
+                    results = temp_df.to_dict('records')
+                
+                logger.info(f"加载进度: 从索引 {start_index} 开始，已有 {len(results)} 条结果")
+                return start_index, results
+            else:
+                logger.info("没有找到进度文件，从头开始")
+                return 0, []
+                
+        except Exception as e:
+            logger.error(f"加载进度失败: {e}")
+            return 0, []
+    
+    def get_processed_job_ids(self):
+        """
+        获取已处理的职位ID集合
+        
+        Returns:
+            set: 已处理的职位ID集合
+        """
+        try:
+            if os.path.exists(self.temp_output_file):
+                temp_df = pd.read_csv(self.temp_output_file)
+                # 使用职位标题作为唯一标识
+                return set(temp_df['job_title'].tolist())
+            return set()
+        except Exception as e:
+            logger.error(f"获取已处理职位ID失败: {e}")
+            return set()
+    
+    def clean_progress(self):
+        """清理进度文件"""
+        try:
+            if os.path.exists(self.progress_file):
+                os.remove(self.progress_file)
+            if os.path.exists(self.temp_output_file):
+                os.remove(self.temp_output_file)
+            logger.info("已清理进度文件")
+        except Exception as e:
+            logger.error(f"清理进度文件失败: {e}")
+
     def extract_skills(self, job_title: str, job_description: str) -> str:
         """
         提取职位能力要求
@@ -41,31 +131,23 @@ class SimpleSkillExtractor:
         Returns:
             str: 能力要求词语，用逗号分隔
         """
-        prompt = f"""
-根据以下职位信息，提取出该职位需要的核心能力要求。请只返回能力要求词语，用逗号分隔。
+        # 截断过长的描述，减少token消耗
+        description = job_description[:300] if len(job_description) > 300 else job_description
+        
+        prompt = f"""职位: {job_title}
+描述: {description}
 
-职位名称: {job_title}
-职位描述: {job_description}
-
-请提取以下类型的能力要求：
-1. 技术技能（如：Python, Java, 数据分析, 项目管理等）
-2. 软技能（如：沟通能力, 团队合作, 领导力等）
-3. 专业技能（如：财务分析, 法律知识, 医疗技能等）
-4. 工具技能（如：Excel, Photoshop, AutoCAD等）
-
-只返回能力要求词语，用逗号分隔，不要其他文字。
-例如：Python编程, 数据分析, 沟通能力, 项目管理, Excel
-"""
+提取核心技能要求，用逗号分隔，只返回技能词语："""
         
         try:
             data = {
                 "model": "deepseek-chat",
                 "messages": [
-                    {"role": "system", "content": "你是专业的职位分析师，专门提取职位的能力要求关键词。"},
+                    {"role": "system", "content": "提取职位技能要求，只返回技能词语，用逗号分隔"},
                     {"role": "user", "content": prompt}
                 ],
                 "temperature": 0.1,
-                "max_tokens": 300
+                "max_tokens": 150  # 大幅减少max_tokens
             }
             
             response = requests.post(self.base_url, headers=self.headers, json=data)
@@ -82,7 +164,7 @@ class SimpleSkillExtractor:
             logger.error(f"提取技能失败: {e}")
             return ""
     
-    def process_dataset(self, input_file: str, output_file: str, max_records: int = 20):
+    def process_dataset(self, input_file: str, output_file: str, max_records: int = None, resume: bool = True, save_interval: int = 100):
         """
         处理数据集
         
@@ -90,6 +172,8 @@ class SimpleSkillExtractor:
             input_file: 输入CSV文件
             output_file: 输出CSV文件
             max_records: 最大处理记录数
+            resume: 是否恢复之前的进度
+            save_interval: 保存间隔（处理多少条记录后保存一次）
         """
         logger.info("开始处理数据集...")
         
@@ -100,17 +184,35 @@ class SimpleSkillExtractor:
         # 过滤和限制
         df = df.dropna(subset=['title', 'description'])
         df = df[df['description'].str.len() > 100]
-        df = df.head(max_records)
+        if max_records:
+            df = df.head(max_records)
         
         logger.info(f"过滤后处理 {len(df)} 条记录")
         
-        # 准备结果数据
+        # 加载进度
+        start_index = 0
         results = []
+        processed_jobs = set()
         
+        if resume:
+            start_index, results = self.load_progress()
+            processed_jobs = self.get_processed_job_ids()
+            logger.info(f"已处理 {len(processed_jobs)} 个职位")
+        
+        # 处理数据
         for index, row in df.iterrows():
             try:
+                # 跳过已处理的职位
+                if index < start_index:
+                    continue
+                
                 job_title = row['title']
                 job_description = row['description']
+                
+                # 增量更新：跳过已处理的职位
+                if job_title in processed_jobs:
+                    logger.info(f"跳过已处理职位: {job_title}")
+                    continue
                 
                 logger.info(f"处理 {index + 1}/{len(df)}: {job_title}")
                 
@@ -120,24 +222,37 @@ class SimpleSkillExtractor:
                 if skills:
                     results.append({
                         'job_title': job_title,
-                        'job_description': job_description[:500],  # 截断描述
+                        'job_description': job_description[:200],  # 进一步缩短描述
                         'skill_requirements': skills
                     })
+                    processed_jobs.add(job_title)
                     logger.info(f"成功提取技能: {skills[:50]}...")
                 
-                # 延迟避免API限制
-                time.sleep(1)
+                # 定期保存进度
+                if len(results) % save_interval == 0:
+                    self.save_progress(index + 1, len(df), results)
+                    logger.info(f"已保存进度，当前处理了 {len(results)} 条记录")
+                
+                # 延迟避免API限制 - 减少延迟时间
+                time.sleep(0.5)  # 从1秒减少到0.5秒
                 
             except Exception as e:
                 logger.error(f"处理失败: {e}")
+                # 即使出错也要保存进度
+                self.save_progress(index + 1, len(df), results)
                 continue
         
-        # 保存结果
+        # 保存最终结果
         result_df = pd.DataFrame(results)
         result_df.to_csv(output_file, index=False, encoding='utf-8')
         
         logger.info(f"处理完成！成功处理 {len(results)} 条记录")
         logger.info(f"输出文件: {output_file}")
+        
+        # 清理临时文件
+        self.clean_progress()
+        
+        return len(results)
 
 def main():
     """主函数"""
@@ -151,11 +266,30 @@ def main():
     input_file = "datasets/Job Descptions/postings.csv"
     output_file = f"datasets/job_skills_dataset_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     
-    # 创建处理器并处理数据
+    # 创建处理器
     extractor = SimpleSkillExtractor(api_key)
-    extractor.process_dataset(input_file, output_file, max_records=200000000)
     
-    logger.info("技能提取完成！")
+    # 处理数据集参数
+    max_records = 200000000  # 处理所有记录
+    resume = True  # 启用恢复功能
+    save_interval = 50  # 每50条记录保存一次
+    
+    try:
+        # 处理数据集
+        processed_count = extractor.process_dataset(
+            input_file, 
+            output_file, 
+            max_records=max_records,
+            resume=resume,
+            save_interval=save_interval
+        )
+        logger.info(f"技能提取完成！总共处理了 {processed_count} 条记录")
+        
+    except KeyboardInterrupt:
+        logger.info("用户中断处理，进度已保存")
+    except Exception as e:
+        logger.error(f"处理过程中出错: {e}")
+        logger.info("进度已保存，可以重新运行脚本继续处理")
 
 if __name__ == "__main__":
     main()
