@@ -1,2 +1,8 @@
 pandas
+volcenginesdkarkruntime
 requests
+modelscope
+transformers
+torch
+mlx
+mlx-lm
