@@ -142,10 +142,15 @@ class SimpleSkillExtractor:
         # 截断过长的描述，减少token消耗
         description = job_description[:300] if len(job_description) > 300 else job_description
         
-        prompt = f"""职位: {job_title}
-描述: {description}
+        # 使用英文prompt，确保返回英文技能
+        prompt = f"""Job Title: {job_title}
+Job Description: {description}
 
-提取核心技能要求，用逗号分隔，只返回技能词语："""
+Extract the core skill requirements for this position. Return ONLY skill keywords in English, separated by commas. Do not include explanations, job descriptions, or the word "none". Focus on technical skills, soft skills, and qualifications.
+
+Examples of good output: "Python, Data Analysis, Machine Learning, Communication, Project Management"
+
+Skills:"""
         
         # 随机延迟避免并发API限制
         time.sleep(random.uniform(0.1, 0.5))
@@ -154,7 +159,7 @@ class SimpleSkillExtractor:
             response = self.client.chat.completions.create(
                 model="doubao-seed-1-6-flash-250615",
                 messages=[
-                    {"role": "system", "content": "提取职位技能要求，只返回技能词语，用逗号分隔"},
+                    {"role": "system", "content": "You are a professional recruiter. Extract job skill requirements and return ONLY English skill keywords separated by commas. Never return 'none', 'no skills', or any explanatory text."},
                     {"role": "user", "content": prompt}
                 ],
                 temperature=0.1,
@@ -163,13 +168,84 @@ class SimpleSkillExtractor:
             
             skills = response.choices[0].message.content.strip()
             
-            # 清理结果，确保只保留技能词语
-            skills = skills.replace('、', ',').replace('，', ',')
+            # 清理和验证结果
+            skills = self._clean_and_validate_skills(skills)
             return skills
             
         except Exception as e:
             logger.error(f"提取技能失败: {e}")
             return ""
+    
+    def _clean_and_validate_skills(self, skills: str) -> str:
+        """
+        清理和验证技能文本，确保输出质量
+        
+        Args:
+            skills: 原始技能文本
+            
+        Returns:
+            str: 清洗后的技能文本
+        """
+        if not skills:
+            return ""
+        
+        # 转换为小写进行检查
+        skills_lower = skills.lower().strip()
+        
+        # 拒绝无效回答
+        invalid_responses = [
+            "无", "none", "no skills", "n/a", "not specified", "not mentioned",
+            "not applicable", "no specific skills", "no requirements", 
+            "skills:", "技能:", "requirements:", "要求:"
+        ]
+        
+        for invalid in invalid_responses:
+            if skills_lower == invalid or skills_lower.startswith(invalid):
+                logger.warning(f"检测到无效技能回答: {skills}")
+                return ""
+        
+        # 清理标点符号和格式
+        skills = skills.replace('、', ',').replace('，', ',').replace(';', ',')
+        skills = skills.replace('\n', ',').replace('\r', ',')
+        
+        # 分割技能并清理
+        skill_list = []
+        for skill in skills.split(','):
+            skill = skill.strip()
+            
+            # 移除编号和特殊字符
+            skill = skill.lstrip('0123456789.- ')
+            skill = skill.strip('"\'')
+            
+            # 跳过过短或无效的技能
+            if len(skill) < 2:
+                continue
+                
+            # 跳过明显的非技能文本
+            if any(word in skill.lower() for word in [
+                'job description', 'position', 'candidate', 'experience',
+                'position requires', 'we are looking', 'ideal candidate'
+            ]):
+                continue
+            
+            # 标准化技能名称（首字母大写）
+            if skill.islower():
+                skill = skill.title()
+            
+            skill_list.append(skill)
+        
+        # 去重并限制数量
+        unique_skills = list(dict.fromkeys(skill_list))  # 保持顺序的去重
+        final_skills = unique_skills[:10]  # 最多保留10个技能
+        
+        result = ', '.join(final_skills)
+        
+        # 最终验证：确保不为空且有实际内容
+        if not result or len(result) < 5:
+            logger.warning(f"技能提取结果过短或无效: {result}")
+            return ""
+        
+        return result
     
     def process_single_job(self, job_data):
         """
@@ -187,7 +263,8 @@ class SimpleSkillExtractor:
             # 提取技能要求
             skills = self.extract_skills(job_title, job_description)
             
-            if skills:
+            # 只有当技能提取成功且有效时才保存
+            if skills and len(skills.strip()) > 5:
                 result = {
                     'job_title': job_title,
                     'job_description': job_description[:200],
@@ -197,9 +274,11 @@ class SimpleSkillExtractor:
                 with self.results_lock:
                     self.processed_count += 1
                     if self.processed_count % 10 == 0:  # 每10个记录输出一次进度
-                        logger.info(f"线程处理进度: {self.processed_count} 条记录, 当前: {job_title}")
+                        logger.info(f"线程处理进度: {self.processed_count} 条记录, 当前: {job_title} -> {skills[:50]}")
                 
                 return result
+            else:
+                logger.warning(f"跳过无效技能提取结果: {job_title} -> '{skills}'")
             
         except Exception as e:
             logger.error(f"处理职位失败 {job_title}: {e}")
@@ -446,8 +525,8 @@ def main():
     input_file = "datasets/Job Descptions/postings.csv"
     output_file = f"datasets/job_skills_dataset_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
     
-    # 多线程配置
-    max_workers = 10  # Doubao API可以支持更多并发
+    # 多线程配置（降低并发数，提高稳定性）
+    max_workers = 5  # 降低并发数，避免API限制
     
     # 创建处理器
     extractor = SimpleSkillExtractor(api_key, max_workers=max_workers)
@@ -455,9 +534,10 @@ def main():
     # 处理数据集参数
     max_records = 200000000  # 处理所有记录
     resume = True  # 启用恢复功能
-    save_interval = 50  # 每50条记录保存一次
+    save_interval = 20  # 每20条记录保存一次（更频繁保存）
     
     logger.info(f"使用Doubao-Seed-1.6-flash API，{max_workers} 个线程并发处理")
+    logger.info("新增功能：自动过滤'无'和中英文混用问题")
     
     try:
         # 处理数据集
@@ -468,7 +548,15 @@ def main():
             resume=resume,
             save_interval=save_interval
         )
-        logger.info(f"多线程技能提取完成！总共处理了 {processed_count} 条记录")
+        logger.info(f"技能提取完成！总共处理了 {processed_count} 条高质量记录")
+        
+        # 输出数据质量统计
+        if os.path.exists(output_file):
+            df = pd.read_csv(output_file)
+            logger.info(f"输出文件统计：")
+            logger.info(f"- 总记录数: {len(df)}")
+            logger.info(f"- 平均技能数: {df['skill_requirements'].str.count(',').mean() + 1:.1f}")
+            logger.info(f"- 输出文件: {output_file}")
         
     except KeyboardInterrupt:
         logger.info("用户中断处理，进度已保存")
