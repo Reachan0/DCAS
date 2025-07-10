@@ -41,6 +41,7 @@ class LocalSkillExtractor:
         self.processed_count = 0
         self.model = None
         self.tokenizer = None
+        self.model_name = None  # 初始化模型名称
         
         # 初始化模型
         self._load_model()
@@ -48,28 +49,60 @@ class LocalSkillExtractor:
     def _load_model(self):
         """加载本地模型"""
         try:
-            logger.info("正在加载Qwen3-30B-A3B-MLX-4bit模型...")
+            logger.info("正在加载本地模型...")
             
-            # 方法1：使用ModelScope
+            # 方法1：使用ModelScope - 尝试多个模型
             try:
                 from modelscope import AutoModelForCausalLM, AutoTokenizer
                 
-                model_name = "Qwen/Qwen3-30B-A3B-MLX-4bit"
+                # 模型选择优先级：从小到大
+                model_options = [
+                    "Qwen/Qwen3-8B-Instruct",  # 8B版本，更稳定
+                    "Qwen/Qwen3-14B-Instruct",  # 14B版本
+                    "Qwen/Qwen3-30B-A3B-MLX-4bit"  # 原始30B量化版本
+                ]
                 
-                self.tokenizer = AutoTokenizer.from_pretrained(
-                    model_name,
-                    trust_remote_code=True
-                )
+                for model_name in model_options:
+                    try:
+                        logger.info(f"尝试加载模型: {model_name}")
+                        
+                        self.tokenizer = AutoTokenizer.from_pretrained(
+                            model_name,
+                            trust_remote_code=True
+                        )
+                        
+                        # 根据模型类型调整加载参数
+                        if "MLX" in model_name:
+                            # 量化模型的特殊处理
+                            self.model = AutoModelForCausalLM.from_pretrained(
+                                model_name,
+                                trust_remote_code=True,
+                                device_map="auto",
+                                torch_dtype="auto",
+                                ignore_mismatched_sizes=True,
+                                low_cpu_mem_usage=True,
+                                # 跳过量化配置验证
+                                attn_implementation="eager"
+                            )
+                        else:
+                            # 标准模型加载
+                            self.model = AutoModelForCausalLM.from_pretrained(
+                                model_name,
+                                trust_remote_code=True,
+                                device_map="auto",
+                                torch_dtype="auto",
+                                low_cpu_mem_usage=True
+                            )
+                        
+                        logger.info(f"ModelScope模型加载成功: {model_name}")
+                        self.model_name = model_name
+                        return
+                        
+                    except Exception as e:
+                        logger.warning(f"模型 {model_name} 加载失败: {e}")
+                        continue
                 
-                self.model = AutoModelForCausalLM.from_pretrained(
-                    model_name,
-                    trust_remote_code=True,
-                    device_map="auto",  # 自动设备分配
-                    torch_dtype="auto"  # 自动精度
-                )
-                
-                logger.info("ModelScope模型加载成功")
-                return
+                raise Exception("所有ModelScope模型都加载失败")
                 
             except ImportError:
                 logger.warning("ModelScope未安装，尝试使用transformers...")

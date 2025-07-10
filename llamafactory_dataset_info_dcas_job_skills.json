@@ -1,0 +1,11 @@
+{
+  "dcas_job_skills": {
+    "file_name": "datasets/job_skills_llamafactory_20250710_212123.jsonl",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  }
+}
