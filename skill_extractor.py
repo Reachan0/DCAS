@@ -18,18 +18,18 @@ import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from queue import Queue
 import random
-from openai import OpenAI
+from volcenginesdkarkruntime import Ark
 
 # 设置日志
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 class SimpleSkillExtractor:
-    """简化的技能提取器（支持多线程，使用Doubao API）"""
+    """简化的技能提取器（支持多线程，使用Volcengine Ark）"""
     
     def __init__(self, api_key: str, max_workers: int = 5):
         self.api_key = api_key
-        self.client = OpenAI(
+        self.client = Ark(
             base_url="https://ark.cn-beijing.volces.com/api/v3",
             api_key=api_key
         )
@@ -130,7 +130,7 @@ class SimpleSkillExtractor:
 
     def extract_skills(self, job_title: str, job_description: str) -> str:
         """
-        提取职位能力要求（使用Doubao API，带随机延迟避免API限制）
+        提取职位能力要求（使用Volcengine Ark，带随机延迟避免API限制）
         
         Args:
             job_title: 职位名称
