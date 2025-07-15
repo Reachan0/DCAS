@@ -1,0 +1,75 @@
+{
+  "topic_distribution": {
+    "Engineering": 18,
+    "Humanities": 10,
+    "Computer Science": 10,
+    "Science": 10,
+    "History": 8,
+    "Social Science": 6,
+    "Earth Science": 6,
+    "Fine Arts": 6,
+    "Media Studies": 4,
+    "History of Science and Technology": 4,
+    "Geology": 4,
+    "Electrical Engineering": 4,
+    "American History": 4,
+    "Public Administration": 4,
+    "Digital Media": 4,
+    "Environmental Engineering": 4,
+    "Mathematics": 4,
+    "Health and Medicine": 2,
+    "Telecommunications": 2,
+    "Higher Education": 2
+  },
+  "cluster_analysis": {
+    "Cluster_0": {
+      "Engineering": 2,
+      "Energy": 2,
+      "Nuclear": 2,
+      "Humanities": 2,
+      "History": 2
+    },
+    "Cluster_1": {
+      "Engineering": 14,
+      "Humanities": 8,
+      "Science": 8,
+      "Computer Science": 8,
+      "History": 6
+    },
+    "Cluster_2": {
+      "Fine Arts": 6,
+      "Media Studies": 4,
+      "Digital Media": 4,
+      "Visual Arts": 2,
+      "Graphic Design": 2
+    },
+    "Cluster_3": {
+      "Health and Medicine": 2,
+      "Health and Exercise Science": 2,
+      "Physical Education and Recreation": 2
+    }
+  },
+  "num_clusters": 4,
+  "cluster_labels": [
+    1,
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2,
+    3,
+    1,
+    0,
+    1,
+    1
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "metadata": {
+      "model": "Qwen3-Embedding-0.6B",
+      "num_courses": 20,
+      "embedding_dim": 1024,
+      "created_at": "2025-07-14T19:46:23.854464"
+    }
+  },
+  "graph_statistics": {
+    "num_nodes": 20,
+    "num_edges": 101,
+    "density": 0.531578947368421,
+    "average_degree": 10.1,
+    "is_connected": false,
+    "number_of_components": 2
+  },
+  "topic_statistics": {
+    "total_unique_topics": 64,
+    "top_topics": {
+      "Engineering": 18,
+      "Humanities": 10,
+      "Computer Science": 10,
+      "Science": 10,
+      "History": 8,
+      "Social Science": 6,
+      "Earth Science": 6,
+      "Fine Arts": 6,
+      "Media Studies": 4,
+      "History of Science and Technology": 4,
+      "Geology": 4,
+      "Electrical Engineering": 4,
+      "American History": 4,
+      "Public Administration": 4,
+      "Digital Media": 4,
+      "Environmental Engineering": 4,
+      "Mathematics": 4,
+      "Health and Medicine": 2,
+      "Telecommunications": 2,
+      "Higher Education": 2
+    },
+    "topic_distribution": {
+      "mean": 3.1875,
+      "std": 2.753785273643051,
+      "min": 2,
+      "max": 18
+    }
+  },
+  "top_connected_courses": [
+    {
+      "course_name": "The History of MIT",
+      "degree": 18,
+      "topics": [
+        "Humanities",
+        "History",
+        "American History",
+        "History of Science and Technology",
+        "Modern History",
+        "Teaching and Education",
+        "Higher Education",
+        "Humanities",
+        "History",
+        "American History",
+        "History of Science and Technology",
+        "Modern History",
+        "Teaching and Education",
+        "Higher Education"
+      ]
+    },
+    {
+      "course_name": "The Conquest of America",
+      "degree": 17,
+      "topics": [
+        "Humanities",
+        "History",
+        "American History",
+        "Social Science",
+        "Anthropology",
+        "Cultural Anthropology",
+        "Society",
+        "Indigenous Studies",
+        "Humanities",
+        "History",
+        "American History",
+        "Social Science",
+        "Anthropology",
+        "Cultural Anthropology",
+        "Society",
+        "Indigenous Studies"
+      ]
+    },
+    {
+      "course_name": "Doctoral Seminar in Engineering Systems",
+      "degree": 16,
+      "topics": [
+        "Engineering",
+        "Systems Engineering",
+        "Engineering",
+        "Systems Engineering"
+      ]
+    },
+    {
+      "course_name": "Data Communication Networks",
+      "degree": 14,
+      "topics": [
+        "Engineering",
+        "Computer Science",
+        "Computer Networks",
+        "Electrical Engineering",
+        "Telecommunications",
+        "Engineering",
+        "Computer Science",
+        "Computer Networks",
+        "Electrical Engineering",
+        "Telecommunications"
+      ]
+    },
+    {
+      "course_name": "Near-Surface Geophysical Imaging",
+      "degree": 13,
+      "topics": [
+        "Engineering",
+        "Computer Science",
+        "Data Mining",
+        "Science",
+        "Earth Science",
+        "Geology",
+        "Geophysics",
+        "Engineering",
+        "Computer Science",
+        "Data Mining",
+        "Science",
+        "Earth Science",
+        "Geology",
+        "Geophysics"
+      ]
+    },
+    {
+      "course_name": "Musical Improvisation",
+      "degree": 13,
+      "topics": [
+        "Fine Arts",
+        "Music",
+        "Fine Arts",
+        "Music"
+      ]
+    },
+    {
+      "course_name": "Learn to Build Your Own Videogame with the Unity Game Engine and Microsoft Kinect",
+      "degree": 12,
+      "topics": [
+        "Engineering",
+        "Computer Science",
+        "Graphics and Visualization",
+        "Software Design and Engineering",
+        "Fine Arts",
+        "Game Design",
+        "Media Studies",
+        "Digital Media",
+        "Engineering",
+        "Computer Science",
+        "Graphics and Visualization",
+        "Software Design and Engineering",
+        "Fine Arts",
+        "Game Design",
+        "Media Studies",
+        "Digital Media"
+      ]
+    },
+    {
+      "course_name": "Strange Bedfellows: Science and Environmental Policy",
+      "degree": 11,
+      "topics": [
+        "Engineering",
+        "Environmental Engineering",
+        "Environmental Management",
+        "Science",
+        "Earth Science",
+        "Environmental Science",
+        "Social Science",
+        "Public Administration",
+        "Environmental Policy",
+        "Engineering",
+        "Environmental Engineering",
+        "Environmental Management",
+        "Science",
+        "Earth Science",
+        "Environmental Science",
+        "Social Science",
+        "Public Administration",
+        "Environmental Policy"
+      ]
+    },
+    {
+      "course_name": "Microelectronic Devices and Circuits",
+      "degree": 11,
+      "topics": [
+        "Engineering",
+        "Computer Science",
+        "Computer Design and Engineering",
+        "Electrical Engineering",
+        "Electronics",
+        "Engineering",
+        "Computer Science",
+        "Computer Design and Engineering",
+        "Electrical Engineering",
+        "Electronics"
+      ]
+    },
+    {
+      "course_name": "Media and Methods: Seeing and Expression",
+      "degree": 10,
+      "topics": [
+        "Fine Arts",
+        "Media Studies",
+        "Digital Media",
+        "Visual Arts",
+        "Graphic Design",
+        "Fine Arts",
+        "Media Studies",
+        "Digital Media",
+        "Visual Arts",
+        "Graphic Design"
+      ]
+    }
+  ]
+}
