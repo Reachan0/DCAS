@@ -372,7 +372,7 @@ class ProductionCourseKnowledgeGraphBuilder:
         
         return np.array(embeddings)
     
-    def build_knowledge_graph(self, similarity_threshold: float = 0.7, 
+    def build_knowledge_graph(self, similarity_threshold: float = 0.85,  # 提高阈值减少边数 
                             max_edges: int = 100000) -> nx.Graph:
         """构建知识图谱（内存优化版本）"""
         if self.embeddings is None:
@@ -532,7 +532,7 @@ class ProductionCourseKnowledgeGraphBuilder:
 ## Knowledge Graph Statistics
 - **Nodes**: {len(self.knowledge_graph.nodes) if self.knowledge_graph else 'N/A'}
 - **Edges**: {len(self.knowledge_graph.edges) if self.knowledge_graph else 'N/A'}
-- **Graph Density**: {nx.density(self.knowledge_graph):.6f if self.knowledge_graph else 'N/A'}
+- **Graph Density**: {(nx.density(self.knowledge_graph) if self.knowledge_graph else 0):.6f}
 
 ## Performance Metrics
 - **Average Text Length**: {np.mean([len(course['embedding_text']) for course in self.courses]):.1f} characters
