@@ -372,8 +372,8 @@ class ProductionCourseKnowledgeGraphBuilder:
         
         return np.array(embeddings)
     
-    def build_knowledge_graph(self, similarity_threshold: float = 0.85,  # 提高阈值减少边数 
-                            max_edges: int = 100000) -> nx.Graph:
+    def build_knowledge_graph(self, similarity_threshold: float = 0.85,  # 提高默认阈值
+                            max_edges: int = 50000) -> nx.Graph:  # 降低边数限制
         """构建知识图谱（内存优化版本）"""
         if self.embeddings is None:
             raise ValueError("请先生成embeddings")
@@ -397,12 +397,19 @@ class ProductionCourseKnowledgeGraphBuilder:
         # 分块计算相似度并添加边
         chunk_size = min(1000, num_courses)  # 动态调整块大小
         edge_count = 0
+        max_edges_reached = False
         
         for i in tqdm(range(0, num_courses, chunk_size), desc="计算相似度"):
+            if max_edges_reached:
+                break
+                
             end_i = min(i + chunk_size, num_courses)
             chunk_embeddings_i = self.embeddings[i:end_i]
             
             for j in range(i, num_courses, chunk_size):
+                if max_edges_reached:
+                    break
+                    
                 end_j = min(j + chunk_size, num_courses)
                 chunk_embeddings_j = self.embeddings[j:end_j]
                 
@@ -425,17 +432,17 @@ class ProductionCourseKnowledgeGraphBuilder:
                             
                             # 限制边数以控制内存使用
                             if edge_count >= max_edges:
-                                logger.warning(f"达到最大边数限制 {max_edges}，停止添加边")
+                                if not max_edges_reached:  # 只在第一次达到限制时记录警告
+                                    logger.warning(f"达到最大边数限制 {max_edges}，停止添加边")
+                                max_edges_reached = True
                                 break
-                
-                if edge_count >= max_edges:
-                    break
-            
-            if edge_count >= max_edges:
-                break
+                    
+                    if max_edges_reached:
+                        break
             
             # 检查内存使用
-            self._check_memory_usage()
+            if not max_edges_reached:
+                self._check_memory_usage()
         
         self.knowledge_graph = G
         
@@ -602,8 +609,8 @@ def main():
                        help='批处理大小')
     parser.add_argument('--max-memory', type=float, default=12.0, 
                        help='最大内存使用(GB)')
-    parser.add_argument('--similarity-threshold', type=float, default=0.7, 
-                       help='相似度阈值')
+    parser.add_argument('--similarity-threshold', type=float, default=0.85, 
+                       help='相似度阈值 (推荐: 0.85-0.9)')
     parser.add_argument('--no-resume', action='store_true', 
                        help='不使用断点续传')
     
