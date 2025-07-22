@@ -45,13 +45,13 @@ class Qwen3ModelClient:
     def _load_model(self):
         """加载模型和分词器"""
         try:
+            import torch
             from transformers import (
                 AutoTokenizer, 
                 AutoModelForCausalLM, 
                 GenerationConfig,
                 TextStreamer
             )
-            import torch
             
             if not self.config.model_path:
                 raise ValueError("请配置model_path参数指向Qwen3 14B模型文件")
@@ -109,6 +109,7 @@ class Qwen3ModelClient:
                 inputs = inputs.to(self.model.device)
             
             # 生成
+            import torch
             with torch.no_grad():
                 outputs = self.model.generate(
                     inputs,

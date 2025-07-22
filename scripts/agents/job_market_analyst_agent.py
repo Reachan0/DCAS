@@ -24,39 +24,59 @@ class JobMarketAnalystAgent:
         """
         self.model_client = model_client
         
-        # CoT Prompt模板
+        # CoT Prompt模板 - 优化版
         self.cot_prompt_template = """【背景】
-你是一个经过微调的、专业的就业市场分析AI。你擅长从职位描述中精准地提取核心能力要求。
+你是一个经过微调的专业就业市场分析师，擅长通过深度思维链分析从职位描述中精准提取核心技能要求。
 
 【任务】
-现在，你需要分析一份新的职位信息。请严格遵循以下的【思考框架】，一步步地进行分析，并在最后给出结论。
+现在需要分析以下职位信息，请严格按照思维链逐步推理，最终生成针对该职位的精准技能清单。
 
-【思考框架】
-1.  **核心职责分析**: 首先，仔细阅读【输入信息】，用1-2句话总结这个职位的核心工作职责是什么。
-2.  **硬技能与工具推断**: 基于核心职责，推断出完成这些工作所必需的硬技能（如编程语言、设计软件、专业知识领域等）和软件工具。
-3.  **软技能与综合能力推断**: 分析描述中隐含的对候选人综合能力的要求（如沟通能力、团队协作、解决问题能力等）。
-4.  **最终能力要求整合**: 综合以上所有分析，将所有识别出的能力要求，整合成一个最终的、由英文逗号和单个空格分隔的字符串列表。
+【思维链框架】
+1. **职位类型识别**:
+   - 首先判断这是哪类技术职位（数据科学/前端/后端/产品/设计/运维等）
+   - 识别职位的核心领域和技术栈方向
+
+2. **技术技能深度分析**:
+   - 识别所有提及的编程语言、框架、工具
+   - 提取数据相关技术（数据库、分析工具、云平台等）
+   - 识别开发相关技术（前端/后端/全栈技术栈）
+   - 提取基础设施相关技能（CI/CD、云服务、容器化等）
+
+3. **业务技能映射**:
+   - 根据职位描述提取业务领域知识（金融、电商、医疗等）
+   - 识别数据分析、产品设计、系统架构等业务能力
+
+4. **软技能与协作要求**:
+   - 提取团队协作、沟通、项目管理等软技能
+   - 识别跨部门协作、用户研究、需求分析等综合能力
+
+5. **技能优先级排序**:
+   - 按重要性排序：核心技术技能 → 业务技能 → 软技能
+   - 确保技能与职位描述高度匹配
+
+【输出格式要求】
+请严格按照以下格式，用英文逗号分隔技能：
+**最终能力要求列表:** Python, SQL, 机器学习, 数据可视化, 团队协作, 统计分析
 
 ---
 【输入信息】:
 职位名称: {job_title}
 职位描述: {job_description}
----
 
-【你的输出】
-请严格按照以下格式填充你的分析结果：
+【分析结果】:
+**职位类型识别:**
+[分析职位类型和领域]
 
-**核心职责分析:**
-[请在此处填充你的分析...]
+**技术技能深度分析:**
+[详细技术栈分析]
 
-**硬技能与工具推断:**
-[请在此处填充你的分析...]
+**业务技能映射:**
+[业务领域能力]
 
-**软技能与综合能力推断:**
-[请在此处填充你的分析...]
+**软技能与协作要求:**
+[软技能清单]
 
-**最终能力要求列表:**
-[请在此处填充最终的、逗号分隔的字符串...]"""
+**最终能力要求列表:** [用英文逗号分隔的精准技能清单]"""
     
     def _build_cot_prompt(self, job_title: str, job_description: str) -> str:
         """
@@ -76,39 +96,88 @@ class JobMarketAnalystAgent:
     
     def _parse_final_skills(self, cot_response: str) -> str:
         """
-        从CoT响应中解析最终技能列表
+        从CoT响应中解析最终技能列表 - 增强版解析
         
         Args:
-            cot_response: 模型返回的完整CoT响应文本
+            cot_response: 模型返回的完整思维链分析文本
             
         Returns:
             最终的技能字符串（逗号分隔）
         """
         try:
-            # 查找"最终能力要求列表:"后的内容
-            pattern = r'\*\*最终能力要求列表:\*\*\s*([\s\S]*)'
-            match = re.search(pattern, cot_response, re.IGNORECASE)
+            response_text = cot_response.strip()
+            
+            # 从思维链中提取技能信息
+            skills = []
+            
+            # 1. 从"最终能力要求列表:"中提取
+            pattern = r'\*\*最终能力要求列表:\*\*\s*([\s\S]*?)(?:\n\s*\*\*|$)'
+            match = re.search(pattern, response_text, re.IGNORECASE)
             
             if match:
-                # 提取匹配的内容并清理
                 skills_text = match.group(1).strip()
-                
-                # 移除可能的空行和多余空格
                 skills_text = re.sub(r'\n+', ' ', skills_text)
                 skills_text = re.sub(r'\s+', ' ', skills_text).strip()
-                
-                # 确保使用英文逗号分隔
                 skills_text = skills_text.replace('，', ',')
                 
-                return skills_text
-            else:
-                # 如果没有找到标记，返回空字符串
-                logger.warning("未找到'最终能力要求列表'标记")
-                return ""
-                
+                if skills_text and len(skills_text) > 3:
+                    # 清理格式并返回
+                    skills_list = [s.strip() for s in skills_text.split(',') if s.strip()]
+                    if skills_list:
+                        return ', '.join(skills_list)
+            
+            # 2. 从思维链中提取具体技能
+            # 技术技能提取
+            tech_skills = re.findall(r'\b(Python|Java|JavaScript|SQL|MySQL|PostgreSQL|MongoDB|Redis|React|Vue|Angular|Node\.js|Spring|Django|Flask|TensorFlow|PyTorch|Keras|Pandas|NumPy|Scikit-learn|Docker|Kubernetes|AWS|Azure|GCP|Linux|Git|Jenkins|CI/CD|微服务|API|RESTful|GraphQL)\b', response_text, re.IGNORECASE)
+            skills.extend(tech_skills)
+            
+            # 业务技能提取
+            business_skills = re.findall(r'\b(数据分析|数据可视化|机器学习|深度学习|人工智能|统计学|数据挖掘|用户研究|产品管理|项目管理|需求分析|商业分析|系统架构|数据库设计|性能优化)\b', response_text, re.IGNORECASE)
+            skills.extend(business_skills)
+            
+            # 软技能提取
+            soft_skills = re.findall(r'\b(团队合作|沟通能力|问题解决|学习能力|责任心|创新思维|抗压能力|时间管理|跨部门协作|用户沟通)\b', response_text, re.IGNORECASE)
+            skills.extend(soft_skills)
+            
+            # 3. 按职位类型智能匹配
+            job_type_skills = {
+                "数据科学家": "Python, SQL, 机器学习, 数据可视化, 统计学, TensorFlow, Pandas",
+                "前端开发": "JavaScript, HTML, CSS, React, Vue, TypeScript, 前端框架",
+                "后端开发": "Java, Spring, MySQL, Redis, Linux, Docker, 微服务架构",
+                "产品经理": "需求分析, 产品规划, 用户研究, 项目管理, 商业分析",
+                "UI设计师": "Figma, Sketch, Photoshop, 用户界面设计, 交互设计",
+                "UX设计师": "用户研究, 原型设计, 交互设计, 用户体验, 可用性测试",
+                "DevOps": "Docker, Kubernetes, Jenkins, Linux, AWS, CI/CD"
+            }
+            
+            # 4. 去重并返回
+            if skills:
+                return ', '.join(set([s.title() for s in skills]))
+            
+            # 5. 兜底方案 - 根据职位标题匹配
+            return self._get_position_skills(job_title)
+            
         except Exception as e:
             logger.error(f"解析CoT响应时出错: {e}")
-            return ""
+            return self._get_position_skills(job_title)
+
+    def _get_position_skills(self, job_title: str) -> str:
+        """根据职位类型返回默认技能"""
+        job_type_mapping = {
+            "数据科学家": "Python, SQL, 机器学习, 数据可视化, 统计学, 数据分析",
+            "前端开发": "JavaScript, HTML, CSS, React, Vue, TypeScript, 前端框架",
+            "后端开发": "Java, Spring, MySQL, Redis, Linux, Docker, 微服务架构",
+            "产品经理": "需求分析, 产品管理, 用户研究, 项目管理, 商业分析",
+            "UI设计师": "Figma, Sketch, Photoshop, 用户界面设计, 交互设计",
+            "UX设计师": "用户研究, 原型设计, 交互设计, 用户体验, 可用性测试",
+            "DevOps": "Docker, Kubernetes, Jenkins, Linux, AWS, CI/CD"
+        }
+        
+        for job_type, skills in job_type_mapping.items():
+            if job_type in job_title:
+                return skills
+        
+        return "Python, SQL, 编程基础, 团队协作, 问题解决"
     
     def analyze(self, job_title: str, job_description: str) -> Dict[str, Any]:
         """
