@@ -63,9 +63,11 @@ class BatchJobResponse(BaseModel):
 # 全局分析器实例
 analyzer = None
 
-@app.on_event("startup")
-async def startup_event():
-    """启动时初始化分析器"""
+from contextlib import asynccontextmanager
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """应用生命周期管理"""
     global analyzer
     
     logger.info("正在启动Qwen3就业市场分析服务...")
@@ -90,6 +92,19 @@ async def startup_event():
     except Exception as e:
         logger.error(f"服务启动失败: {e}")
         raise
+    
+    yield
+    
+    # 清理资源
+    logger.info("正在关闭服务...")
+
+# 更新FastAPI应用
+app = FastAPI(
+    title="Qwen3就业市场分析API",
+    description="基于微调Qwen3-14B的就业市场技能提取服务",
+    version="2.0.0",
+    lifespan=lifespan
+)
 
 @app.get("/")
 async def root():

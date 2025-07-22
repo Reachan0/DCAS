@@ -12,6 +12,13 @@ from pathlib import Path
 from typing import Dict, Any, Optional
 from dataclasses import dataclass
 
+# 设置全局logger
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
+
 # 导入现有的智能体
 sys.path.append(str(Path(__file__).parent.parent))
 from scripts.agents.job_market_analyst_agent import JobMarketAnalystAgent
@@ -131,10 +138,13 @@ class Qwen3JobAnalyzer:
         
     def setup(self):
         """初始化模型和分析器"""
-        logger.info("初始化Qwen3就业市场分析器...")
+        # 设置logger
+        self.logger = logging.getLogger(__name__)
+        
+        self.logger.info("初始化Qwen3就业市场分析器...")
         self.model_client = Qwen3ModelClient(self.config)
         self.agent = JobMarketAnalystAgent(self.model_client)
-        logger.info("初始化完成")
+        self.logger.info("初始化完成")
     
     def analyze_job(self, job_title: str, job_description: str) -> Dict[str, Any]:
         """分析单个职位"""
