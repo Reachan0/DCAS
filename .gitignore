@@ -1,1 +1,16 @@
+# Ignored directories
 datasets/
+knowledge_graph_output/
+knowledge_graph_output_production/
+archive/
+.venv/
+
+# Ignore large file types
+*.pkl
+*.gz
+
+# Ignore OS-specific files
+.DS_Store
+
+# Ignore lock files
+uv.lock

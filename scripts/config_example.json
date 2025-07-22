@@ -1,0 +1,8 @@
+{
+  "model_path": "/path/to/your/qwen3-14b",
+  "model_name": "qwen3-14b",
+  "max_tokens": 2048,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "device": "auto"
+}
