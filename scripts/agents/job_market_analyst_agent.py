@@ -139,27 +139,16 @@ class JobMarketAnalystAgent:
             soft_skills = re.findall(r'\b(团队合作|沟通能力|问题解决|学习能力|责任心|创新思维|抗压能力|时间管理|跨部门协作|用户沟通)\b', response_text, re.IGNORECASE)
             skills.extend(soft_skills)
             
-            # 3. 按职位类型智能匹配
-            job_type_skills = {
-                "数据科学家": "Python, SQL, 机器学习, 数据可视化, 统计学, TensorFlow, Pandas",
-                "前端开发": "JavaScript, HTML, CSS, React, Vue, TypeScript, 前端框架",
-                "后端开发": "Java, Spring, MySQL, Redis, Linux, Docker, 微服务架构",
-                "产品经理": "需求分析, 产品规划, 用户研究, 项目管理, 商业分析",
-                "UI设计师": "Figma, Sketch, Photoshop, 用户界面设计, 交互设计",
-                "UX设计师": "用户研究, 原型设计, 交互设计, 用户体验, 可用性测试",
-                "DevOps": "Docker, Kubernetes, Jenkins, Linux, AWS, CI/CD"
-            }
-            
-            # 4. 去重并返回
+            # 3. 去重并返回
             if skills:
                 return ', '.join(set([s.title() for s in skills]))
             
-            # 5. 兜底方案 - 根据职位标题匹配
-            return self._get_position_skills(job_title)
+            # 4. 兜底方案 - 返回通用技能
+            return "Python, SQL, 团队协作, 问题解决, 学习能力"
             
         except Exception as e:
             logger.error(f"解析CoT响应时出错: {e}")
-            return self._get_position_skills(job_title)
+            return "Python, SQL, 团队协作, 问题解决, 学习能力"
 
     def _get_position_skills(self, job_title: str) -> str:
         """根据职位类型返回默认技能"""
