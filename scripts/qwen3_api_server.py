@@ -78,8 +78,8 @@ async def lifespan(app: FastAPI):
         
         config = Config(
             model_path=model_path,
-            max_tokens=2048,
-            temperature=0.7,
+            max_tokens=512,  # 减少token数
+            temperature=0.3,  # 降低温度提高确定性
             device="auto"
         )
         
@@ -210,5 +210,8 @@ if __name__ == "__main__":
         host="0.0.0.0",
         port=8000,
         reload=False,
-        workers=1  # 单进程避免模型重复加载
+        workers=1,  # 单进程避免模型重复加载
+        timeout_keep_alive=60,  # 保持连接超时
+        timeout_notify=30,      # 通知超时
+        limit_concurrency=100   # 限制并发数
     )
