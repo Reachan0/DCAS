@@ -1,0 +1,3804 @@
+{
+  "cycle_id": "cycle_20250723_211201",
+  "timestamp": "2025-07-23T21:12:01.274419",
+  "simulation_result": {
+    "simulation_id": "sim_20250723_211201",
+    "virtual_students": [
+      {
+        "learner_id": "virtual_kg_test_user_0",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "engagement_score": 0.5
+        },
+        "engagement_factor": 1.0868799113479046,
+        "difficulty_tolerance": 0.9168989285902387
+      },
+      {
+        "learner_id": "virtual_synthetic_1",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_2",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_3",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_4",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_5",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_6",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_7",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_8",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_9",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_10",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_11",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_12",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_13",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_14",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_15",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_16",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_17",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_18",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_19",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_20",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_21",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_22",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_23",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_24",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_25",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_26",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_27",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_28",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_29",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_30",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_31",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_32",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_33",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_34",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_35",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_36",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_37",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_38",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_39",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_40",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_41",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_42",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_43",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_44",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_45",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_46",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_47",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_48",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_49",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_50",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_51",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_52",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_53",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_54",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_55",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_56",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_57",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_58",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_59",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_60",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_61",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_62",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_63",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_64",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_65",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_66",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_67",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_68",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_69",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_70",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_71",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_72",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_73",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_74",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_75",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_76",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_77",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_78",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_79",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_80",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_81",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_82",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_83",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_84",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_85",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_86",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_87",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_88",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_89",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_90",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      },
+      {
+        "learner_id": "virtual_synthetic_91",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_92",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_93",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_94",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_95",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_96",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_97",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "intuitive",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "low",
+          "engagement_score": 0.6
+        },
+        "engagement_factor": 0.8,
+        "difficulty_tolerance": 0.8
+      },
+      {
+        "learner_id": "virtual_synthetic_98",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "active",
+          "perception": "sensory",
+          "understanding": "sequential"
+        },
+        "behavioral_patterns": {
+          "activity_level": "high",
+          "engagement_score": 0.9
+        },
+        "engagement_factor": 1.1,
+        "difficulty_tolerance": 1.0
+      },
+      {
+        "learner_id": "virtual_synthetic_99",
+        "knowledge_state": {},
+        "learning_style": {
+          "processing": "reflective",
+          "perception": "intuitive",
+          "understanding": "global"
+        },
+        "behavioral_patterns": {
+          "activity_level": "medium",
+          "engagement_score": 0.7
+        },
+        "engagement_factor": 0.9,
+        "difficulty_tolerance": 1.2
+      }
+    ],
+    "course_progress": {
+      "virtual_kg_test_user_0": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0316459346463439,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_1": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.007040595543807264,
+            "last_update": 6
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_2": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.010546585384278117,
+            "last_update": 9
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_3": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.004053171209294564,
+            "last_update": 3
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_4": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032834579949542024,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_5": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02636405695579102,
+            "last_update": 25
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_6": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023658720917567502,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_7": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0324679352328764,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_8": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032808969644377496,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_9": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03321297576026615,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_10": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032140814399884914,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_11": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.020619146508318746,
+            "last_update": 19
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_12": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02339728053232435,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_13": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03288265409895508,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_14": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02365330928967844,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_15": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02367501910841238,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_16": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023873546749075884,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_17": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.033043048210409355,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_18": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.006140621941669731,
+            "last_update": 5
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_19": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.024335423831841962,
+            "last_update": 23
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_20": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023603558616611255,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_21": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032139690597128415,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_22": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0011206937775757317,
+            "last_update": 0
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_23": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032335867703031144,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_24": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023915799116497636,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_25": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023915981924566142,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_26": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0011218999798026025,
+            "last_update": 0
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_27": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03296527428554884,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_28": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03262751457139461,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_29": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0328803108862101,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_30": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023745153968729574,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_31": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03266136905465622,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_32": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03321723208059575,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_33": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032646322544655285,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_34": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032490795878462105,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_35": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03339878287477147,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_36": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03228681182521395,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_37": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023272236278975473,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_38": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.006036910107951966,
+            "last_update": 5
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_39": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032970900810128365,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_40": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02362025510095057,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_41": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0020935661386795217,
+            "last_update": 1
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_42": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02421003066093278,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_43": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02409214069037249,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_44": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032573265634953004,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_45": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.004292817992069048,
+            "last_update": 3
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_46": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03260139228678222,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_47": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03333846301613915,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_48": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032596025427274716,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_49": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0032513502375394942,
+            "last_update": 2
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_50": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023557079415767748,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_51": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.016284436533716678,
+            "last_update": 15
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_52": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032713884793020225,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_53": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023808858847228,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_54": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.033525856626536774,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_55": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.007211085741218975,
+            "last_update": 6
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_56": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032356095252699286,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_57": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.015291743840672944,
+            "last_update": 14
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_58": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032184851506293466,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_59": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.015165620245674184,
+            "last_update": 14
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_60": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.005975037915943451,
+            "last_update": 5
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_61": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.010229134499230243,
+            "last_update": 9
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_62": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02378098566180566,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_63": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0020678303120404895,
+            "last_update": 1
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_64": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02408865346668401,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_65": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02361408694879448,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_66": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03285649567943276,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_67": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.004151366382581458,
+            "last_update": 3
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_68": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023341143828127613,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_69": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023811945226574385,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_70": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02357259623692346,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_71": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03251317599711586,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_72": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0153249999774899,
+            "last_update": 14
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_73": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023842386736234136,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_74": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0238489911703096,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_75": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.030879576776934998,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_76": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.006002810324346446,
+            "last_update": 5
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_77": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.033088883158825494,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_78": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03251412654325724,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_79": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032753206218450605,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_80": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.004034850890985446,
+            "last_update": 3
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_81": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03273004056969616,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_82": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032735765016435096,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_83": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032610704455713305,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_84": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.011457766878888087,
+            "last_update": 10
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_85": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032600437771272306,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_86": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0020309037053752874,
+            "last_update": 1
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_87": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023790877844511164,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_88": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0238178976629881,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_89": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.02368663853994518,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_90": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.019174494119832894,
+            "last_update": 18
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      },
+      "virtual_synthetic_91": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023705885863326153,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_92": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03227011244035062,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_93": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023746567251600324,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_94": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.0326919310423307,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_95": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03278436869409338,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_96": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.03309191733015445,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_97": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.023584290115006575,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_98": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.032794549992640434,
+            "last_update": 29
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": true,
+        "engagement_history": []
+      },
+      "virtual_synthetic_99": {
+        "current_module": 0,
+        "completed_modules": [],
+        "skill_progress": {
+          "问题解决": {
+            "mastery": 0.015016180890698975,
+            "last_update": 14
+          },
+          "Python": {
+            "mastery": 0.0,
+            "last_update": 0
+          },
+          "数据分析": {
+            "mastery": 0.0,
+            "last_update": 0
+          }
+        },
+        "cumulative_difficulty": 0.0,
+        "active": false,
+        "engagement_history": []
+      }
+    },
+    "skill_achievements": {
+      "Python": 0.0,
+      "问题解决": 0.02359129930922691,
+      "数据分析": 0.0
+    },
+    "engagement_metrics": {
+      "avg_engagement": 0.9762066654353873,
+      "dropout_rate": 0.28
+    },
+    "completion_rates": {
+      "问题解决_lecture_beginner": 0.0,
+      "问题解决_exercise_beginner": 0.0,
+      "问题解决_case_study_beginner": 0.0,
+      "Python_lecture_beginner": 0.0,
+      "Python_exercise_beginner": 0.0,
+      "added_问题解决": 0.0,
+      "added_Python": 0.0,
+      "added_数据分析": 0.0
+    },
+    "predicted_outcomes": [
+      {
+        "day": 0,
+        "active_students": 98,
+        "completion_rates": {
+          "问题解决_lecture_beginner": 0.0,
+          "问题解决_exercise_beginner": 0.0,
+          "问题解决_case_study_beginner": 0.0,
+          "Python_lecture_beginner": 0.0,
+          "Python_exercise_beginner": 0.0,
+          "added_问题解决": 0.0,
+          "added_Python": 0.0,
+          "added_数据分析": 0.0
+        },
+        "avg_engagement": 0.9559885705239575
+      },
+      {
+        "day": 7,
+        "active_students": 84,
+        "completion_rates": {
+          "问题解决_lecture_beginner": 0.0,
+          "问题解决_exercise_beginner": 0.0,
+          "问题解决_case_study_beginner": 0.0,
+          "Python_lecture_beginner": 0.0,
+          "Python_exercise_beginner": 0.0,
+          "added_问题解决": 0.0,
+          "added_Python": 0.0,
+          "added_数据分析": 0.0
+        },
+        "avg_engagement": 0.9653199989446173
+      },
+      {
+        "day": 14,
+        "active_students": 77,
+        "completion_rates": {
+          "问题解决_lecture_beginner": 0.0,
+          "问题解决_exercise_beginner": 0.0,
+          "问题解决_case_study_beginner": 0.0,
+          "Python_lecture_beginner": 0.0,
+          "Python_exercise_beginner": 0.0,
+          "added_问题解决": 0.0,
+          "added_Python": 0.0,
+          "added_数据分析": 0.0
+        },
+        "avg_engagement": 0.9712581806668554
+      },
+      {
+        "day": 21,
+        "active_students": 74,
+        "completion_rates": {
+          "问题解决_lecture_beginner": 0.0,
+          "问题解决_exercise_beginner": 0.0,
+          "问题解决_case_study_beginner": 0.0,
+          "Python_lecture_beginner": 0.0,
+          "Python_exercise_beginner": 0.0,
+          "added_问题解决": 0.0,
+          "added_Python": 0.0,
+          "added_数据分析": 0.0
+        },
+        "avg_engagement": 0.9741470258290253
+      },
+      {
+        "day": 28,
+        "active_students": 72,
+        "completion_rates": {
+          "问题解决_lecture_beginner": 0.0,
+          "问题解决_exercise_beginner": 0.0,
+          "问题解决_case_study_beginner": 0.0,
+          "Python_lecture_beginner": 0.0,
+          "Python_exercise_beginner": 0.0,
+          "added_问题解决": 0.0,
+          "added_Python": 0.0,
+          "added_数据分析": 0.0
+        },
+        "avg_engagement": 0.9762066654353873
+      }
+    ]
+  },
+  "reflection_insights": {
+    "insights_id": "reflection_20250723_211201",
+    "strategy_effectiveness": 0.1,
+    "identified_issues": [
+      "Python技能达成度不足: 0.00 vs 预期0.8",
+      "问题解决技能达成度不足: 0.02 vs 预期0.8",
+      "数据分析技能达成度不足: 0.00 vs 预期0.8",
+      "辍学率过高: 28.00%",
+      "低完成率模块: 问题解决_lecture_beginner, 问题解决_exercise_beginner, 问题解决_case_study_beginner, Python_lecture_beginner, Python_exercise_beginner, added_问题解决, added_Python, added_数据分析"
+    ],
+    "optimization_suggestions": [
+      {
+        "type": "increase_focus",
+        "target": "Python",
+        "suggestion": "增加Python的练习难度和时长",
+        "urgency": "high"
+      },
+      {
+        "type": "increase_focus",
+        "target": "问题解决",
+        "suggestion": "增加问题解决的练习难度和时长",
+        "urgency": "high"
+      },
+      {
+        "type": "increase_focus",
+        "target": "数据分析",
+        "suggestion": "增加数据分析的练习难度和时长",
+        "urgency": "high"
+      },
+      {
+        "type": "reduce_difficulty",
+        "target": "overall_course",
+        "suggestion": "降低课程整体难度梯度，增加支持材料",
+        "urgency": "high"
+      },
+      {
+        "type": "module_restructure",
+        "target": "问题解决_lecture_beginner",
+        "suggestion": "重新设计问题解决_lecture_beginner模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "问题解决_exercise_beginner",
+        "suggestion": "重新设计问题解决_exercise_beginner模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "问题解决_case_study_beginner",
+        "suggestion": "重新设计问题解决_case_study_beginner模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "Python_lecture_beginner",
+        "suggestion": "重新设计Python_lecture_beginner模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "Python_exercise_beginner",
+        "suggestion": "重新设计Python_exercise_beginner模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "added_问题解决",
+        "suggestion": "重新设计added_问题解决模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "added_Python",
+        "suggestion": "重新设计added_Python模块的内容和节奏",
+        "urgency": "medium"
+      },
+      {
+        "type": "module_restructure",
+        "target": "added_数据分析",
+        "suggestion": "重新设计added_数据分析模块的内容和节奏",
+        "urgency": "medium"
+      }
+    ],
+    "confidence_level": 0.8,
+    "next_iteration_recommendations": [
+      "基于模拟结果调整课程难度",
+      "增加个性化学习路径",
+      "优化内容类型分布",
+      "建立早期预警机制"
+    ]
+  },
+  "recommended_next_actions": [
+    "基于模拟结果调整课程难度",
+    "增加个性化学习路径",
+    "优化内容类型分布",
+    "建立早期预警机制"
+  ]
+}

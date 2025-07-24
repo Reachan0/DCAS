@@ -1,0 +1,25 @@
+{
+  "user_id": "debug_test_user",
+  "last_updated": "2025-07-23T20:06:42.322089",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "编程",
+      "Python"
+    ],
+    "self_description": "初学者，希望学习Python开发"
+  }
+}

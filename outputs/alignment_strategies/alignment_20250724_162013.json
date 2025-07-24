@@ -1,0 +1,124 @@
+{
+  "analysis_id": "alignment_20250724_162013",
+  "timestamp": "2025-07-24T16:20:13.481228",
+  "market_demand": {
+    "job_title": "高级数据科学家",
+    "required_skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "团队协作",
+      "问题解决"
+    ],
+    "skill_importance": {
+      "Python": 0.8,
+      "数据分析": 0.8,
+      "机器学习": 0.8,
+      "团队协作": 0.8,
+      "问题解决": 0.8
+    },
+    "market_trend": "stable",
+    "salary_range": {
+      "min": 0,
+      "max": 0,
+      "avg": 0
+    }
+  },
+  "course_status": {
+    "course_id": "current_course",
+    "course_name": "数据科学转岗课程",
+    "covered_concepts": [],
+    "skill_coverage": {},
+    "difficulty_level": "intermediate",
+    "student_enrollment": 1,
+    "completion_rate": 0.8
+  },
+  "learner_snapshot": {
+    "user_id": "demo_learner_001",
+    "knowledge_mastery": {},
+    "learning_style": {
+      "processing": "active",
+      "perception": "sensory",
+      "understanding": "sequential"
+    },
+    "behavioral_patterns": {
+      "engagement_score": 0.5
+    },
+    "skill_gaps": []
+  },
+  "alignment_issues": [
+    {
+      "issue_type": "skill_gap",
+      "description": "课程缺少市场必需技能: 机器学习, 数据分析, 问题解决",
+      "severity": "high",
+      "affected_skills": [
+        "机器学习",
+        "数据分析",
+        "问题解决",
+        "团队协作",
+        "Python"
+      ],
+      "evidence": {
+        "market_required": [
+          "机器学习",
+          "数据分析",
+          "团队协作",
+          "问题解决",
+          "Python"
+        ],
+        "course_covered": []
+      }
+    }
+  ],
+  "adjustment_strategies": [
+    {
+      "strategy_id": "add_skill_机器学习",
+      "strategy_type": "add_content",
+      "target_skills": [
+        "机器学习"
+      ],
+      "action_items": [
+        "添加机器学习基础概念讲解",
+        "设计机器学习实践项目",
+        "创建机器学习技能评估"
+      ],
+      "expected_outcome": "提升机器学习技能覆盖率至85%以上",
+      "implementation_priority": "medium",
+      "estimated_effort": "2-3周",
+      "risk_level": "low"
+    },
+    {
+      "strategy_id": "add_skill_数据分析",
+      "strategy_type": "add_content",
+      "target_skills": [
+        "数据分析"
+      ],
+      "action_items": [
+        "添加数据分析基础概念讲解",
+        "设计数据分析实践项目",
+        "创建数据分析技能评估"
+      ],
+      "expected_outcome": "提升数据分析技能覆盖率至85%以上",
+      "implementation_priority": "medium",
+      "estimated_effort": "2-3周",
+      "risk_level": "low"
+    },
+    {
+      "strategy_id": "add_skill_问题解决",
+      "strategy_type": "add_content",
+      "target_skills": [
+        "问题解决"
+      ],
+      "action_items": [
+        "添加问题解决基础概念讲解",
+        "设计问题解决实践项目",
+        "创建问题解决技能评估"
+      ],
+      "expected_outcome": "提升问题解决技能覆盖率至85%以上",
+      "implementation_priority": "medium",
+      "estimated_effort": "2-3周",
+      "risk_level": "low"
+    }
+  ],
+  "ptot_reasoning": []
+}

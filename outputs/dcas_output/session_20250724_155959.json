@@ -1,0 +1,1616 @@
+{
+  "success": true,
+  "timestamp": "2025-07-24T15:59:59.080999",
+  "session_id": "session_20250724_155959",
+  "job_market_analysis": {
+    "job_title": "高级数据科学家",
+    "required_skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "团队协作",
+      "问题解决"
+    ],
+    "skill_importance": {
+      "Python": 0.8,
+      "数据分析": 0.8,
+      "机器学习": 0.8,
+      "团队协作": 0.8,
+      "问题解决": 0.8
+    },
+    "market_trend": "stable",
+    "salary_info": {
+      "min": 0,
+      "max": 0,
+      "avg": 0
+    }
+  },
+  "learner_profile": {
+    "user_id": "demo_learner_001",
+    "knowledge_state": {},
+    "learning_style": {
+      "processing": "active",
+      "perception": "sensory",
+      "understanding": "sequential"
+    },
+    "preferences": {
+      "engagement_score": 0.5
+    },
+    "skill_gaps": [],
+    "engagement_score": 0.5
+  },
+  "alignment_analysis": {
+    "analysis_id": "alignment_20250724_155959",
+    "timestamp": "2025-07-24T15:59:59.049667",
+    "gaps_identified": [
+      {
+        "issue_type": "skill_gap",
+        "description": "课程缺少市场必需技能: Python, 机器学习, 团队协作",
+        "severity": "high",
+        "affected_skills": [
+          "Python",
+          "机器学习",
+          "团队协作",
+          "问题解决",
+          "数据分析"
+        ],
+        "evidence": {
+          "market_required": [
+            "Python",
+            "团队协作",
+            "问题解决",
+            "数据分析",
+            "机器学习"
+          ],
+          "course_covered": []
+        }
+      }
+    ],
+    "strategies_generated": [
+      {
+        "strategy_id": "add_skill_Python",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "Python"
+        ],
+        "action_items": [
+          "添加Python基础概念讲解",
+          "设计Python实践项目",
+          "创建Python技能评估"
+        ],
+        "expected_outcome": "提升Python技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_机器学习",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "机器学习"
+        ],
+        "action_items": [
+          "添加机器学习基础概念讲解",
+          "设计机器学习实践项目",
+          "创建机器学习技能评估"
+        ],
+        "expected_outcome": "提升机器学习技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_团队协作",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "团队协作"
+        ],
+        "action_items": [
+          "添加团队协作基础概念讲解",
+          "设计团队协作实践项目",
+          "创建团队协作技能评估"
+        ],
+        "expected_outcome": "提升团队协作技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      }
+    ],
+    "priority_actions": [
+      "提升Python技能覆盖率至85%以上",
+      "提升机器学习技能覆盖率至85%以上",
+      "提升团队协作技能覆盖率至85%以上"
+    ],
+    "confidence_score": 0.8
+  },
+  "content_recommendation": {
+    "recommendation_id": "rec_20250724_155959_kg_enhanced",
+    "target_skills": [
+      "Python",
+      "机器学习",
+      "团队协作",
+      "问题解决",
+      "数据分析"
+    ],
+    "content_modules": [
+      {
+        "type": "lecture",
+        "content": "\n# Python 基础入门\n\n## 学习目标\n通过本节课程，你将掌握Python的基本概念和核心原理。\n\n## 核心概念\nPython是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\nPython指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了Python的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. Python在你的工作中可能有哪些应用？\n2. 如何开始实践Python？\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "Python_lecture_beginner",
+        "title": "Python - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# Python 基础练习\n\n## 练习目标\n通过实际操作练习，巩固Python的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的Python相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的Python操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用Python来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的Python方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了Python的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将Python应用到你熟悉的其他领域中。\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "Python_exercise_beginner",
+        "title": "Python - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# Python 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了Python在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用Python来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用Python设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. Python在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用Python？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "Python_case_study_beginner",
+        "title": "Python - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 机器学习 基础入门\n\n## 学习目标\n通过本节课程，你将掌握机器学习的基本概念和核心原理。\n\n## 核心概念\n机器学习是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n机器学习指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了机器学习的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 机器学习在你的工作中可能有哪些应用？\n2. 如何开始实践机器学习？\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "机器学习_lecture_beginner",
+        "title": "机器学习 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 机器学习 基础练习\n\n## 练习目标\n通过实际操作练习，巩固机器学习的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的机器学习相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的机器学习操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用机器学习来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的机器学习方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了机器学习的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将机器学习应用到你熟悉的其他领域中。\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "机器学习_exercise_beginner",
+        "title": "机器学习 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 机器学习 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了机器学习在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用机器学习来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用机器学习设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 机器学习在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用机器学习？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "机器学习_case_study_beginner",
+        "title": "机器学习 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 团队协作 基础入门\n\n## 学习目标\n通过本节课程，你将掌握团队协作的基本概念和核心原理。\n\n## 核心概念\n团队协作是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n团队协作指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了团队协作的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 团队协作在你的工作中可能有哪些应用？\n2. 如何开始实践团队协作？\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "团队协作_lecture_beginner",
+        "title": "团队协作 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 团队协作 基础练习\n\n## 练习目标\n通过实际操作练习，巩固团队协作的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的团队协作相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的团队协作操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用团队协作来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的团队协作方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了团队协作的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将团队协作应用到你熟悉的其他领域中。\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "团队协作_exercise_beginner",
+        "title": "团队协作 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 团队协作 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了团队协作在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用团队协作来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用团队协作设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 团队协作在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用团队协作？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "团队协作_case_study_beginner",
+        "title": "团队协作 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 问题解决 基础入门\n\n## 学习目标\n通过本节课程，你将掌握问题解决的基本概念和核心原理。\n\n## 核心概念\n问题解决是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n问题解决指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了问题解决的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 问题解决在你的工作中可能有哪些应用？\n2. 如何开始实践问题解决？\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "问题解决_lecture_beginner",
+        "title": "问题解决 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 问题解决 基础练习\n\n## 练习目标\n通过实际操作练习，巩固问题解决的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的问题解决相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的问题解决操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用问题解决来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的问题解决方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了问题解决的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将问题解决应用到你熟悉的其他领域中。\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "问题解决_exercise_beginner",
+        "title": "问题解决 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 问题解决 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了问题解决在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用问题解决来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用问题解决设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 问题解决在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用问题解决？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "问题解决_case_study_beginner",
+        "title": "问题解决 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 数据分析 基础入门\n\n## 学习目标\n通过本节课程，你将掌握数据分析的基本概念和核心原理。\n\n## 核心概念\n数据分析是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n数据分析指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了数据分析的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 数据分析在你的工作中可能有哪些应用？\n2. 如何开始实践数据分析？\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "数据分析_lecture_beginner",
+        "title": "数据分析 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 数据分析 基础练习\n\n## 练习目标\n通过实际操作练习，巩固数据分析的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的数据分析相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的数据分析操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用数据分析来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的数据分析方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了数据分析的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将数据分析应用到你熟悉的其他领域中。\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "数据分析_exercise_beginner",
+        "title": "数据分析 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 数据分析 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了数据分析在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用数据分析来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用数据分析设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 数据分析在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用数据分析？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "数据分析_case_study_beginner",
+        "title": "数据分析 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      }
+    ],
+    "learning_path": [
+      "Python_lecture_beginner",
+      "Python_exercise_beginner",
+      "Python_case_study_beginner",
+      "机器学习_lecture_beginner",
+      "机器学习_exercise_beginner",
+      "机器学习_case_study_beginner",
+      "团队协作_lecture_beginner",
+      "团队协作_exercise_beginner",
+      "团队协作_case_study_beginner",
+      "问题解决_lecture_beginner",
+      "问题解决_exercise_beginner",
+      "问题解决_case_study_beginner",
+      "数据分析_lecture_beginner",
+      "数据分析_exercise_beginner",
+      "数据分析_case_study_beginner"
+    ],
+    "personalization_notes": [
+      "💡 根据你的主动型学习风格，课程安排了更多实践练习和项目。",
+      "🔗 基于课程知识图谱生成的个性化推荐",
+      "📊 分析了15门相关课程",
+      "🎯 为5个技能定制学习路径",
+      "🎓 基于知识图谱推荐了11门相关课程"
+    ],
+    "estimated_completion_time": 7.5,
+    "knowledge_graph_data": {
+      "kg_relevant_courses": [
+        {
+          "course_id": "course_10",
+          "course_name": "Near-Surface Geophysical Imaging",
+          "description": "This graduate level course presents theories, methodologies, and applications of seismic imaging for solving the shallow near-surface (0 - 500 m) effects on the seismic data processing for oil and gas...",
+          "topics": [
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Science",
+            "Earth Science",
+            "Geology",
+            "Geophysics",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Science",
+            "Earth Science",
+            "Geology",
+            "Geophysics"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "advanced",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_83",
+          "course_name": "Biomedical Information Technology",
+          "description": "This course teaches the design of contemporary information systems for biological and medical data. Examples are chosen from biology and medicine to illustrate complete life cycle information systems,...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Biological Engineering",
+            "Computational Biology",
+            "Computer Science",
+            "Data Mining",
+            "Health and Medicine",
+            "Biomedical Instrumentation",
+            "Biomedicine",
+            "Medical Imaging",
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Biological Engineering",
+            "Computational Biology",
+            "Computer Science",
+            "Data Mining",
+            "Health and Medicine",
+            "Biomedical Instrumentation",
+            "Biomedicine",
+            "Medical Imaging"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "beginner",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_112",
+          "course_name": "Communicating With Data",
+          "description": "Communicating With Data has a distinctive structure and content, combining fundamental quantitative techniques of using data to make informed management decisions with illustrations of how real decisi...",
+          "topics": [
+            "Business",
+            "Management",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Social Science",
+            "Communication",
+            "Business",
+            "Management",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Social Science",
+            "Communication"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_177",
+          "course_name": "Ethics and the Law on the Electronic Frontier",
+          "description": "This course considers the interaction between law, policy, and technology as they relate to the evolving controversies over control of the Internet. In addition, there will be an in-depth treatment of...",
+          "topics": [
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Humanities",
+            "Philosophy",
+            "Ethics",
+            "Social Science",
+            "Communication",
+            "Legal Studies",
+            "Public Administration",
+            "Science and Technology Policy",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Humanities",
+            "Philosophy",
+            "Ethics",
+            "Social Science",
+            "Communication",
+            "Legal Studies",
+            "Public Administration",
+            "Science and Technology Policy"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_205",
+          "course_name": "Spatial Database Management and Advanced Geographic Information Systems",
+          "description": "This semester long subject (11.521) is divided into two halves. The first half focuses on learning spatial database management techniques and methods and the second half focuses on using these skills ...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Civil Engineering",
+            "Surveying",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Sociology",
+            "Community Development",
+            "Urban Studies",
+            "Urban Planning",
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Civil Engineering",
+            "Surveying",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Sociology",
+            "Community Development",
+            "Urban Studies",
+            "Urban Planning"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "UI设计",
+            "工程设计",
+            "图形设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "可视化",
+            "编程"
+          ],
+          "difficulty_level": "beginner",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_304",
+          "course_name": "Information Technology I",
+          "description": "Information Technology I helps students understand technical concepts underlying current and future developments in information technology. There will be a special emphasis on networks and distributed...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Computer Science",
+            "Computer Networks",
+            "Data Mining",
+            "Electrical Engineering",
+            "Telecommunications",
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Computer Science",
+            "Computer Networks",
+            "Data Mining",
+            "Electrical Engineering",
+            "Telecommunications"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_342",
+          "course_name": "Experimental Projects II",
+          "description": "The Experimental Project Lab in the Department of Aeronautics and Astronautics is a two-semester course sequence: 16.621 Experimental Projects I and 16.622 Experimental Projects II (this course). Stud...",
+          "topics": [
+            "Engineering",
+            "Aerospace Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Systems Engineering",
+            "Systems Design",
+            "Science",
+            "Engineering",
+            "Aerospace Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Systems Engineering",
+            "Systems Design",
+            "Science"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_356",
+          "course_name": "Workshop in IT: Collaborative Innovation Networks",
+          "description": "Diversity begets creativity—in this seminar we tap the amazing power of swarm creativity on the Web by studying and working together as Collaborative Innovation Networks (COINs). As interdisciplinary ...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Innovation",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Social Science",
+            "Communication",
+            "Business",
+            "Information Technology",
+            "Innovation",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Social Science",
+            "Communication"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_425",
+          "course_name": "Research Seminar on Urban Information Systems",
+          "description": "Seminar participants and invited guests will lead critical discussions of current literature and ongoing research. Each student will be responsible for identifying, reviewing, and presenting one struc...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Public Administration",
+            "Urban Studies",
+            "Urban Planning",
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Public Administration",
+            "Urban Studies",
+            "Urban Planning"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "UI设计",
+            "工程设计",
+            "图形设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "可视化",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_447",
+          "course_name": "Modeling and Assessment for Policy",
+          "description": "IDS.410J Modeling and Assessment for Policy explores how scientific information and quantitative models can be used to inform policy decision-making. Students will develop an understanding of quantita...",
+          "topics": [
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Environmental Engineering",
+            "Environmental Management",
+            "Systems Engineering",
+            "Computational Modeling and Simulation",
+            "Science",
+            "Earth Science",
+            "Atmospheric Science",
+            "Climate Studies",
+            "Environmental Science",
+            "Sustainability",
+            "Social Science",
+            "Public Administration",
+            "Environmental Policy",
+            "Public Policy",
+            "Science and Technology Policy",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Environmental Engineering",
+            "Environmental Management",
+            "Systems Engineering",
+            "Computational Modeling and Simulation",
+            "Science",
+            "Earth Science",
+            "Atmospheric Science",
+            "Climate Studies",
+            "Environmental Science",
+            "Sustainability",
+            "Social Science",
+            "Public Administration",
+            "Environmental Policy",
+            "Public Policy",
+            "Science and Technology Policy"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_479",
+          "course_name": "Data, Models, and Decisions",
+          "description": "No description found.",
+          "topics": [
+            "Business",
+            "Management",
+            "Operations Management",
+            "Supply Chain Management",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Systems Engineering",
+            "Systems Optimization",
+            "Mathematics",
+            "Probability and Statistics",
+            "Business",
+            "Management",
+            "Operations Management",
+            "Supply Chain Management",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Systems Engineering",
+            "Systems Optimization",
+            "Mathematics",
+            "Probability and Statistics"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "统计分析",
+            "工程设计",
+            "数学建模",
+            "算法设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_521",
+          "course_name": "Integrating eSystems & Global Information Systems",
+          "description": "The strategic importance of information technology is now widely accepted. It has also become increasingly clear that the identification of strategic applications alone does not result in success for ...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Organizational Behavior",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Electrical Engineering",
+            "Telecommunications",
+            "Business",
+            "Information Technology",
+            "Organizational Behavior",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Electrical Engineering",
+            "Telecommunications"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_630",
+          "course_name": "Computing and Data Analysis for Environmental Applications",
+          "description": "This subject is a computer-oriented introduction to probability and data analysis. It is designed to give students the knowledge and practical experience they need to interpret lab and field data. Bas...",
+          "topics": [
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Environmental Engineering",
+            "Mathematics",
+            "Probability and Statistics",
+            "Engineering",
+            "Computer Science",
+            "Data Mining",
+            "Environmental Engineering",
+            "Mathematics",
+            "Probability and Statistics"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "统计分析",
+            "工程设计",
+            "数学建模",
+            "算法设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "beginner",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_636",
+          "course_name": "Collaborative Data Science for Healthcare",
+          "description": "This course provides an introductory survey of data science tools in healthcare. It was created by members of MIT Critical Data, a global consortium consisting of healthcare practitioners, computer sc...",
+          "topics": [
+            "Business",
+            "Health Care Management",
+            "Engineering",
+            "Computer Science",
+            "Artificial Intelligence",
+            "Data Mining",
+            "Health and Medicine",
+            "Public Health",
+            "Business",
+            "Health Care Management",
+            "Engineering",
+            "Computer Science",
+            "Artificial Intelligence",
+            "Data Mining",
+            "Health and Medicine",
+            "Public Health"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "工程设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "编程"
+          ],
+          "difficulty_level": "intermediate",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        },
+        {
+          "course_id": "course_713",
+          "course_name": "A Workshop on Geographic Information Systems",
+          "description": "This class uses lab exercises and a workshop setting to help students develop a solid understanding of the planning and public management uses of geographic information systems (GIS). The goals are to...",
+          "topics": [
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Civil Engineering",
+            "Surveying",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Public Administration",
+            "Urban Studies",
+            "Urban Planning",
+            "Business",
+            "Information Technology",
+            "Engineering",
+            "Civil Engineering",
+            "Surveying",
+            "Computer Science",
+            "Data Mining",
+            "Graphics and Visualization",
+            "Social Science",
+            "Public Administration",
+            "Urban Studies",
+            "Urban Planning"
+          ],
+          "skills_covered": [
+            "Programming",
+            "Python",
+            "R",
+            "UI设计",
+            "工程设计",
+            "图形设计",
+            "数据分析",
+            "系统设计",
+            "软件开发",
+            "技术分析",
+            "数据挖掘",
+            "可视化",
+            "编程"
+          ],
+          "difficulty_level": "beginner",
+          "relevance_score": 2,
+          "matched_skills": [
+            "Python",
+            "数据分析"
+          ]
+        }
+      ],
+      "personalized_learning_path": {
+        "target_skills": [
+          "Python",
+          "数据分析",
+          "机器学习",
+          "团队协作",
+          "问题解决"
+        ],
+        "recommended_courses": [
+          {
+            "course_id": "course_479",
+            "course_name": "Data, Models, and Decisions",
+            "description": "No description found.",
+            "topics": [
+              "Business",
+              "Management",
+              "Operations Management",
+              "Supply Chain Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Optimization",
+              "Mathematics",
+              "Probability and Statistics",
+              "Business",
+              "Management",
+              "Operations Management",
+              "Supply Chain Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Optimization",
+              "Mathematics",
+              "Probability and Statistics"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "统计分析",
+              "工程设计",
+              "数学建模",
+              "算法设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_10",
+            "course_name": "Near-Surface Geophysical Imaging",
+            "description": "This graduate level course presents theories, methodologies, and applications of seismic imaging for solving the shallow near-surface (0 - 500 m) effects on the seismic data processing for oil and gas...",
+            "topics": [
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Science",
+              "Earth Science",
+              "Geology",
+              "Geophysics",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Science",
+              "Earth Science",
+              "Geology",
+              "Geophysics"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "advanced",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_112",
+            "course_name": "Communicating With Data",
+            "description": "Communicating With Data has a distinctive structure and content, combining fundamental quantitative techniques of using data to make informed management decisions with illustrations of how real decisi...",
+            "topics": [
+              "Business",
+              "Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Social Science",
+              "Communication",
+              "Business",
+              "Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Social Science",
+              "Communication"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_177",
+            "course_name": "Ethics and the Law on the Electronic Frontier",
+            "description": "This course considers the interaction between law, policy, and technology as they relate to the evolving controversies over control of the Internet. In addition, there will be an in-depth treatment of...",
+            "topics": [
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Humanities",
+              "Philosophy",
+              "Ethics",
+              "Social Science",
+              "Communication",
+              "Legal Studies",
+              "Public Administration",
+              "Science and Technology Policy",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Humanities",
+              "Philosophy",
+              "Ethics",
+              "Social Science",
+              "Communication",
+              "Legal Studies",
+              "Public Administration",
+              "Science and Technology Policy"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_304",
+            "course_name": "Information Technology I",
+            "description": "Information Technology I helps students understand technical concepts underlying current and future developments in information technology. There will be a special emphasis on networks and distributed...",
+            "topics": [
+              "Business",
+              "Information Technology",
+              "Engineering",
+              "Computer Science",
+              "Computer Networks",
+              "Data Mining",
+              "Electrical Engineering",
+              "Telecommunications",
+              "Business",
+              "Information Technology",
+              "Engineering",
+              "Computer Science",
+              "Computer Networks",
+              "Data Mining",
+              "Electrical Engineering",
+              "Telecommunications"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_342",
+            "course_name": "Experimental Projects II",
+            "description": "The Experimental Project Lab in the Department of Aeronautics and Astronautics is a two-semester course sequence: 16.621 Experimental Projects I and 16.622 Experimental Projects II (this course). Stud...",
+            "topics": [
+              "Engineering",
+              "Aerospace Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Design",
+              "Science",
+              "Engineering",
+              "Aerospace Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Design",
+              "Science"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_356",
+            "course_name": "Workshop in IT: Collaborative Innovation Networks",
+            "description": "Diversity begets creativity—in this seminar we tap the amazing power of swarm creativity on the Web by studying and working together as Collaborative Innovation Networks (COINs). As interdisciplinary ...",
+            "topics": [
+              "Business",
+              "Information Technology",
+              "Innovation",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Social Science",
+              "Communication",
+              "Business",
+              "Information Technology",
+              "Innovation",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Social Science",
+              "Communication"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_425",
+            "course_name": "Research Seminar on Urban Information Systems",
+            "description": "Seminar participants and invited guests will lead critical discussions of current literature and ongoing research. Each student will be responsible for identifying, reviewing, and presenting one struc...",
+            "topics": [
+              "Business",
+              "Information Technology",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Graphics and Visualization",
+              "Social Science",
+              "Public Administration",
+              "Urban Studies",
+              "Urban Planning",
+              "Business",
+              "Information Technology",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Graphics and Visualization",
+              "Social Science",
+              "Public Administration",
+              "Urban Studies",
+              "Urban Planning"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "UI设计",
+              "工程设计",
+              "图形设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "可视化",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_447",
+            "course_name": "Modeling and Assessment for Policy",
+            "description": "IDS.410J Modeling and Assessment for Policy explores how scientific information and quantitative models can be used to inform policy decision-making. Students will develop an understanding of quantita...",
+            "topics": [
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Environmental Engineering",
+              "Environmental Management",
+              "Systems Engineering",
+              "Computational Modeling and Simulation",
+              "Science",
+              "Earth Science",
+              "Atmospheric Science",
+              "Climate Studies",
+              "Environmental Science",
+              "Sustainability",
+              "Social Science",
+              "Public Administration",
+              "Environmental Policy",
+              "Public Policy",
+              "Science and Technology Policy",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Environmental Engineering",
+              "Environmental Management",
+              "Systems Engineering",
+              "Computational Modeling and Simulation",
+              "Science",
+              "Earth Science",
+              "Atmospheric Science",
+              "Climate Studies",
+              "Environmental Science",
+              "Sustainability",
+              "Social Science",
+              "Public Administration",
+              "Environmental Policy",
+              "Public Policy",
+              "Science and Technology Policy"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_479",
+            "course_name": "Data, Models, and Decisions",
+            "description": "No description found.",
+            "topics": [
+              "Business",
+              "Management",
+              "Operations Management",
+              "Supply Chain Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Optimization",
+              "Mathematics",
+              "Probability and Statistics",
+              "Business",
+              "Management",
+              "Operations Management",
+              "Supply Chain Management",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Systems Engineering",
+              "Systems Optimization",
+              "Mathematics",
+              "Probability and Statistics"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "统计分析",
+              "工程设计",
+              "数学建模",
+              "算法设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          },
+          {
+            "course_id": "course_521",
+            "course_name": "Integrating eSystems & Global Information Systems",
+            "description": "The strategic importance of information technology is now widely accepted. It has also become increasingly clear that the identification of strategic applications alone does not result in success for ...",
+            "topics": [
+              "Business",
+              "Information Technology",
+              "Organizational Behavior",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Electrical Engineering",
+              "Telecommunications",
+              "Business",
+              "Information Technology",
+              "Organizational Behavior",
+              "Engineering",
+              "Computer Science",
+              "Data Mining",
+              "Electrical Engineering",
+              "Telecommunications"
+            ],
+            "skills_covered": [
+              "Programming",
+              "Python",
+              "R",
+              "工程设计",
+              "数据分析",
+              "系统设计",
+              "软件开发",
+              "技术分析",
+              "数据挖掘",
+              "编程"
+            ],
+            "difficulty_level": "intermediate",
+            "relevance_score": 2,
+            "matched_skills": [
+              "Python",
+              "数据分析"
+            ]
+          }
+        ],
+        "total_courses": 11,
+        "estimated_time_hours": 340,
+        "personalization_notes": [
+          "🎯 基于你的主动型学习风格，路径包含更多实践项目和动手实验",
+          "⏰ 学习路径较长，建议分阶段完成，每完成2-3门课程休息调整"
+        ]
+      },
+      "skill_modules": [
+        {
+          "skill": "Python",
+          "source_course": "Near-Surface Geophysical Imaging",
+          "difficulty": "advanced",
+          "content_type": "kg_enhanced",
+          "learning_objectives": [
+            "理解Python的核心概念",
+            "掌握Python的实际应用",
+            "能够运用Python解决实际问题"
+          ],
+          "recommended_resources": [
+            "参考课程: Near-Surface Geophysical Imaging",
+            "相关主题: Engineering, Computer Science, Data Mining"
+          ],
+          "estimated_hours": 30
+        },
+        {
+          "skill": "数据分析",
+          "source_course": "Near-Surface Geophysical Imaging",
+          "difficulty": "advanced",
+          "content_type": "kg_enhanced",
+          "learning_objectives": [
+            "理解数据分析的核心概念",
+            "掌握数据分析的实际应用",
+            "能够运用数据分析解决实际问题"
+          ],
+          "recommended_resources": [
+            "参考课程: Near-Surface Geophysical Imaging",
+            "相关主题: Engineering, Computer Science, Data Mining"
+          ],
+          "estimated_hours": 30
+        }
+      ],
+      "total_estimated_hours": 60,
+      "kg_integration_notes": [
+        "🔗 基于课程知识图谱生成的个性化推荐",
+        "📊 分析了15门相关课程",
+        "🎯 为5个技能定制学习路径"
+      ]
+    }
+  },
+  "simulation_prediction": {
+    "simulation_id": "cycle_20250724_155959",
+    "predicted_outcomes": {
+      "Python": 0.8,
+      "机器学习": 0.8,
+      "团队协作": 0.8,
+      "问题解决": 0.8,
+      "数据分析": 0.8
+    },
+    "success_probability": 0.1,
+    "risk_factors": [
+      "团队协作技能达成度不足: 0.00 vs 预期0.8",
+      "Python技能达成度不足: 0.02 vs 预期0.8",
+      "机器学习技能达成度不足: 0.00 vs 预期0.8"
+    ],
+    "optimization_suggestions": [
+      "基于模拟结果调整课程难度",
+      "增加个性化学习路径",
+      "优化内容类型分布"
+    ],
+    "confidence_level": 0.8
+  },
+  "summary": {
+    "target_job": "高级数据科学家",
+    "key_skill_gaps": [
+      "Python",
+      "机器学习",
+      "团队协作"
+    ],
+    "learning_time_estimate": "7.5小时",
+    "success_probability": "10.0%",
+    "priority_actions": [
+      "提升Python技能覆盖率至85%以上",
+      "提升机器学习技能覆盖率至85%以上"
+    ],
+    "personalization_notes": [
+      "💡 根据你的主动型学习风格，课程安排了更多实践练习和项目。",
+      "🔗 基于课程知识图谱生成的个性化推荐"
+    ]
+  },
+  "system_info": {
+    "version": "1.0.0-simplified",
+    "agents_used": [
+      "job_market_analyst",
+      "learner_profiling",
+      "dynamic_alignment",
+      "content_generator",
+      "simulation_reflection"
+    ],
+    "processing_time": "模拟处理时间"
+  }
+}

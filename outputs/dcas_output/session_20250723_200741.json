@@ -1,0 +1,146 @@
+{
+  "success": true,
+  "timestamp": "2025-07-23T20:07:41.021856",
+  "session_id": "session_20250723_200741",
+  "job_market_analysis": {
+    "job_title": "Python开发工程师",
+    "required_skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "团队协作",
+      "问题解决"
+    ],
+    "skill_importance": {
+      "Python": 0.8,
+      "数据分析": 0.8,
+      "机器学习": 0.8,
+      "团队协作": 0.8,
+      "问题解决": 0.8
+    },
+    "market_trend": "stable",
+    "salary_info": {
+      "min": 0,
+      "max": 0,
+      "avg": 0
+    }
+  },
+  "learner_profile": {
+    "user_id": "debug_test_user",
+    "knowledge_state": {},
+    "learning_style": {
+      "processing": "active",
+      "perception": "sensory",
+      "understanding": "sequential"
+    },
+    "preferences": {
+      "engagement_score": 0.5
+    },
+    "skill_gaps": [],
+    "engagement_score": 0.5
+  },
+  "alignment_analysis": {
+    "analysis_id": "alignment_20250723_200741",
+    "timestamp": "2025-07-23T20:07:41.013244",
+    "gaps_identified": [
+      {
+        "issue_type": "skill_gap",
+        "description": "课程缺少市场必需技能: 团队协作, Python, 问题解决",
+        "severity": "high",
+        "affected_skills": [
+          "团队协作",
+          "Python",
+          "问题解决",
+          "数据分析",
+          "机器学习"
+        ],
+        "evidence": {
+          "market_required": [
+            "团队协作",
+            "Python",
+            "问题解决",
+            "数据分析",
+            "机器学习"
+          ],
+          "course_covered": []
+        }
+      }
+    ],
+    "strategies_generated": [
+      {
+        "strategy_id": "add_skill_团队协作",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "团队协作"
+        ],
+        "action_items": [
+          "添加团队协作基础概念讲解",
+          "设计团队协作实践项目",
+          "创建团队协作技能评估"
+        ],
+        "expected_outcome": "提升团队协作技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_Python",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "Python"
+        ],
+        "action_items": [
+          "添加Python基础概念讲解",
+          "设计Python实践项目",
+          "创建Python技能评估"
+        ],
+        "expected_outcome": "提升Python技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_问题解决",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "问题解决"
+        ],
+        "action_items": [
+          "添加问题解决基础概念讲解",
+          "设计问题解决实践项目",
+          "创建问题解决技能评估"
+        ],
+        "expected_outcome": "提升问题解决技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      }
+    ],
+    "priority_actions": [
+      "提升团队协作技能覆盖率至85%以上",
+      "提升Python技能覆盖率至85%以上",
+      "提升问题解决技能覆盖率至85%以上"
+    ],
+    "confidence_score": 0.8
+  },
+  "content_recommendation": {
+    "recommendation_id": "rec_20250723_200741",
+    "target_skills": [
+      "团队协作",
+      "Python",
+      "问题解决",
+      "数据分析",
+      "机器学习"
+    ],
+    "content_modules": [
+      {
+        "type": "lecture",
+        "content": "\n# 团队协作 基础入门\n\n## 学习目标\n通过本节课程，你将掌握团队协作的基本概念和核心原理。\n\n## 核心概念\n团队协作是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n团队协作指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了团队协作的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 团队协作在你的工作中可能有哪些应用？\n2. 如何开始实践团队协作？\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "团队协作_lecture_beginner",
+        "title": "团队协作 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1,
+        "template": 

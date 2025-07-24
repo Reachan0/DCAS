@@ -1,0 +1,78 @@
+{
+  "system": {
+    "version": "1.0.0-simplified",
+    "debug": true,
+    "log_level": "INFO",
+    "data_dir": "dcas_data",
+    "temp_dir": "dcas_temp"
+  },
+  "models": {
+    "job_analysis": {
+      "model_type": "local",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "api_endpoint": null,
+      "max_tokens": 500,
+      "temperature": 0.1
+    },
+    "content_generation": {
+      "model_type": "local",
+      "model_name": "Qwen/Qwen2.5-7B-Instruct",
+      "max_tokens": 1000,
+      "temperature": 0.3
+    },
+    "embedding": {
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "batch_size": 32
+    }
+  },
+  "agents": {
+    "job_market_analyst": {
+      "enabled": true,
+      "use_mock": false,
+      "cache_results": true,
+      "cache_duration_hours": 24
+    },
+    "learner_profiling": {
+      "enabled": true,
+      "profile_storage_dir": "learner_profiles",
+      "update_frequency_minutes": 60
+    },
+    "dynamic_alignment": {
+      "enabled": true,
+      "similarity_threshold": 0.7,
+      "strategy_storage_dir": "alignment_strategies"
+    },
+    "content_generator": {
+      "enabled": true,
+      "template_dir": "content_templates",
+      "output_dir": "generated_content"
+    },
+    "knowledge_graph": {
+      "enabled": true,
+      "output_dir": null
+    },
+    "simulation_reflection": {
+      "enabled": true,
+      "num_virtual_students": 50,
+      "simulation_days": 14,
+      "storage_dir": "simulation_results"
+    }
+  },
+  "knowledge_graph": {
+    "similarity_threshold": 0.6,
+    "max_edges": 10000,
+    "embedding_dim": 384,
+    "cache_embeddings": true
+  },
+  "web_interface": {
+    "enabled": true,
+    "host": "127.0.0.1",
+    "port": 8501,
+    "debug": true
+  },
+  "data_sources": {
+    "course_data_dir": "datasets/Course Details/General",
+    "job_postings_file": "datasets/Job Descptions/postings.csv",
+    "output_base_dir": "dcas_output"
+  }
+}

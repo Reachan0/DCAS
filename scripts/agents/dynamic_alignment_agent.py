@@ -8,7 +8,7 @@ import json
 import logging
 import datetime
 from typing import Dict, Any, List, Optional, Tuple
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 from pathlib import Path
 import re
 

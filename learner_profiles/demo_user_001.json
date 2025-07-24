@@ -1,0 +1,26 @@
+{
+  "user_id": "demo_user_001",
+  "last_updated": "2025-07-23T20:28:10.391675",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "数据分析",
+      "机器学习",
+      "Python编程"
+    ],
+    "self_description": "我是一个喜欢动手实践的人，有一定的编程基础，希望转入数据科学领域。"
+  }
+}

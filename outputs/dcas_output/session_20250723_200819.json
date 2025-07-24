@@ -1,0 +1,374 @@
+{
+  "success": true,
+  "timestamp": "2025-07-23T20:08:19.924388",
+  "session_id": "session_20250723_200819",
+  "job_market_analysis": {
+    "job_title": "Python开发工程师",
+    "required_skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "团队协作",
+      "问题解决"
+    ],
+    "skill_importance": {
+      "Python": 0.8,
+      "数据分析": 0.8,
+      "机器学习": 0.8,
+      "团队协作": 0.8,
+      "问题解决": 0.8
+    },
+    "market_trend": "stable",
+    "salary_info": {
+      "min": 0,
+      "max": 0,
+      "avg": 0
+    }
+  },
+  "learner_profile": {
+    "user_id": "debug_test_user",
+    "knowledge_state": {},
+    "learning_style": {
+      "processing": "active",
+      "perception": "sensory",
+      "understanding": "sequential"
+    },
+    "preferences": {
+      "engagement_score": 0.5
+    },
+    "skill_gaps": [],
+    "engagement_score": 0.5
+  },
+  "alignment_analysis": {
+    "analysis_id": "alignment_20250723_200819",
+    "timestamp": "2025-07-23T20:08:19.915508",
+    "gaps_identified": [
+      {
+        "issue_type": "skill_gap",
+        "description": "课程缺少市场必需技能: 团队协作, Python, 机器学习",
+        "severity": "high",
+        "affected_skills": [
+          "团队协作",
+          "Python",
+          "机器学习",
+          "数据分析",
+          "问题解决"
+        ],
+        "evidence": {
+          "market_required": [
+            "机器学习",
+            "团队协作",
+            "Python",
+            "数据分析",
+            "问题解决"
+          ],
+          "course_covered": []
+        }
+      }
+    ],
+    "strategies_generated": [
+      {
+        "strategy_id": "add_skill_团队协作",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "团队协作"
+        ],
+        "action_items": [
+          "添加团队协作基础概念讲解",
+          "设计团队协作实践项目",
+          "创建团队协作技能评估"
+        ],
+        "expected_outcome": "提升团队协作技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_Python",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "Python"
+        ],
+        "action_items": [
+          "添加Python基础概念讲解",
+          "设计Python实践项目",
+          "创建Python技能评估"
+        ],
+        "expected_outcome": "提升Python技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      },
+      {
+        "strategy_id": "add_skill_机器学习",
+        "strategy_type": "add_content",
+        "target_skills": [
+          "机器学习"
+        ],
+        "action_items": [
+          "添加机器学习基础概念讲解",
+          "设计机器学习实践项目",
+          "创建机器学习技能评估"
+        ],
+        "expected_outcome": "提升机器学习技能覆盖率至85%以上",
+        "implementation_priority": "medium",
+        "estimated_effort": "2-3周",
+        "risk_level": "low"
+      }
+    ],
+    "priority_actions": [
+      "提升团队协作技能覆盖率至85%以上",
+      "提升Python技能覆盖率至85%以上",
+      "提升机器学习技能覆盖率至85%以上"
+    ],
+    "confidence_score": 0.8
+  },
+  "content_recommendation": {
+    "recommendation_id": "rec_20250723_200819",
+    "target_skills": [
+      "团队协作",
+      "Python",
+      "机器学习",
+      "数据分析",
+      "问题解决"
+    ],
+    "content_modules": [
+      {
+        "type": "lecture",
+        "content": "\n# 团队协作 基础入门\n\n## 学习目标\n通过本节课程，你将掌握团队协作的基本概念和核心原理。\n\n## 核心概念\n团队协作是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n团队协作指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了团队协作的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 团队协作在你的工作中可能有哪些应用？\n2. 如何开始实践团队协作？\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "团队协作_lecture_beginner",
+        "title": "团队协作 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 团队协作 基础练习\n\n## 练习目标\n通过实际操作练习，巩固团队协作的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的团队协作相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的团队协作操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用团队协作来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的团队协作方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了团队协作的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将团队协作应用到你熟悉的其他领域中。\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "团队协作_exercise_beginner",
+        "title": "团队协作 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 团队协作 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了团队协作在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用团队协作来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用团队协作设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 团队协作在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用团队协作？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "团队协作",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "团队协作_case_study_beginner",
+        "title": "团队协作 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# Python 基础入门\n\n## 学习目标\n通过本节课程，你将掌握Python的基本概念和核心原理。\n\n## 核心概念\nPython是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\nPython指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了Python的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. Python在你的工作中可能有哪些应用？\n2. 如何开始实践Python？\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "Python_lecture_beginner",
+        "title": "Python - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# Python 基础练习\n\n## 练习目标\n通过实际操作练习，巩固Python的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的Python相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的Python操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用Python来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的Python方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了Python的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将Python应用到你熟悉的其他领域中。\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "Python_exercise_beginner",
+        "title": "Python - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# Python 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了Python在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用Python来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用Python设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. Python在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用Python？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "Python",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "Python_case_study_beginner",
+        "title": "Python - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 机器学习 基础入门\n\n## 学习目标\n通过本节课程，你将掌握机器学习的基本概念和核心原理。\n\n## 核心概念\n机器学习是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n机器学习指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了机器学习的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 机器学习在你的工作中可能有哪些应用？\n2. 如何开始实践机器学习？\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "机器学习_lecture_beginner",
+        "title": "机器学习 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 机器学习 基础练习\n\n## 练习目标\n通过实际操作练习，巩固机器学习的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的机器学习相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的机器学习操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用机器学习来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的机器学习方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了机器学习的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将机器学习应用到你熟悉的其他领域中。\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "机器学习_exercise_beginner",
+        "title": "机器学习 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 机器学习 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了机器学习在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用机器学习来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用机器学习设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 机器学习在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用机器学习？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "机器学习",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "机器学习_case_study_beginner",
+        "title": "机器学习 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 数据分析 基础入门\n\n## 学习目标\n通过本节课程，你将掌握数据分析的基本概念和核心原理。\n\n## 核心概念\n数据分析是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n数据分析指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了数据分析的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 数据分析在你的工作中可能有哪些应用？\n2. 如何开始实践数据分析？\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "数据分析_lecture_beginner",
+        "title": "数据分析 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 数据分析 基础练习\n\n## 练习目标\n通过实际操作练习，巩固数据分析的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的数据分析相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的数据分析操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用数据分析来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的数据分析方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了数据分析的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将数据分析应用到你熟悉的其他领域中。\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "数据分析_exercise_beginner",
+        "title": "数据分析 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 数据分析 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了数据分析在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用数据分析来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用数据分析设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 数据分析在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用数据分析？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "数据分析",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "数据分析_case_study_beginner",
+        "title": "数据分析 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      },
+      {
+        "type": "lecture",
+        "content": "\n# 问题解决 基础入门\n\n## 学习目标\n通过本节课程，你将掌握问题解决的基本概念和核心原理。\n\n## 核心概念\n问题解决是一个重要的技能，在现代职场中有着广泛的应用。\n\n### 基本定义\n问题解决指的是...（这里会根据具体技能进行个性化生成）\n\n### 为什么重要\n1. 提升工作效率\n2. 增强解决问题的能力\n3. 符合市场需求趋势\n\n## 实际应用场景\n- 场景1：日常工作中的应用\n- 场景2：项目实施中的作用\n- 场景3：团队协作中的价值\n\n## 小结\n本节课我们学习了问题解决的基础知识，为后续深入学习打下基础。\n\n## 思考题\n1. 问题解决在你的工作中可能有哪些应用？\n2. 如何开始实践问题解决？\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 15,
+        "module_id": "问题解决_lecture_beginner",
+        "title": "问题解决 - Lecture",
+        "content_type": "lecture",
+        "sequence_order": 1
+      },
+      {
+        "type": "exercise",
+        "content": "\n# 问题解决 基础练习\n\n## 练习目标\n通过实际操作练习，巩固问题解决的基本技能。\n\n## 练习1：基础操作\n**任务描述：**\n完成一个简单的问题解决相关任务，熟悉基本操作流程。\n\n**步骤指导：**\n1. 准备工作环境\n2. 按照示例完成基础操作\n3. 验证结果是否正确\n\n**预期输出：**\n能够独立完成基本的问题解决操作。\n\n## 练习2：问题解决\n**场景描述：**\n给定一个实际问题，运用问题解决来解决。\n\n**解题思路：**\n1. 分析问题需求\n2. 选择合适的问题解决方法\n3. 实施解决方案\n4. 检验解决效果\n\n## 自我检查\n- [ ] 是否理解了问题解决的基本概念？\n- [ ] 能否独立完成基础操作？\n- [ ] 遇到问题时知道如何寻求帮助？\n\n## 扩展思考\n尝试将问题解决应用到你熟悉的其他领域中。\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 30,
+        "module_id": "问题解决_exercise_beginner",
+        "title": "问题解决 - Exercise",
+        "content_type": "exercise",
+        "sequence_order": 2
+      },
+      {
+        "type": "case_study",
+        "content": "\n# 问题解决 案例研究\n\n## 案例背景\n本案例来源于真实的工作场景，展示了问题解决在实际应用中的重要作用。\n\n## 情境描述\n某公司面临了一个需要运用问题解决来解决的挑战...\n\n### 初始状况\n- 问题现象：描述遇到的具体问题\n- 影响范围：问题对业务的影响\n- 资源限制：可用的资源和约束条件\n\n### 解决过程\n1. **问题分析阶段**\n   - 深入调研问题根源\n   - 收集相关数据和信息\n   - 确定解决方案的方向\n\n2. **方案设计阶段**\n   - 运用问题解决设计解决方案\n   - 考虑各种可能的实施路径\n   - 评估方案的可行性\n\n3. **实施执行阶段**\n   - 按计划实施解决方案\n   - 监控实施过程和效果\n   - 及时调整和优化\n\n### 结果与反思\n- **取得的成果**：具体的改善效果\n- **经验教训**：过程中的重要收获\n- **未来改进**：进一步优化的方向\n\n## 关键学习点\n1. 问题解决在复杂问题中的应用策略\n2. 解决问题的系统性思维方法\n3. 团队协作和沟通的重要性\n\n## 讨论题\n1. 如果你遇到类似问题，会如何运用问题解决？\n2. 该案例中的解决方案还有哪些改进空间？\n3. 如何将这个案例的经验应用到其他场景？\n\n## 拓展阅读\n- 相关理论资料\n- 类似案例分析\n- 行业最佳实践\n                    ",
+        "skill": "问题解决",
+        "difficulty": "beginner",
+        "estimated_minutes": 45,
+        "module_id": "问题解决_case_study_beginner",
+        "title": "问题解决 - Case_Study",
+        "content_type": "case_study",
+        "sequence_order": 3
+      }
+    ],
+    "learning_path": [
+      "团队协作_lecture_beginner",
+      "团队协作_exercise_beginner",
+      "团队协作_case_study_beginner",
+      "Python_lecture_beginner",
+      "Python_exercise_beginner",
+      "Python_case_study_beginner",
+      "机器学习_lecture_beginner",
+      "机器学习_exercise_beginner",
+      "机器学习_case_study_beginner",
+      "数据分析_lecture_beginner",
+      "数据分析_exercise_beginner",
+      "数据分析_case_study_beginner",
+      "问题解决_lecture_beginner",
+      "问题解决_exercise_beginner",
+      "问题解决_case_study_beginner"
+    ],
+    "personalization_notes": [
+      "💡 根据你的主动型学习风格，课程安排了更多实践练习和项目。"
+    ],
+    "estimated_completion_time": 7.5
+  },
+  "simulation_prediction": {
+    "simulation_id": "cycle_20250723_200819",
+    "predicted_outcomes": {
+      "团队协作": 0.8,
+      "Python": 0.8,
+      "机器学习": 0.8,
+      "数据分析": 0.8,
+      "问题解决": 0.8
+    },
+    "success_probability": 0.1,
+    "risk_factors": [
+      "团队协作技能达成度不足: 0.02 vs 预期0.8",
+      "Python技能达成度不足: 0.00 vs 预期0.8",
+      "机器学习技能达成度不足: 0.00 vs 预期0.8"
+    ],
+    "optimization_suggestions": [
+      "基于模拟结果调整课程难度",
+      "增加个性化学习路径",
+      "优化内容类型分布"
+    ],
+    "confidence_level": 0.8
+  },
+  "summary": {
+    "target_job": "Python开发工程师",
+    "key_skill_gaps": [
+      "团队协作",
+      "Python",
+      "机器学习"
+    ],
+    "learning_time_estimate": "7.5小时",
+    "success_probability": "10.0%",
+    "priority_actions": [
+      "提升团队协作技能覆盖率至85%以上",
+      "提升Python技能覆盖率至85%以上"
+    ],
+    "personalization_notes": [
+      "💡 根据你的主动型学习风格，课程安排了更多实践练习和项目。"
+    ]
+  },
+  "system_info": {
+    "version": "1.0.0-simplified",
+    "agents_used": [
+      "job_market_analyst",
+      "learner_profiling",
+      "dynamic_alignment",
+      "content_generator",
+      "simulation_reflection"
+    ],
+    "processing_time": "模拟处理时间"
+  }
+}

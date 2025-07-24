@@ -1,0 +1,27 @@
+{
+  "user_id": "data_science_learner",
+  "last_updated": "2025-07-23T20:15:30.302019",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "数据科学",
+      "机器学习",
+      "深度学习",
+      "Python编程"
+    ],
+    "self_description": "目前是软件工程师，有4年Python开发经验。对数据科学充满热情，已完成几门在线课程，希望系统性转入数据科学领域。学习风格偏向实践，喜欢通过项目学习。"
+  }
+}
