@@ -99,8 +99,10 @@ class Qwen3ModelClient:
                 repetition_penalty=1.05,  # 降低重复惩罚
                 use_cache=True,
                 # 添加新参数防止提前终止
-                min_new_tokens=50,  # 强制生成至少50个token
+                min_new_tokens=100,  # 增加到100个token确保完整分析
                 early_stopping=False,  # 禁用早停
+                # 防止JSON格式输出
+                bad_words_ids=None,  # 可以设置禁用词汇
             )
             
             logger.info("模型加载成功")

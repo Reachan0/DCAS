@@ -55,9 +55,12 @@ class JobMarketAnalystAgent:
    - 确保技能与职位描述高度匹配
 
 【输出要求】
-请严格按照思维链框架进行完整分析，每个步骤都要详细阐述。分析完成后，请在最后提供精确的技能清单。
-
-请注意：必须完成所有5个分析步骤，不要提前结束分析过程。
+请严格按照思维链框架进行完整分析，每个步骤都要详细阐述。
+- 不要使用JSON格式
+- 不要使用代码块格式  
+- 使用自然语言进行分析
+- 必须完成所有5个分析步骤
+- 在最后提供技能清单
 
 ---
 【输入信息】:
@@ -110,8 +113,16 @@ class JobMarketAnalystAgent:
             # 从思维链中提取技能信息
             skills = []
             
-            # 1. 从"第五步"或"最终清单"中提取技能
-            pattern = r'第五步[^:]*:[\s\S]*?(?:最终[^:]*:|技能[^:]*:)\s*([\s\S]*?)(?:\n\s*第|$)'
+            # 1. 优先从JSON格式中提取技能（兼容当前输出）
+            json_pattern = r'\{[\s\S]*?"skills"[\s\S]*?\[([\s\S]*?)\][\s\S]*?\}'
+            json_match = re.search(json_pattern, response_text)
+            if json_match:
+                json_skills = re.findall(r'"name":\s*"([^"]+)"', json_match.group(1))
+                if json_skills:
+                    return ', '.join(json_skills)
+            
+            # 2. 从"第五步"中提取技能
+            pattern = r'第五步[^:]*:[\s\S]*?([\s\S]*?)(?:\n\s*$|$)'
             match = re.search(pattern, response_text, re.IGNORECASE)
             
             if match:
