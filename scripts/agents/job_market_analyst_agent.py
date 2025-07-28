@@ -121,8 +121,28 @@ class JobMarketAnalystAgent:
                 if json_skills:
                     return ', '.join(json_skills)
             
-            # 2. 从"第五步"中提取技能
-            pattern = r'第五步[^:]*:[\s\S]*?([\s\S]*?)(?:\n\s*$|$)'
+            # 2. 专门提取"核心技术技能: Python, SQL"格式
+            core_skills_pattern = r'-\s*核心技术技能:\s*([^\n]+)'
+            core_match = re.search(core_skills_pattern, response_text, re.IGNORECASE)
+            
+            if core_match:
+                core_skills = core_match.group(1).strip()
+                # 清理多余字符，只保留技能名称
+                core_skills = re.sub(r'\s+', ' ', core_skills).strip()
+                if core_skills and ',' in core_skills:
+                    return core_skills
+            
+            # 3. 从总结部分提取关键技能  
+            summary_pattern = r'关键技能是([^，。]+)'
+            summary_match = re.search(summary_pattern, response_text)
+            
+            if summary_match:
+                summary_skills = summary_match.group(1).strip()
+                if summary_skills and len(summary_skills) < 50:
+                    return summary_skills
+            
+            # 4. 从"第五步"整体中提取技能
+            pattern = r'第五步[^:]*:[\s\S]*?([\s\S]*?)(?:\n\s*综上|$)'
             match = re.search(pattern, response_text, re.IGNORECASE)
             
             if match:
