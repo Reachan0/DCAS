@@ -89,8 +89,8 @@ class Qwen3ModelClient:
             
             # 优化生成配置 - 减少响应时间
             self.generation_config = GenerationConfig(
-                max_new_tokens=min(512, self.config.max_tokens),  # 减少最大token数
-                temperature=0.3,  # 降低随机性，提高确定性
+                max_new_tokens=1024,  # 减少最大token数
+                temperature=0.7,  # 降低随机性，提高确定性
                 top_p=0.8,
                 do_sample=True,
                 pad_token_id=self.tokenizer.eos_token_id,

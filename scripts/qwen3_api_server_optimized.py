@@ -84,7 +84,7 @@ class OptimizedModelManager:
             gc.collect()
             
             # 配置优化参数
-            model_path = os.getenv("QWEN3_MODEL_PATH", "/Users/chenxuanchong/fsdownload/Qwen3-8B-SFT/")
+            model_path = os.getenv("QWEN3_MODEL_PATH", "/root/projects/LLaMA-Factory/Qwen3-8B-SFT")
             
             # 检查模型路径
             if not os.path.exists(model_path):
@@ -101,8 +101,8 @@ class OptimizedModelManager:
                 
                 config = Config(
                     model_path=model_path,
-                    max_tokens=256,  # 大幅减少token数
-                    temperature=0.1,  # 降低温度提高速度
+                    max_tokens=1024,
+                    temperature=0.7,
                     device="auto"
                 )
                 
