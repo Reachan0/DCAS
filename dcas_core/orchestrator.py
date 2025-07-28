@@ -72,7 +72,7 @@ class MockLLMClient:
 **软技能与协作要求:**
 需要良好的沟通能力和团队协作精神。
 
-**最终能力要求列表:** Python, 数据分析, 机器学习, 团队协作, 问题解决"""
+**最终能力要求列表:** [根据职位分析得出的技能清单]"""
         
         elif "学习风格" in prompt:
             return '{"processing": "active", "perception": "sensory", "understanding": "sequential"}'

@@ -169,13 +169,13 @@ class Qwen3ModelClient:
             # 如果响应为空或过长，返回默认响应
             if not response or len(response) < 10:
                 logger.warning("⚠️ 响应过短，使用默认响应")
-                return "**最终能力要求列表:** Python, SQL, 机器学习, 数据可视化, 团队协作"
+                return "**最终能力要求列表:** [基于职位分析的核心技能]"
             
             return response
             
         except Exception as e:
             logger.error(f"❌ 生成失败: {e}")
-            return "**最终能力要求列表:** Python, SQL, 机器学习, 数据可视化, 团队协作"
+            return "**最终能力要求列表:** [通用技能：编程基础, 数据处理, 团队协作]"
 
 class Qwen3JobAnalyzer:
     """完整的Qwen3 14B就业市场分析器"""

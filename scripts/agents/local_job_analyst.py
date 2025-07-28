@@ -178,7 +178,7 @@ class LocalModelClient:
                 
         except Exception as e:
             logger.error(f"模型生成失败: {e}")
-            return "**最终能力要求列表:**\nanalysis_failed, communication, problem_solving"
+            return "**最终能力要求列表:** [分析失败，使用基础技能: 沟通能力, 问题解决]"
 
 
 class LocalJobAnalyst:
