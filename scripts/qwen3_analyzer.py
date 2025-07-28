@@ -78,7 +78,7 @@ class Qwen3ModelClient:
                 "device_map": "auto" if device == "cuda" else None,
                 "trust_remote_code": True,
                 "low_cpu_mem_usage": True,  # 减少内存使用
-                "attn_implementation": "flash_attention_2" if device == "cuda" else None,  # 使用flash attention
+                "attn_implementation": "sdpa" if device == "cuda" else None,  # 使用flash attention
             }
             
             # 加载模型
