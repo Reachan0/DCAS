@@ -182,23 +182,38 @@ class JobMarketAnalystAgent:
         if not self.model_client:
             raise ValueError("model_client未设置")
         
+        logger.info(f"📋 开始分析职位: {job_title}")
+        logger.info(f"📋 职位描述: {job_description[:100]}...")
+        
         # 构建CoT Prompt
         cot_prompt = self._build_cot_prompt(job_title, job_description)
-        logger.info(f"构建CoT Prompt完成，长度: {len(cot_prompt)}")
+        logger.info(f"✅ 构建CoT Prompt完成，长度: {len(cot_prompt)}")
+        logger.info(f"🔍 Prompt预览:\n{cot_prompt[:300]}...")
         
         # 调用模型获取CoT响应
         try:
+            logger.info("🤖 开始调用模型进行推理...")
+            import time
+            start_time = time.time()
+            
             cot_response = self.model_client.generate(cot_prompt)
-            logger.info("模型调用成功")
+            
+            inference_time = time.time() - start_time
+            logger.info(f"✅ 模型推理完成，耗时: {inference_time:.2f}秒")
+            logger.info(f"📝 模型响应长度: {len(cot_response)} 字符")
+            logger.info(f"🧠 思维链响应:\n{'-'*50}\n{cot_response}\n{'-'*50}")
+            
         except Exception as e:
-            logger.error(f"模型调用失败: {e}")
+            logger.error(f"❌ 模型调用失败: {e}")
             raise
         
         # 解析最终技能列表
+        logger.info("🔧 开始解析技能列表...")
         final_skills = self._parse_final_skills(cot_response)
+        logger.info(f"🎯 解析得到技能: {final_skills}")
         
         # 返回完整结果
-        return {
+        result = {
             "job_title": job_title,
             "job_description": job_description,
             "cot_prompt": cot_prompt,
@@ -206,6 +221,9 @@ class JobMarketAnalystAgent:
             "final_skills": final_skills,
             "success": bool(final_skills)
         }
+        
+        logger.info(f"✅ 分析完成，成功: {result['success']}")
+        return result
     
     def set_model_client(self, model_client):
         """设置模型客户端"""

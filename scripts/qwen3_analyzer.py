@@ -112,6 +112,8 @@ class Qwen3ModelClient:
     def generate(self, prompt: str) -> str:
         """生成回答 - 优化版"""
         try:
+            logger.info(f"🔤 开始编码输入，Prompt长度: {len(prompt)} 字符")
+            
             # 编码输入 - 使用更高效的方式
             inputs = self.tokenizer(
                 prompt, 
@@ -120,11 +122,22 @@ class Qwen3ModelClient:
                 max_length=2048  # 限制输入长度
             )
             
+            input_tokens = inputs['input_ids'].shape[1]
+            logger.info(f"🔢 输入Token数量: {input_tokens}")
+            
             if hasattr(self.model, 'device'):
-                inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+                device = self.model.device
+                logger.info(f"📱 模型设备: {device}")
+                inputs = {k: v.to(device) for k, v in inputs.items()}
             
             # 生成 - 优化参数
             import torch
+            logger.info(f"⚙️ 生成配置: max_tokens={self.generation_config.max_new_tokens}, temp={self.generation_config.temperature}")
+            logger.info("🤖 开始模型推理...")
+            
+            import time
+            generate_start = time.time()
+            
             with torch.no_grad():
                 outputs = self.model.generate(
                     **inputs,
@@ -132,6 +145,12 @@ class Qwen3ModelClient:
                     pad_token_id=self.tokenizer.eos_token_id,
                     use_cache=True,
                 )
+            
+            generate_time = time.time() - generate_start
+            output_tokens = outputs[0].shape[0] - input_tokens
+            logger.info(f"⚡ 推理完成，耗时: {generate_time:.2f}秒")
+            logger.info(f"📈 生成Token数量: {output_tokens}")
+            logger.info(f"🚀 生成速度: {output_tokens/generate_time:.1f} tokens/s")
             
             # 解码输出 - 只解码新生成的部分
             input_length = inputs['input_ids'].shape[1]
@@ -144,14 +163,18 @@ class Qwen3ModelClient:
             # 进一步清理响应
             response = response.replace("<|im_end|>", "").strip()
             
+            logger.info(f"🔍 原始响应长度: {len(response)} 字符")
+            logger.info(f"📝 清理后响应预览: {response[:200]}...")
+            
             # 如果响应为空或过长，返回默认响应
             if not response or len(response) < 10:
+                logger.warning("⚠️ 响应过短，使用默认响应")
                 return "**最终能力要求列表:** Python, SQL, 机器学习, 数据可视化, 团队协作"
             
             return response
             
         except Exception as e:
-            logger.error(f"生成失败: {e}")
+            logger.error(f"❌ 生成失败: {e}")
             return "**最终能力要求列表:** Python, SQL, 机器学习, 数据可视化, 团队协作"
 
 class Qwen3JobAnalyzer:

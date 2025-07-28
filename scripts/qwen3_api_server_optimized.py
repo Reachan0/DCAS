@@ -21,9 +21,17 @@ import threading
 import time
 from contextlib import asynccontextmanager
 
-# 配置日志
-logging.basicConfig(level=logging.INFO)
+# 配置详细日志
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%H:%M:%S'
+)
 logger = logging.getLogger(__name__)
+
+# 设置相关模块的日志级别
+logging.getLogger('scripts.agents.job_market_analyst_agent').setLevel(logging.INFO)
+logging.getLogger('qwen3_analyzer').setLevel(logging.INFO)
 
 # 数据模型
 class JobRequest(BaseModel):
