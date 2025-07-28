@@ -87,16 +87,20 @@ class Qwen3ModelClient:
                 **load_kwargs
             )
             
-            # 优化生成配置 - 减少响应时间
+            # 优化生成配置 - 避免提前终止
             self.generation_config = GenerationConfig(
-                max_new_tokens=1024,  # 减少最大token数
-                temperature=0.7,  # 降低随机性，提高确定性
-                top_p=0.8,
+                max_new_tokens=1024,
+                temperature=0.8,  # 提高随机性，鼓励多样化输出
+                top_p=0.9,  # 提高top_p值
                 do_sample=True,
-                pad_token_id=self.tokenizer.eos_token_id,
+                pad_token_id=self.tokenizer.pad_token_id if self.tokenizer.pad_token_id is not None else self.tokenizer.eos_token_id,
+                bos_token_id=self.tokenizer.bos_token_id,
                 eos_token_id=self.tokenizer.eos_token_id,
-                repetition_penalty=1.1,
-                use_cache=True,  # 启用缓存
+                repetition_penalty=1.05,  # 降低重复惩罚
+                use_cache=True,
+                # 添加新参数防止提前终止
+                min_new_tokens=50,  # 强制生成至少50个token
+                early_stopping=False,  # 禁用早停
             )
             
             logger.info("模型加载成功")
@@ -142,7 +146,7 @@ class Qwen3ModelClient:
                 outputs = self.model.generate(
                     **inputs,
                     generation_config=self.generation_config,
-                    pad_token_id=self.tokenizer.eos_token_id,
+                    # 不再重复设置pad_token_id，使用generation_config中的设置
                     use_cache=True,
                 )
             
