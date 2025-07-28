@@ -84,7 +84,7 @@ class OptimizedModelManager:
             gc.collect()
             
             # 配置优化参数
-            model_path = os.getenv("QWEN3_MODEL_PATH", "/Users/xuanchong/projects/models/Qwen3-14B-SFT")
+            model_path = os.getenv("QWEN3_MODEL_PATH", "/Users/chenxuanchong/fsdownload/Qwen3-8B-SFT/")
             
             # 检查模型路径
             if not os.path.exists(model_path):
