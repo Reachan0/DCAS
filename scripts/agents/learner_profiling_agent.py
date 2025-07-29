@@ -2,6 +2,7 @@
 """
 学习者画像智能体 (Learner Profiling Agent)
 创建、管理和动态更新学习者的全面个人档案
+支持Qwen3智能学习风格推断
 """
 
 import json
@@ -16,6 +17,14 @@ import re
 # 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# 尝试导入Qwen3客户端
+try:
+    from .qwen3_learner_client import Qwen3LearnerProfileClient, EnhancedProfileGenerator
+    QWEN3_AVAILABLE = True
+except ImportError:
+    QWEN3_AVAILABLE = False
+    logger.info("Qwen3客户端不可用，将使用Mock客户端")
 
 @dataclass
 class LearningStyle:
@@ -54,10 +63,20 @@ class LearnerProfile:
     raw_info: RawInfo
 
 class InitialProfileGenerator:
-    """初始画像生成器"""
+    """初始画像生成器，支持Qwen3智能推理"""
     
-    def __init__(self, llm_client=None):
+    def __init__(self, llm_client=None, use_qwen3: bool = True):
         self.llm_client = llm_client
+        self.use_qwen3 = use_qwen3 and QWEN3_AVAILABLE
+        
+        if self.use_qwen3:
+            try:
+                self.qwen3_client = Qwen3LearnerProfileClient()
+                self.enhanced_generator = EnhancedProfileGenerator(self.qwen3_client)
+                logger.info("✅ Qwen3学习风格分析器初始化成功")
+            except Exception as e:
+                logger.warning(f"Qwen3客户端初始化失败，使用备用方案: {e}")
+                self.use_qwen3 = False
     
     def _get_learning_style_prompt(self, interests: List[str], self_description: str) -> str:
         """生成学习风格推断Prompt"""
@@ -93,21 +112,61 @@ class InitialProfileGenerator:
 }}"""
 
     def _infer_learning_style(self, interests: List[str], self_description: str) -> LearningStyle:
-        """使用LLM推断学习风格"""
-        if not self.llm_client:
-            # 默认学习风格
-            return LearningStyle()
+        """使用Qwen3或传统LLM推断学习风格"""
         
-        prompt = self._get_learning_style_prompt(interests, self_description)
+        # 优先使用Qwen3分析
+        if self.use_qwen3:
+            try:
+                style_data = self.enhanced_generator.analyze_learning_style(interests, self_description)
+                logger.info("🧠 使用Qwen3 CoT推理分析学习风格")
+                return LearningStyle(**style_data)
+            except Exception as e:
+                logger.warning(f"Qwen3分析失败，使用备用方案: {e}")
         
-        try:
-            response = self.llm_client.generate(prompt)
-            # 解析JSON响应
-            style_data = json.loads(response.strip())
-            return LearningStyle(**style_data)
-        except Exception as e:
-            logger.warning(f"学习风格推断失败，使用默认值: {e}")
-            return LearningStyle()
+        # 备用方案：使用传统LLM客户端
+        if self.llm_client:
+            prompt = self._get_learning_style_prompt(interests, self_description)
+            try:
+                response = self.llm_client.generate(prompt)
+                style_data = json.loads(response.strip())
+                logger.info("🔄 使用传统LLM分析学习风格")
+                return LearningStyle(**style_data)
+            except Exception as e:
+                logger.warning(f"传统LLM分析失败，使用默认值: {e}")
+        
+        # 最后备用方案：基于关键词的简单推理
+        logger.info("📝 使用关键词分析学习风格")
+        return self._keyword_based_inference(interests, self_description)
+    
+    def _keyword_based_inference(self, interests: List[str], self_description: str) -> LearningStyle:
+        """基于关键词的学习风格推理"""
+        text = f"{' '.join(interests)} {self_description}".lower()
+        
+        # 信息处理风格
+        active_keywords = ["实践", "动手", "项目", "实验", "讨论", "试试", "操作"]
+        reflective_keywords = ["思考", "独立", "分析", "理解", "反思", "琢磨", "消化"]
+        
+        active_score = sum(1 for keyword in active_keywords if keyword in text)
+        reflective_score = sum(1 for keyword in reflective_keywords if keyword in text)
+        processing = "active" if active_score >= reflective_score else "reflective"
+        
+        # 信息感知风格  
+        sensory_keywords = ["具体", "实际", "案例", "现实", "细节", "事实", "经验"]
+        intuitive_keywords = ["抽象", "概念", "理论", "创新", "可能", "全局", "框架"]
+        
+        sensory_score = sum(1 for keyword in sensory_keywords if keyword in text)
+        intuitive_score = sum(1 for keyword in intuitive_keywords if keyword in text)
+        perception = "sensory" if sensory_score >= intuitive_score else "intuitive"
+        
+        # 信息理解风格
+        sequential_keywords = ["步骤", "顺序", "逐步", "线性", "有序", "一步步", "循序"]
+        global_keywords = ["整体", "全局", "框架", "跳跃", "直觉", "大局", "宏观"]
+        
+        sequential_score = sum(1 for keyword in sequential_keywords if keyword in text)
+        global_score = sum(1 for keyword in global_keywords if keyword in text)
+        understanding = "sequential" if sequential_score >= global_score else "global"
+        
+        return LearningStyle(processing=processing, perception=perception, understanding=understanding)
 
     def create_initial_profile(self, user_id: str, initial_data: Dict[str, Any]) -> LearnerProfile:
         """创建初始学习者画像"""
@@ -321,23 +380,37 @@ class MockLLMClient:
 
 # 测试代码
 if __name__ == "__main__":
-    # 创建测试实例
+    # 创建测试实例 - 支持Qwen3
+    print("🧪 测试学习者画像智能体 (支持Qwen3)")
+    print("=" * 50)
+    
+    # 优先尝试Qwen3，否则使用Mock
     mock_llm = MockLLMClient()
-    agent = LearnerProfilingAgent(mock_llm)
+    agent = LearnerProfilingAgent(mock_llm, storage_path="test_profiles")
     
     # 测试创建画像
-    user_id = "test_user_001"
+    user_id = "test_qwen3_user"
     initial_data = {
-        "interests": ["编程", "数学", "游戏设计"],
-        "self_description": "我是一个喜欢动手实践的人，不太喜欢纯理论，更愿意通过实际项目来学习新知识"
+        "interests": ["编程", "数学", "游戏设计", "人工智能"],
+        "self_description": "我是一个喜欢动手实践的人，不太喜欢纯理论，更愿意通过实际项目来学习新知识。喜欢先了解整体框架，然后深入具体细节。"
     }
+    
+    print(f"📝 创建学习者画像: {user_id}")
     
     # 创建初始画像
     agent.create_profile(user_id, initial_data)
     
+    # 获取并显示画像
+    profile = agent.get_profile(user_id)
+    print(f"\n🎯 学习风格分析结果:")
+    print(f"  信息处理: {profile.learning_style.processing}")
+    print(f"  信息感知: {profile.learning_style.perception}")  
+    print(f"  信息理解: {profile.learning_style.understanding}")
+    
     # 模拟交互
+    print(f"\n📊 模拟学习交互...")
     agent.track_interaction(user_id, "quiz_completed", {
-        "concept_id": "Python基础语法",
+        "concept_id": "Python面向对象",
         "score": 0.85
     })
     
@@ -346,12 +419,24 @@ if __name__ == "__main__":
     })
     
     agent.track_interaction(user_id, "content_viewed", {
-        "content_type": "case_study"
+        "content_type": "interactive_demo"
     })
     
     # 更新画像
     updated_profile = agent.update_profile(user_id)
     
-    # 打印结果
-    print("学习者画像:")
-    print(json.dumps(asdict(updated_profile), ensure_ascii=False, indent=2))
+    # 打印完整结果
+    print(f"\n📋 完整学习者画像:")
+    result = {
+        "user_id": updated_profile.user_id,
+        "learning_style": {
+            "processing": updated_profile.learning_style.processing,
+            "perception": updated_profile.learning_style.perception,
+            "understanding": updated_profile.learning_style.understanding
+        },
+        "knowledge_state": updated_profile.knowledge_state.__dict__,
+        "behavioral_patterns": updated_profile.behavioral_patterns.__dict__
+    }
+    print(json.dumps(result, ensure_ascii=False, indent=2))
+    
+    print(f"\n✅ 测试完成！Profile文件保存在: test_profiles/{user_id}.json")

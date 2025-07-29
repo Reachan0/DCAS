@@ -1,0 +1,30 @@
+{
+  "user_id": "active_sensory_learner",
+  "last_updated": "2025-07-29T12:25:26.959080",
+  "knowledge_state": {
+    "concept_mastery": {
+      "核心概念1": "mastered"
+    },
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": [
+      "case_study"
+    ]
+  },
+  "raw_info": {
+    "interests": [
+      "编程",
+      "游戏开发",
+      "机器人"
+    ],
+    "self_description": "喜欢动手制作，通过实际项目学习效果最好"
+  }
+}

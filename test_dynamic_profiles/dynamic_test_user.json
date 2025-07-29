@@ -1,0 +1,32 @@
+{
+  "user_id": "dynamic_test_user",
+  "last_updated": "2025-07-29T12:25:26.955263",
+  "knowledge_state": {
+    "concept_mastery": {
+      "Python基础": "mastered",
+      "数据结构": "mastered",
+      "算法基础": "learning"
+    },
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.7,
+    "preferred_content_type": [
+      "video_tutorial",
+      "interactive_exercise"
+    ]
+  },
+  "raw_info": {
+    "interests": [
+      "Python",
+      "数据分析"
+    ],
+    "self_description": "刚开始学习编程，希望通过项目实践来提升技能"
+  }
+}

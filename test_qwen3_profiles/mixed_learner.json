@@ -1,0 +1,26 @@
+{
+  "user_id": "mixed_learner",
+  "last_updated": "2025-07-29T12:25:26.953205",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "数据科学",
+      "人工智能",
+      "商业分析"
+    ],
+    "self_description": "我倾向于先了解整体框架和目标，然后深入细节。既喜欢理论学习也重视实践应用。"
+  }
+}

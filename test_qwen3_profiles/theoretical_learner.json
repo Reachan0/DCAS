@@ -1,0 +1,26 @@
+{
+  "user_id": "theoretical_learner",
+  "last_updated": "2025-07-29T12:25:26.951936",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "数学",
+      "物理",
+      "哲学"
+    ],
+    "self_description": "我习惯于先深入理解理论基础，然后再应用。喜欢独立思考和抽象概念，偏好系统性的学习方法。"
+  }
+}

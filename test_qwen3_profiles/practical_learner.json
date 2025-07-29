@@ -1,0 +1,26 @@
+{
+  "user_id": "practical_learner",
+  "last_updated": "2025-07-29T12:25:26.950717",
+  "knowledge_state": {
+    "concept_mastery": {},
+    "problem_solving_ability": "beginner"
+  },
+  "learning_style": {
+    "processing": "active",
+    "perception": "sensory",
+    "understanding": "sequential"
+  },
+  "behavioral_patterns": {
+    "activity_level": "medium",
+    "engagement_score": 0.5,
+    "preferred_content_type": []
+  },
+  "raw_info": {
+    "interests": [
+      "编程",
+      "机器人",
+      "工程"
+    ],
+    "self_description": "我喜欢通过动手实践来学习，遇到问题会先自己尝试解决。偏好实际案例和项目驱动的学习方式。"
+  }
+}
